@@ -1,0 +1,15 @@
+{
+  "atualizadoEm": "2026-10-27T18:30-03:00",
+  "humor": "agitado",
+  "indicadores": {
+    "selic": { "valor": 13.75 },
+    "ipca12": { "valor": 4.57, "mes": "set/2026" },
+    "dolar": { "valor": 5.349, "variacao": -1.07 },
+    "ibov": { "valor": 175710, "variacao": -0.51 }
+  },
+  "manchetes": [
+    { "titulo": "Dólar devolve parte da disparada da véspera e fecha perto de R$ 5,35", "fonte": "Sou Brasília", "url": "https://soubrasilia.com/dolar-fecha-r-5-349-ibovespa-175-mil-pontos-27-outubro-2026/", "hora": "2026-10-27T18:30:00-03:00" },
+    { "titulo": "Ibovespa recua mais 0,51% e fecha no menor nível desde agosto", "fonte": "Sou Brasília", "url": "https://soubrasilia.com/dolar-fecha-r-5-349-ibovespa-175-mil-pontos-27-outubro-2026/", "hora": "2026-10-27T18:20:00-03:00" },
+    { "titulo": "Para estrategista, o fôlego da bolsa depende do cenário fiscal e do nome para a Fazenda", "fonte": "Money Times", "url": "https://www.moneytimes.com.br/tempo-real-27-10-26-lils/", "hora": "2026-10-27T17:00:00-03:00" }
+  ]
+}

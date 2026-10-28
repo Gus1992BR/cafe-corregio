@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farol Investimentos</title>
+<meta name="description" content="Acompanhe a economia e o seu dinheiro sem complicação, com a visão do seu assessor.">
+<link rel="icon" href="farol-icone.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#02254A;--accent:#2AB7AB;--teal:#0C717B;--ground:#F3F8F9;--line:#D9DEE5;--muted:#4A5568;--text:#2D3748}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'DM Sans',sans-serif;background:var(--ground);color:var(--ink)}
+a{color:var(--ink)}a:hover{color:var(--teal)}
+h1,h2{font-family:'Playfair Display',serif;font-weight:700;margin:0}
+.num{font-variant-numeric:tabular-nums;font-weight:800}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.eyebrow{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+/* faixa */
+.ticker{background:var(--ink);color:#fff;display:flex;align-items:center;min-height:44px;overflow:hidden}
+.ticker .tag{flex:none;margin:0 16px;background:var(--accent);color:var(--ink);font-size:13px;font-weight:800;padding:6px 12px;border-radius:999px}
+.ticker .view{overflow:hidden;flex:1;min-width:0}
+.track{display:flex;width:max-content;animation:marquee 70s linear infinite}
+.ticker:hover .track,.ticker:focus-within .track{animation-play-state:paused}
+.group{display:flex;flex:none}
+.group span{padding-right:48px;white-space:nowrap;font-size:14px}
+.group a{color:#fff;font-weight:800}
+@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.track{animation:none}.ticker .view{overflow-x:auto}}
+/* cabeçalho */
+header{background:#fff;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+.brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+.brand img{height:54px;width:auto;display:block}
+.brand b{display:block;font-family:'Playfair Display',serif;font-size:32px;line-height:1;font-weight:800;letter-spacing:.02em}
+.brand i{display:block;font-style:normal;font-size:11px;line-height:1;font-weight:500;letter-spacing:.42em;margin-top:4px}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav a{text-decoration:none;padding:12px 14px;font-size:15px;font-weight:600;border-bottom:3px solid transparent}
+nav a.on{font-weight:800;border-bottom-color:var(--accent)}
+.btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:800;font-size:15px;padding:14px 22px;border-radius:8px;border:0;font-family:inherit;cursor:pointer}
+.btn:hover{color:#fff;background:#03356b}
+/* corpo */
+main{padding:40px 0 56px;display:flex;flex-direction:column;gap:48px}
+.hero p.date{margin:0 0 8px;font-size:15px;font-weight:600;color:var(--muted);text-transform:capitalize}
+.hero h1{font-size:52px;line-height:1.08}
+.hero p.sub{margin:8px 0 0;font-size:18px;line-height:1.5;color:var(--text);max-width:640px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px;align-items:start}
+.dark{background:var(--ink);color:#fff;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:16px}
+.dark h2{font-size:32px;line-height:1.2}
+.dark p{margin:0;font-size:17px;line-height:1.6;color:#E2E8F0}
+.dark .eyebrow{color:var(--accent)}
+.by{display:flex;align-items:center;gap:14px;padding-top:8px}
+.avatar{width:48px;height:48px;border-radius:50%;background:var(--accent);color:var(--ink);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:18px;flex:none}
+.by small{display:block;font-size:14px;color:#CBD5E1}
+.draft{background:#FDE68A;color:#02254A;font-size:12px;font-weight:800;padding:4px 10px;border-radius:999px;align-self:flex-start}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:12px}
+.card h2{font-size:24px}
+.card p{margin:0;font-size:16px;line-height:1.6;color:var(--text)}
+.sec-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.sec-head h2{font-size:28px}
+.mar{background:#EAF7F6;color:var(--teal);font-size:13px;font-weight:800;padding:6px 12px;border-radius:999px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.stat{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px;display:flex;flex-direction:column;gap:6px}
+.stat span:first-child{font-size:14px;font-weight:700;color:var(--muted)}
+.stat .v{font-size:30px}
+.stat small{font-size:13px;color:var(--muted)}
+.news{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.news a{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;text-decoration:none;display:flex;flex-direction:column;gap:10px}
+.news a:hover{border-color:var(--teal)}
+.news small{font-size:13px;font-weight:700;color:var(--muted)}
+.news strong{font-size:18px;line-height:1.35}
+.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:36px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:36px;scroll-margin-top:16px;align-items:center}
+.panel h2{font-size:32px;line-height:1.2}
+.panel .eyebrow{color:var(--teal)}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+label{font-size:14px;font-weight:700;display:block;margin-bottom:6px}
+input[type=text],input[type=email]{width:100%;min-height:48px;padding:0 14px;font-family:inherit;font-size:17px;border:1px solid #8A94A3;border-radius:8px}
+.note{margin:14px 0 0;font-size:13px;line-height:1.5;color:var(--muted)}
+.result{background:var(--ink);color:#fff;border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:18px;justify-content:center}
+.result small{display:block;font-size:14px;color:#CBD5E1}
+.result .big{font-size:40px;color:var(--accent)}
+.result .two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.result .two b{font-size:20px}
+.stack{display:flex;flex-direction:column;gap:14px}
+.check{display:flex;gap:10px;align-items:flex-start}
+.check input{width:22px;height:22px;margin:2px 0 0;flex:none}
+.check label{font-weight:400;font-size:14px;line-height:1.5;color:var(--text);margin:0}
+.contact{background:var(--accent);color:var(--ink);border-radius:16px;padding:32px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;scroll-margin-top:16px}
+.contact h2{font-size:28px}
+.contact p{margin:6px 0 0;font-size:17px;line-height:1.5}
+footer{border-top:1px solid var(--line);background:#fff}
+footer .wrap{padding-top:24px;padding-bottom:24px;display:flex;gap:16px;align-items:flex-start;font-size:13px;line-height:1.6;color:var(--muted)}
+footer img{height:44px;width:auto;flex:none}
+@media (max-width:640px){.hero h1{font-size:38px}header .wrap{justify-content:center}.panel{padding:24px}}
+</style>
+</head>
+<body>
+
+<div class="ticker" role="region" aria-label="Destaques do mercado">
+<span class="tag">Agora</span>
+<div class="view"><div class="track" id="track"></div></div>
+</div>
+
+<header>
+<div class="wrap">
+<a class="brand" href="#" aria-label="Farol Investimentos, página inicial"><img src="farol-icone.png" alt=""><span><b>FAROL</b><i>INVESTIMENTOS</i></span></a>
+<nav aria-label="Principal">
+<a class="on" href="#">Início</a>
+<a href="#resumo">Resumo</a>
+<a href="#simulador">Simulador</a>
+<a href="#newsletter">Newsletter</a>
+</nav>
+<a class="btn" id="wa-top" href="#" target="_blank" rel="noopener">Falar com meu assessor</a>
+</div>
+</header>
+
+<main class="wrap">
+
+<section class="hero">
+<p class="date" id="data-hoje"></p>
+<h1 id="titulo"></h1>
+<p class="sub">Um resumo claro do cenário, com a visão do seu assessor.</p>
+</section>
+
+<section id="resumo" class="grid2" style="scroll-margin-top:16px">
+<article class="dark">
+<span class="eyebrow">Luz da semana</span>
+<span class="draft" id="draft" hidden>Rascunho: revisar antes de divulgar</span>
+<h2 id="luz-titulo">Carregando…</h2>
+<p id="luz-texto"></p>
+<div class="by"><div class="avatar" aria-hidden="true">GC</div><div><b>Gustavo Corregio</b><small id="luz-data">Assessor de investimentos</small></div></div>
+</article>
+<article class="card">
+<span class="eyebrow" style="color:var(--muted)">Neblina</span>
+<h2>O que pode atrapalhar</h2>
+<p id="neblina"></p>
+</article>
+</section>
+
+<section aria-label="Indicadores">
+<div class="sec-head"><h2 id="num-titulo">Os números</h2><span class="mar" id="mar" hidden></span></div>
+<div class="stats">
+<div class="stat"><span>Selic</span><span class="v num" id="v-selic">—</span><small>Meta do Copom · Banco Central</small></div>
+<div class="stat"><span>Inflação (IPCA 12 meses)</span><span class="v num" id="v-ipca">—</span><small id="s-ipca">Fonte: IBGE</small></div>
+<div class="stat"><span>Dólar</span><span class="v num" id="v-dolar">—</span><small id="s-dolar">Cotação em reais</small></div>
+<div class="stat"><span>Ibovespa</span><span class="v num" id="v-ibov">—</span><small id="s-ibov">Fonte: B3</small></div>
+</div>
+</section>
+
+<section>
+<div class="sec-head"><h2>Manchetes do dia</h2></div>
+<div class="news" id="news"></div>
+</section>
+
+<section id="simulador" class="panel">
+<div>
+<span class="eyebrow">Simulador de aportes</span>
+<h2>Quanto o seu dinheiro pode virar?</h2>
+<div class="fields">
+<div><label for="aporte">Aporte mensal (R$)</label><input id="aporte" type="text" inputmode="decimal" value="500"></div>
+<div><label for="inicial">Valor inicial (R$)</label><input id="inicial" type="text" inputmode="decimal" value="0"></div>
+<div><label for="anos">Prazo (anos)</label><input id="anos" type="text" inputmode="decimal" value="10"></div>
+<div><label for="taxa">Rentabilidade líquida (% ao ano)</label><input id="taxa" type="text" inputmode="decimal" value="10"></div>
+</div>
+<p class="note">Os valores iniciais são apenas um exemplo: troque pelos seus. Simulação ilustrativa, com a taxa constante informada por você; não considera impostos nem taxas e não garante resultado.</p>
+</div>
+<div class="result" aria-live="polite">
+<div><small id="r-prazo">Em 10 anos você terá</small><span class="big num" id="r-total">—</span></div>
+<div class="two"><div><small>Você investiu</small><b class="num" id="r-inv">—</b></div><div><small>Rendimento</small><b class="num" id="r-rend">—</b></div></div>
+</div>
+</section>
+
+<section id="newsletter" class="panel">
+<div class="stack">
+<span class="eyebrow">Newsletter</span>
+<h2>Receba o Farol no seu e-mail</h2>
+<p style="margin:0;font-size:17px;line-height:1.6;color:var(--text)">Um resumo claro do que mexeu com juros, inflação e mercado, com a visão do seu assessor.</p>
+</div>
+<div class="stack">
+<div><label for="nl-nome">Seu nome (opcional)</label><input id="nl-nome" type="text" placeholder="Como você gosta de ser chamado" disabled></div>
+<div><label for="nl-email">Seu e-mail</label><input id="nl-email" type="email" placeholder="voce@email.com" disabled></div>
+<button class="btn" type="button" disabled style="opacity:.6;cursor:not-allowed">Em breve</button>
+<p class="note" style="margin:0">O cadastro será liberado nos próximos dias.</p>
+</div>
+</section>
+
+<section id="contato" class="contact">
+<div><h2>Ficou com alguma dúvida sobre o que viu aqui?</h2><p>Me chame que eu explico com calma e olhando para a sua situação.</p></div>
+<a class="btn" id="wa-bottom" href="#" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+</section>
+
+</main>
+
+<footer>
+<div class="wrap">
+<img src="farol-icone.png" alt="">
+<span>Conteúdo informativo e educacional, sem recomendação de investimento nem oferta de produto. Os dados vêm de fontes públicas (Banco Central, IBGE, B3 e veículos de imprensa) e podem ter atraso. Rentabilidade passada não garante resultado futuro. [Aviso de vínculo e compliance, a confirmar].</span>
+</div>
+</footer>
+
+<script>
+(function () {
+  var WA = 'https://wa.me/5511911437371?text=' + encodeURIComponent('Olá, vim pelo site do Farol Investimentos e gostaria de conversar.');
+  document.getElementById('wa-top').href = WA;
+  document.getElementById('wa-bottom').href = WA;
+
+  var $ = function (id) { return document.getElementById(id); };
+  var nf = function (n, d) { return n.toLocaleString('pt-BR', { minimumFractionDigits: d, maximumFractionDigits: d }); };
+  var brl = function (n) { return n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }); };
+  var seta = function (v) { return v == null ? '' : (v < 0 ? '▼ ' : '▲ ') + nf(Math.abs(v), 2) + '%'; };
+
+  /* cumprimento por horário */
+  var agora = new Date(), h = agora.getHours();
+  var saud = h < 12 ? 'Bom dia' : (h < 18 ? 'Boa tarde' : 'Boa noite');
+  $('titulo').textContent = saud + '! Veja como está o mercado hoje.';
+  $('data-hoje').textContent = agora.toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+
+  var seguro = function (u) { return /^https?:\/\//i.test(u) ? u : '#'; };
+  var tempo = function (iso) {
+    var m = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+    if (isNaN(m) || m < 0) return '';
+    if (m < 60) return 'há ' + Math.max(m, 1) + ' min';
+    if (m < 1440) return 'há ' + Math.round(m / 60) + ' h';
+    return 'há ' + Math.round(m / 1440) + ' d';
+  };
+
+  function carregar(url) {
+    return fetch(url + '?t=' + Date.now()).then(function (r) { if (!r.ok) throw new Error(url); return r.json(); });
+  }
+
+  /* resumo escrito pelo assessor */
+  carregar('resumo.json').then(function (r) {
+    $('luz-titulo').textContent = r.titulo || '';
+    $('luz-texto').textContent = r.texto || '';
+    $('neblina').textContent = r.neblina || '';
+    if (r.atualizadoEm) {
+      var p = r.atualizadoEm.split('-');
+      $('luz-data').textContent = 'Assessor de investimentos · atualizado em ' + p[2] + '/' + p[1] + '/' + p[0];
+    }
+    $('draft').hidden = r.revisado === true;
+  }).catch(function () { $('luz-titulo').textContent = 'Resumo indisponível no momento'; });
+
+  /* indicadores, manchetes e faixa */
+  carregar('data.json').then(function (d) {
+    var i = d.indicadores || {}, itens = [];
+    if (d.atualizadoEm) {
+      var dt = new Date(d.atualizadoEm);
+      $('num-titulo').textContent = 'Os números · atualizado ' + dt.toLocaleDateString('pt-BR') + ' às ' + dt.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+    }
+    if (d.humor) { $('mar').hidden = false; $('mar').textContent = 'Mar ' + d.humor; }
+    if (i.selic) { $('v-selic').textContent = nf(i.selic.valor, 2) + '%'; itens.push('Selic <b class="num">' + nf(i.selic.valor, 2) + '%</b>'); }
+    if (i.ipca12) { $('v-ipca').textContent = nf(i.ipca12.valor, 2) + '%'; $('s-ipca').textContent = 'Fonte: IBGE (' + (i.ipca12.mes || '') + ')'; itens.push('IPCA 12 meses <b class="num">' + nf(i.ipca12.valor, 2) + '%</b>'); }
+    if (i.dolar) { $('v-dolar').textContent = 'R$ ' + nf(i.dolar.valor, 2); $('s-dolar').textContent = seta(i.dolar.variacao) || 'Cotação em reais'; itens.push('Dólar <b class="num">R$ ' + nf(i.dolar.valor, 2) + ' ' + seta(i.dolar.variacao) + '</b>'); }
+    if (i.ibov) { $('v-ibov').textContent = i.ibov.valor.toLocaleString('pt-BR'); $('s-ibov').textContent = (seta(i.ibov.variacao) + ' · pontos').replace(/^ · /, ''); itens.push('Ibovespa <b class="num">' + i.ibov.valor.toLocaleString('pt-BR') + ' pts ' + seta(i.ibov.variacao) + '</b>'); }
+
+    var box = $('news'); box.textContent = '';
+    (d.manchetes || []).slice(0, 6).forEach(function (m) {
+      var a = document.createElement('a'); a.href = seguro(m.url); a.target = '_blank'; a.rel = 'noopener';
+      var s = document.createElement('small'); s.textContent = m.fonte + (tempo(m.hora) ? ' · ' + tempo(m.hora) : '');
+      var t = document.createElement('strong'); t.textContent = m.titulo;
+      a.appendChild(s); a.appendChild(t); box.appendChild(a);
+    });
+    var primeira = (d.manchetes || [])[0];
+    if (primeira) { itens.push('Destaque: ' + primeira.titulo.replace(/</g, '&lt;')); }
+    itens.push('<a href="#newsletter">Receba o Farol no seu e-mail</a>');
+
+    var grupo = itens.map(function (x) { return '<span>' + x + '</span>'; }).join('');
+    $('track').innerHTML = '<div class="group">' + grupo + '</div><div class="group" aria-hidden="true">' + grupo + '</div>';
+  }).catch(function () {
+    $('track').innerHTML = '<div class="group"><span>Dados indisponíveis no momento</span></div>';
+  });
+
+  /* simulador */
+  function num(v, d) { var n = parseFloat(String(v).replace(',', '.')); return isFinite(n) && n >= 0 ? n : d; }
+  function simular() {
+    var A = num($('aporte').value, 0), P = num($('inicial').value, 0);
+    var Y = Math.min(num($('anos').value, 0), 60), R = Math.min(num($('taxa').value, 0), 100) / 100;
+    var n = Math.round(Y * 12), i = Math.pow(1 + R, 1 / 12) - 1;
+    var fv = P * Math.pow(1 + i, n) + (i > 0 ? A * ((Math.pow(1 + i, n) - 1) / i) : A * n);
+    var inv = P + A * n, y = Math.round(Y * 10) / 10;
+    $('r-prazo').textContent = 'Em ' + y + (y === 1 ? ' ano' : ' anos') + ' você terá';
+    $('r-total').textContent = brl(fv);
+    $('r-inv').textContent = brl(inv);
+    $('r-rend').textContent = brl(Math.max(fv - inv, 0));
+  }
+  ['aporte', 'inicial', 'anos', 'taxa'].forEach(function (id) { $(id).addEventListener('input', simular); });
+  simular();
+})();
+</script>
+</body>
+</html>
