@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-29T05:25-03:00",
+  "atualizadoEm": "2026-10-29T08:39-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.3437,
-      "variacao": -0.12
+      "valor": 5.3503,
+      "variacao": 0.0
     },
     "ibov": {
       "valor": 171006,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "“Vai ser diferente”: como investir durante o Lula 4, segundo a XP",
+      "titulo": "Neoenergia vende sua participação de 25% na Brasil Hidro Participações",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/onde-investir/vai-ser-diferente-como-investir-durante-o-lula-4-segundo-a-xp/",
-      "hora": "2026-10-29T05:00:09-03:00"
+      "url": "https://www.infomoney.com.br/mercados/neoenergia-vende-sua-participacao-de-25-na-brasil-hidro-participacoes/",
+      "hora": "2026-10-29T08:35:16-03:00"
     },
     {
-      "titulo": "Eleições nos EUA: carne bovina vira símbolo de inflação e guerra cultural na disputa pelo Congresso",
+      "titulo": "Presidente do TCE de Mato Grosso é preso em operação da PF sobre contratos públicos",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/brasil/presidente-do-tce-de-mato-grosso-e-preso-em-operacao-da-pf-sobre-contratos-publicos/",
+      "hora": "2026-10-29T08:33:54-03:00"
+    },
+    {
+      "titulo": "Seguro de vida: o que avaliar no atendimento antes de contratar",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/minhas-financas/seguro-de-vida-o-que-avaliar-no-atendimento-antes-de-contratar/",
+      "hora": "2026-10-29T08:30:00-03:00"
+    },
+    {
+      "titulo": "Lula terá apoio fiel de apenas 1 em cada 4 deputados no quarto mandato, diz Diap",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/politica/lula-tera-apoio-fiel-de-apenas-1-em-cada-4-deputados-no-quarto-mandato-diz-diap/",
+      "hora": "2026-10-29T08:27:58-03:00"
+    },
+    {
+      "titulo": "Christine Lagarde, presidente do Banco Central Europeu, renuncia e deixará cargo em fevereiro",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/29/eleicoes-nos-eua-carne-bovina-vira-simbolo-de-inflacao-e-guerra-cultural-na-disputa-pelo-congresso.ghtml",
-      "hora": "2026-10-29T05:00:00-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/10/29/christine-lagarde-presidente-do-banco-central-europeu-renuncia-e-deixa-cargo-em-fevereiro.ghtml",
+      "hora": "2026-10-29T08:07:23-03:00"
     },
     {
-      "titulo": "Economia melhora, mas população empobrece: por que reformas geram insatisfação em países emergentes?",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/10/29/economia-melhora-mas-populacao-empobrece-por-que-reformas-geram-insatisfacao-em-paises-emergentes.ghtml",
-      "hora": "2026-10-29T05:00:00-03:00"
-    },
-    {
-      "titulo": "“Torre Eiffel” da Rússia corre risco de ser desmontada; especialistas apelam a Putin",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/torre-eiffel-da-russia-corre-risco-de-ser-desmontada-especialistas-apelam-a-putin/",
-      "hora": "2026-10-29T05:00:00-03:00"
-    },
-    {
-      "titulo": "Vale (VALE3) divulga seu balanço do 3º trimestre nesta 5ª: o que esperar?",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/vale-vale3-divulga-seu-balanco-do-3o-trimestre-nesta-5a-o-que-esperar/",
-      "hora": "2026-10-29T05:00:00-03:00"
-    },
-    {
-      "titulo": "Para CEO da OpenAI, geração Z está focada no que era “legal há cinco anos”",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/para-ceo-da-openai-geracao-z-esta-focada-no-que-era-legal-ha-cinco-anos/",
-      "hora": "2026-10-29T05:00:00-03:00"
+      "titulo": "Economistas criticam usar corte de gastos para conter dívida pública",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/economistas-criticam-usar-corte-de-gastos-para-conter-divida-publica",
+      "hora": "2026-10-29T07:36:00-03:00"
     }
   ]
 }
