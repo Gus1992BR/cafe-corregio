@@ -23,12 +23,12 @@ h1,h2{font-family:'Playfair Display',serif;font-weight:700;margin:0}
 .ticker{background:var(--ink);color:#fff;display:flex;align-items:center;min-height:44px;overflow:hidden}
 .ticker .tag{flex:none;margin:0 16px;background:var(--accent);color:var(--ink);font-size:13px;font-weight:800;padding:6px 12px;border-radius:999px}
 .ticker .view{overflow:hidden;flex:1;min-width:0}
-.track{display:flex;width:max-content;animation:marquee 70s linear infinite}
+.track{display:flex;width:max-content;animation:marquee 60s linear infinite;will-change:transform}
 .ticker:hover .track,.ticker:focus-within .track{animation-play-state:paused}
 .group{display:flex;flex:none}
 .group span{padding-right:48px;white-space:nowrap;font-size:14px}
 .group a{color:#fff;font-weight:800}
-@keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes marquee{from{transform:translate3d(0,0,0)}to{transform:translate3d(calc(-1 * var(--w,100px)),0,0)}}
 @media (prefers-reduced-motion:reduce){.track{animation:none}.ticker .view{overflow-x:auto}}
 /* cabeçalho */
 header{background:#fff;border-bottom:1px solid var(--line)}
@@ -243,6 +243,30 @@ footer img{height:44px;width:auto;flex:none}
     $('draft').hidden = r.revisado === true;
   }).catch(function () { $('luz-titulo').textContent = 'Resumo indisponível no momento'; });
 
+  /* faixa de destaques: repete o conteúdo até cobrir a tela, para nunca ficar vazia */
+  var faixaItens = [];
+  function montarFaixa() {
+    var track = $('track');
+    if (!faixaItens.length) return;
+    var grupo = faixaItens.map(function (x) { return '<span>' + x + '</span>'; }).join('');
+    track.style.animationName = 'none';
+    track.innerHTML = '<div class="group">' + grupo + '</div>';
+    var w = track.firstChild.offsetWidth;
+    var vista = track.parentNode.offsetWidth;
+    if (!w) return;
+    var copias = Math.ceil(vista / w) + 1, html = '<div class="group">' + grupo + '</div>';
+    for (var k = 1; k < copias; k++) html += '<div class="group" aria-hidden="true">' + grupo + '</div>';
+    track.innerHTML = html;
+    track.style.setProperty('--w', w + 'px');
+    track.style.animationDuration = Math.max(w / 55, 15) + 's';
+    void track.offsetWidth;
+    track.style.animationName = '';
+  }
+  var tFaixa;
+  window.addEventListener('resize', function () { clearTimeout(tFaixa); tFaixa = setTimeout(montarFaixa, 200); });
+  window.addEventListener('load', montarFaixa);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(montarFaixa);
+
   /* indicadores, manchetes e faixa */
   carregar('data.json').then(function (d) {
     var i = d.indicadores || {}, itens = [];
@@ -267,10 +291,11 @@ footer img{height:44px;width:auto;flex:none}
     if (primeira) { itens.push('Destaque: ' + primeira.titulo.replace(/</g, '&lt;')); }
     itens.push('<a href="#newsletter">Receba o Farol no seu e-mail</a>');
 
-    var grupo = itens.map(function (x) { return '<span>' + x + '</span>'; }).join('');
-    $('track').innerHTML = '<div class="group">' + grupo + '</div><div class="group" aria-hidden="true">' + grupo + '</div>';
+    faixaItens = itens;
+    montarFaixa();
   }).catch(function () {
-    $('track').innerHTML = '<div class="group"><span>Dados indisponíveis no momento</span></div>';
+    faixaItens = ['Dados indisponíveis no momento'];
+    montarFaixa();
   });
 
   /* simulador */
