@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-29T12:39-03:00",
+  "atualizadoEm": "2026-10-29T18:33-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.3888,
-      "variacao": 0.72
+      "valor": 5.3849,
+      "variacao": 0.65
     },
     "ibov": {
-      "valor": 169355,
-      "variacao": -0.97
+      "valor": 169186,
+      "variacao": -1.06
     }
   },
   "manchetes": [
     {
-      "titulo": "FII VGIR11 pode vender 4 imóveis por R$ 550 mi; veja quais estão na negociação",
+      "titulo": "Intel decepciona em guidance e tem queda em receita em IA; ações despencam 19% em NY",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/onde-investir/fii-vgir11-pode-vender-4-imoveis-por-r-550-mi-veja-quais-estao-na-negociacao/",
-      "hora": "2026-10-29T12:37:26-03:00"
+      "url": "https://www.infomoney.com.br/mercados/intel-decepciona-em-guidance-e-tem-queda-em-receita-em-ia-acoes-despencam-19-em-ny/",
+      "hora": "2026-10-29T18:22:10-03:00"
     },
     {
-      "titulo": "Assaí (ASAI3): fatia da família Muffato chega a 15% e reacende debate sobre fusão",
+      "titulo": "Amazon frustra em lucro, investimentos em infraestrutura de IA crescem e ação cai 6%",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/assai-asai3-fatia-da-familia-muffato-chega-a-15-e-reacende-debate-sobre-fusao/",
-      "hora": "2026-10-29T12:30:44-03:00"
+      "url": "https://www.infomoney.com.br/mercados/amazon-frustra-em-lucro-investimentos-em-infraestrutura-de-ia-crescem-e-acao-cai-6/",
+      "hora": "2026-10-29T18:19:50-03:00"
     },
     {
-      "titulo": "Nasdaq cai mais de 1% após resultado da Alphabet reacender temor sobre IA",
+      "titulo": "Do ajuste fiscal ao agro: o que pensa Rafael Fonteles, cotado para assumir a Fazenda",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/nasdaq-cai-mais-de-1-apos-resultado-da-alphabet-reacender-temor-sobre-ia/",
-      "hora": "2026-10-29T12:24:12-03:00"
+      "url": "https://www.infomoney.com.br/politica/do-ajuste-fiscal-ao-agro-o-que-pensa-rafael-fonteles-cotado-para-assumir-a-fazenda/",
+      "hora": "2026-10-29T18:15:31-03:00"
     },
     {
-      "titulo": "Taxas dos DIs viram para o positivo com mercado ainda sensível à reeleição de Lula",
+      "titulo": "Multiplan (MULT3): Lucro líquido salta 73,3% no ano e chega a R$ 383 mi no 3º tri",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/taxas-dos-dis-viram-para-o-positivo-com-mercado-ainda-sensivel-a-reeleicao-de-lula/",
-      "hora": "2026-10-29T12:22:08-03:00"
+      "url": "https://www.infomoney.com.br/mercados/multiplan-mult3-resultados-terceiro-trimestre-2026/",
+      "hora": "2026-10-29T18:14:55-03:00"
     },
     {
-      "titulo": "Governo autoriza contrato de R$ 30 bi para motoristas de aplicativos",
+      "titulo": "Temporada de cruzeiros começa na sexta com projeção de mais empregos",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/governo-autoriza-contrato-de-r-30-bi-para-motoristas-de-aplicativos",
-      "hora": "2026-10-29T11:54:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/temporada-de-cruzeiros-comeca-na-sexta-com-projecao-de-mais-empregos",
+      "hora": "2026-10-29T18:04:00-03:00"
     },
     {
-      "titulo": "Perdão das dívidas de MEIs é medida fiscal “necessária”, diz ministro",
+      "titulo": "Dívida Pública sobe 0,97% em setembro e encosta em R$ 9,4 trilhões",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/perdao-das-dividas-de-meis-e-medida-fiscal-necessaria-diz-ministro",
-      "hora": "2026-10-29T11:15:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/divida-publica-sobe-097-em-setembro-e-encosta-em-r-94-trilhoes",
+      "hora": "2026-10-29T18:00:00-03:00"
     }
   ]
 }
