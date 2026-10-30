@@ -66,7 +66,7 @@ nav a.on{font-weight:800;border-bottom-color:var(--accent)}
 .btn:hover{color:#fff;background:#03356b}
 /* corpo */
 main{padding:40px 0 56px;display:flex;flex-direction:column;gap:48px}
-.hero p.date{margin:0 0 8px;font-size:15px;font-weight:600;color:var(--muted);text-transform:capitalize}
+.hero p.date{margin:0 0 8px;font-size:15px;font-weight:600;color:var(--muted)}
 .hero h1{font-size:52px;line-height:1.08}
 .hero p.sub{margin:8px 0 0;font-size:18px;line-height:1.5;color:var(--text);max-width:640px}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px;align-items:start}
@@ -219,7 +219,7 @@ footer svg{flex:none}
 <footer>
 <div class="wrap">
 <svg viewBox="0 0 120 120" width="46" height="46" fill="none" aria-hidden="true"><path d="M30 56h54v14c0 16-12 26-27 26S30 86 30 70V56Z" fill="#02254A"/><path d="M84 62h4c9 0 9 16 0 16h-5" stroke="#02254A" stroke-width="5" stroke-linecap="round"/><rect x="24" y="100" width="66" height="5" rx="2.5" fill="#2AB7AB"/><path d="M38 46l11-12 10 8 14-20" stroke="#2AB7AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M65 22h8v8" stroke="#2AB7AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-<span>Conteúdo informativo e educacional, sem recomendação de investimento nem oferta de produto. Os dados vêm de fontes públicas (Banco Central, IBGE, B3 e veículos de imprensa) e podem ter atraso. Rentabilidade passada não garante resultado futuro. [Aviso de vínculo e compliance, a confirmar].</span>
+<span id="aviso">Conteúdo informativo e educacional, sem recomendação de investimento, oferta ou promessa de rentabilidade. Os dados vêm de fontes públicas (Banco Central, IBGE, B3 e veículos de imprensa) e podem ter atraso. Rentabilidade passada não garante resultado futuro. Investimentos envolvem riscos, inclusive de perda do capital. As opiniões são de Gustavo Corregio e podem mudar sem aviso. Para uma recomendação adequada ao seu perfil, fale com um assessor.</span>
 </div>
 </footer>
 
@@ -238,7 +238,8 @@ footer svg{flex:none}
   var agora = new Date(), h = agora.getHours();
   var saud = h < 12 ? 'Bom dia' : (h < 18 ? 'Boa tarde' : 'Boa noite');
   $('titulo').textContent = saud + '! Veja como está o mercado hoje.';
-  $('data-hoje').textContent = agora.toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  var dataTxt = agora.toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+  $('data-hoje').textContent = dataTxt.charAt(0).toUpperCase() + dataTxt.slice(1);
 
   var seguro = function (u) { return /^https?:\/\//i.test(u) ? u : '#'; };
   var tempo = function (iso) {
@@ -252,6 +253,9 @@ footer svg{flex:none}
   function carregar(url) {
     return fetch(url + '?t=' + Date.now()).then(function (r) { if (!r.ok) throw new Error(url); return r.json(); });
   }
+
+  /* aviso legal do rodapé (editável em aviso.json) */
+  carregar('aviso.json').then(function (a) { if (a && a.texto) $('aviso').textContent = a.texto; }).catch(function () {});
 
   /* resumo escrito pelo assessor */
   carregar('resumo.json').then(function (r) {
