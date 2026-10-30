@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Farol Investimentos</title>
+<title>Café Corregio Investimentos</title>
 <meta name="description" content="Acompanhe a economia e o seu dinheiro sem complicação, com a visão do seu assessor.">
-<link rel="icon" href="farol-icone.png">
+<link rel="icon" type="image/svg+xml" href="logo-icone.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{--ink:#02254A;--accent:#2AB7AB;--teal:#0C717B;--ground:#F3F8F9;--line:#D9DEE5;--muted:#4A5568;--text:#2D3748}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:'DM Sans',sans-serif;background:var(--ground);color:var(--ink)}
+body{margin:0;font-family:'Outfit',sans-serif;background:var(--ground);color:var(--ink)}
 a{color:var(--ink)}a:hover{color:var(--teal)}
-h1,h2{font-family:'Playfair Display',serif;font-weight:700;margin:0}
+h1,h2{font-family:'Outfit',sans-serif;font-weight:700;margin:0;letter-spacing:-0.01em}
 .num{font-variant-numeric:tabular-nums;font-weight:800}
 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
 .eyebrow{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
@@ -34,8 +34,8 @@ h1,h2{font-family:'Playfair Display',serif;font-weight:700;margin:0}
 header{background:#fff;border-bottom:1px solid var(--line)}
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
 .brand{display:flex;align-items:center;gap:14px;text-decoration:none}
-.brand img{height:54px;width:auto;display:block}
-.brand b{display:block;font-family:'Playfair Display',serif;font-size:32px;line-height:1;font-weight:800;letter-spacing:.02em}
+.brand svg{display:block;flex:none}
+.brand b{display:block;font-family:'Outfit',sans-serif;font-size:30px;line-height:1;font-weight:700;letter-spacing:0}
 .brand i{display:block;font-style:normal;font-size:11px;line-height:1;font-weight:500;letter-spacing:.42em;margin-top:4px}
 nav{display:flex;gap:6px;flex-wrap:wrap}
 nav a{text-decoration:none;padding:12px 14px;font-size:15px;font-weight:600;border-bottom:3px solid transparent}
@@ -93,7 +93,7 @@ input[type=text],input[type=email]{width:100%;min-height:48px;padding:0 14px;fon
 .contact p{margin:6px 0 0;font-size:17px;line-height:1.5}
 footer{border-top:1px solid var(--line);background:#fff}
 footer .wrap{padding-top:24px;padding-bottom:24px;display:flex;gap:16px;align-items:flex-start;font-size:13px;line-height:1.6;color:var(--muted)}
-footer img{height:44px;width:auto;flex:none}
+footer svg{flex:none}
 @media (max-width:640px){.hero h1{font-size:38px}header .wrap{justify-content:center}.panel{padding:24px}}
 </style>
 </head>
@@ -106,7 +106,7 @@ footer img{height:44px;width:auto;flex:none}
 
 <header>
 <div class="wrap">
-<a class="brand" href="#" aria-label="Farol Investimentos, página inicial"><img src="farol-icone.png" alt=""><span><b>FAROL</b><i>INVESTIMENTOS</i></span></a>
+<a class="brand" href="#" aria-label="Café Corregio Investimentos, página inicial"><svg viewBox="0 0 120 120" width="58" height="58" fill="none" aria-hidden="true"><path d="M30 56h54v14c0 16-12 26-27 26S30 86 30 70V56Z" fill="#02254A"/><path d="M84 62h4c9 0 9 16 0 16h-5" stroke="#02254A" stroke-width="5" stroke-linecap="round"/><rect x="24" y="100" width="66" height="5" rx="2.5" fill="#2AB7AB"/><path d="M38 46l11-12 10 8 14-20" stroke="#2AB7AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M65 22h8v8" stroke="#2AB7AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg><span><b>Café Corregio</b><i>INVESTIMENTOS</i></span></a>
 <nav aria-label="Principal">
 <a class="on" href="#">Início</a>
 <a href="#resumo">Resumo</a>
@@ -127,14 +127,14 @@ footer img{height:44px;width:auto;flex:none}
 
 <section id="resumo" class="grid2" style="scroll-margin-top:16px">
 <article class="dark">
-<span class="eyebrow">Luz da semana</span>
+<span class="eyebrow">Café da semana</span>
 <span class="draft" id="draft" hidden>Rascunho: revisar antes de divulgar</span>
 <h2 id="luz-titulo">Carregando…</h2>
 <p id="luz-texto"></p>
 <div class="by"><div class="avatar" aria-hidden="true">GC</div><div><b>Gustavo Corregio</b><small id="luz-data">Assessor de investimentos</small></div></div>
 </article>
 <article class="card">
-<span class="eyebrow" style="color:var(--muted)">Neblina</span>
+<span class="eyebrow" style="color:var(--muted)">Amargo</span>
 <h2>O que pode atrapalhar</h2>
 <p id="neblina"></p>
 </article>
@@ -176,7 +176,7 @@ footer img{height:44px;width:auto;flex:none}
 <section id="newsletter" class="panel">
 <div class="stack">
 <span class="eyebrow">Newsletter</span>
-<h2>Receba o Farol no seu e-mail</h2>
+<h2>Receba o Café Corregio no seu e-mail</h2>
 <p style="margin:0;font-size:17px;line-height:1.6;color:var(--text)">Um resumo claro do que mexeu com juros, inflação e mercado, com a visão do seu assessor.</p>
 </div>
 <div class="stack">
@@ -196,14 +196,14 @@ footer img{height:44px;width:auto;flex:none}
 
 <footer>
 <div class="wrap">
-<img src="farol-icone.png" alt="">
+<svg viewBox="0 0 120 120" width="46" height="46" fill="none" aria-hidden="true"><path d="M30 56h54v14c0 16-12 26-27 26S30 86 30 70V56Z" fill="#02254A"/><path d="M84 62h4c9 0 9 16 0 16h-5" stroke="#02254A" stroke-width="5" stroke-linecap="round"/><rect x="24" y="100" width="66" height="5" rx="2.5" fill="#2AB7AB"/><path d="M38 46l11-12 10 8 14-20" stroke="#2AB7AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M65 22h8v8" stroke="#2AB7AB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg>
 <span>Conteúdo informativo e educacional, sem recomendação de investimento nem oferta de produto. Os dados vêm de fontes públicas (Banco Central, IBGE, B3 e veículos de imprensa) e podem ter atraso. Rentabilidade passada não garante resultado futuro. [Aviso de vínculo e compliance, a confirmar].</span>
 </div>
 </footer>
 
 <script>
 (function () {
-  var WA = 'https://wa.me/5511911437371?text=' + encodeURIComponent('Olá, vim pelo site do Farol Investimentos e gostaria de conversar.');
+  var WA = 'https://wa.me/5511911437371?text=' + encodeURIComponent('Olá, vim pelo site do Café Corregio e gostaria de conversar.');
   document.getElementById('wa-top').href = WA;
   document.getElementById('wa-bottom').href = WA;
 
@@ -274,7 +274,7 @@ footer img{height:44px;width:auto;flex:none}
       var dt = new Date(d.atualizadoEm);
       $('num-titulo').textContent = 'Os números · atualizado ' + dt.toLocaleDateString('pt-BR') + ' às ' + dt.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
     }
-    if (d.humor) { $('mar').hidden = false; $('mar').textContent = 'Mar ' + d.humor; }
+    if (d.humor) { $('mar').hidden = false; $('mar').textContent = (d.humor === 'agitado' ? 'Mercado fervendo' : 'Mercado morno'); }
     if (i.selic) { $('v-selic').textContent = nf(i.selic.valor, 2) + '%'; itens.push('Selic <b class="num">' + nf(i.selic.valor, 2) + '%</b>'); }
     if (i.ipca12) { $('v-ipca').textContent = nf(i.ipca12.valor, 2) + '%'; $('s-ipca').textContent = 'Fonte: IBGE (' + (i.ipca12.mes || '') + ')'; itens.push('IPCA 12 meses <b class="num">' + nf(i.ipca12.valor, 2) + '%</b>'); }
     if (i.dolar) { $('v-dolar').textContent = 'R$ ' + nf(i.dolar.valor, 2); $('s-dolar').textContent = seta(i.dolar.variacao) || 'Cotação em reais'; itens.push('Dólar <b class="num">R$ ' + nf(i.dolar.valor, 2) + ' ' + seta(i.dolar.variacao) + '</b>'); }
@@ -289,7 +289,7 @@ footer img{height:44px;width:auto;flex:none}
     });
     var primeira = (d.manchetes || [])[0];
     if (primeira) { itens.push('Destaque: ' + primeira.titulo.replace(/</g, '&lt;')); }
-    itens.push('<a href="#newsletter">Receba o Farol no seu e-mail</a>');
+    itens.push('<a href="#newsletter">Receba o Café Corregio no seu e-mail</a>');
 
     faixaItens = itens;
     montarFaixa();
