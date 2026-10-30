@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-10-30T08:35-03:00",
+  "atualizadoEm": "2026-10-30T12:38-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.3598,
-      "variacao": 0.26
+      "valor": 5.4202,
+      "variacao": 1.39
     },
     "ibov": {
-      "valor": 169186,
-      "variacao": -1.06
+      "valor": 167514,
+      "variacao": -0.99
     }
   },
   "manchetes": [
     {
-      "titulo": "Fachin devolve caso do INSS a Mendonça, mas mantém controle da investigação do Master",
+      "titulo": "Ibovespa cai pela 5ª vez com temor fiscal e externo, rumo à queda histórica semanal",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/fachin-devolve-caso-do-inss-a-mendonca-mas-mantem-controle-da-investigacao-do-master/",
-      "hora": "2026-10-30T08:20:19-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-pela-5a-vez-com-temor-fiscal-e-externo-queda-historica-semanal/",
+      "hora": "2026-10-30T12:22:37-03:00"
     },
     {
-      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
+      "titulo": "Conselho do FGTS prorroga regra do saque-aniversário usada em empréstimos",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/economia/conselho-do-fgts-prorroga-regra-do-saque-aniversario-usada-em-emprestimos/",
+      "hora": "2026-10-30T12:17:08-03:00"
+    },
+    {
+      "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai 1% e engata 5ª sessão negativa; VALE3 e PETR4 sobem",
       "fonte": "InfoMoney",
       "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30102026/",
-      "hora": "2026-10-30T08:18:24-03:00"
+      "hora": "2026-10-30T12:16:27-03:00"
     },
     {
-      "titulo": "Vale, Usiminas, CSN, Braskem, Petrobras e mais ações para acompanhar hoje",
+      "titulo": "Justiça do Trabalho ordena que Meta remova conteúdos que incentivam assédio eleitoral",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/vale-usiminas-csn-braskem-petrobras-e-mais-acoes-para-acompanhar-hoje/",
-      "hora": "2026-10-30T08:15:30-03:00"
+      "url": "https://www.infomoney.com.br/politica/justica-do-trabalho-ordena-que-meta-remova-conteudos-que-incentivam-assedio-eleitoral/",
+      "hora": "2026-10-30T12:14:19-03:00"
     },
     {
-      "titulo": "Shell converte 1,23 bilhão de ações ordinárias em preferenciais da Raízen",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/shell-converte-123-bilhao-de-acoes-ordinarias-em-preferenciais-da-raizen/",
-      "hora": "2026-10-30T08:04:58-03:00"
+      "titulo": "TVs de 98 polegadas, cadeiras de alto padrão e mais: veja itens do Banco Master que vão a leilão",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/10/30/tvs-de-98-polegadas-cadeiras-de-alto-padrao-e-mais-veja-itens-do-banco-master-que-vao-a-leilao.ghtml",
+      "hora": "2026-10-30T11:46:16-03:00"
     },
     {
-      "titulo": "Acaba nesta sexta prazo para empresas escolherem modelo do Simples",
+      "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/acaba-nesta-sexta-prazo-para-empresas-escolherem-modelo-do-simples",
-      "hora": "2026-10-30T08:00:00-03:00"
-    },
-    {
-      "titulo": "Receita paga nesta sexta-feira lote da malha fina do Imposto de Renda",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/receita-paga-nesta-sexta-feira-lote-da-malha-fina-do-imposto-de-renda",
-      "hora": "2026-10-30T07:10:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
+      "hora": "2026-10-30T09:50:00-03:00"
     }
   ]
 }
