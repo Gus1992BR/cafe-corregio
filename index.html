@@ -89,6 +89,10 @@ main{padding:40px 0 56px;display:flex;flex-direction:column;gap:48px}
 .stat span:first-child{font-size:14px;font-weight:700;color:var(--muted)}
 .stat .v{font-size:30px}
 .stat small{font-size:13px;color:var(--muted)}
+.stat small.up{color:#0B7A4B;font-weight:600}
+.stat small.down{color:#B3261E;font-weight:600}
+.var-up{color:#0B7A4B}.var-down{color:#B3261E}
+.ticker .var-up{color:#7EE2A8}.ticker .var-down{color:#FF9A94}
 .news{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
 .news a{background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px;text-decoration:none;display:flex;flex-direction:column;gap:10px}
 .news a:hover{border-color:var(--teal)}
@@ -232,6 +236,7 @@ footer svg{flex:none}
   var $ = function (id) { return document.getElementById(id); };
   var nf = function (n, d) { return n.toLocaleString('pt-BR', { minimumFractionDigits: d, maximumFractionDigits: d }); };
   var brl = function (n) { return n.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', maximumFractionDigits: 0 }); };
+  var cls = function (v) { return v == null || v === 0 ? '' : (v < 0 ? 'down' : 'up'); };
   var seta = function (v) { return v == null ? '' : (v < 0 ? '▼ ' : '▲ ') + nf(Math.abs(v), 2) + '%'; };
 
   /* cumprimento por horário */
@@ -303,8 +308,8 @@ footer svg{flex:none}
     if (d.humor) { $('mar').hidden = false; $('mar').textContent = (d.humor === 'agitado' ? 'Mercado fervendo' : 'Mercado morno'); }
     if (i.selic) { $('v-selic').textContent = nf(i.selic.valor, 2) + '%'; itens.push('Selic <b class="num">' + nf(i.selic.valor, 2) + '%</b>'); }
     if (i.ipca12) { $('v-ipca').textContent = nf(i.ipca12.valor, 2) + '%'; $('s-ipca').textContent = 'Fonte: IBGE (' + (i.ipca12.mes || '') + ')'; itens.push('IPCA 12 meses <b class="num">' + nf(i.ipca12.valor, 2) + '%</b>'); }
-    if (i.dolar) { $('v-dolar').textContent = 'R$ ' + nf(i.dolar.valor, 2); $('s-dolar').textContent = seta(i.dolar.variacao) || 'Cotação em reais'; itens.push('Dólar <b class="num">R$ ' + nf(i.dolar.valor, 2) + ' ' + seta(i.dolar.variacao) + '</b>'); }
-    if (i.ibov) { $('v-ibov').textContent = i.ibov.valor.toLocaleString('pt-BR'); $('s-ibov').textContent = (seta(i.ibov.variacao) + ' · pontos').replace(/^ · /, ''); itens.push('Ibovespa <b class="num">' + i.ibov.valor.toLocaleString('pt-BR') + ' pts ' + seta(i.ibov.variacao) + '</b>'); }
+    if (i.dolar) { $('v-dolar').textContent = 'R$ ' + nf(i.dolar.valor, 2); $('s-dolar').textContent = seta(i.dolar.variacao) || 'Cotação em reais'; $('s-dolar').className = cls(i.dolar.variacao); itens.push('Dólar <b class="num">R$ ' + nf(i.dolar.valor, 2) + '</b> <b class="num var-' + cls(i.dolar.variacao) + '">' + seta(i.dolar.variacao) + '</b>'); }
+    if (i.ibov) { $('v-ibov').textContent = i.ibov.valor.toLocaleString('pt-BR'); $('s-ibov').textContent = (seta(i.ibov.variacao) + ' · pontos').replace(/^ · /, ''); $('s-ibov').className = cls(i.ibov.variacao); itens.push('Ibovespa <b class="num">' + i.ibov.valor.toLocaleString('pt-BR') + ' pts</b> <b class="num var-' + cls(i.ibov.variacao) + '">' + seta(i.ibov.variacao) + '</b>'); }
 
     var box = $('news'); box.textContent = '';
     (d.manchetes || []).slice(0, 6).forEach(function (m) {
