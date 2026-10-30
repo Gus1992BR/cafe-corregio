@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-30T12:38-03:00",
-  "humor": "calmo",
+  "atualizadoEm": "2026-10-30T18:29-03:00",
+  "humor": "agitado",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4202,
-      "variacao": 1.39
+      "valor": 5.4382,
+      "variacao": 1.73
     },
     "ibov": {
-      "valor": 167514,
-      "variacao": -0.99
+      "valor": 167922,
+      "variacao": -0.75
     }
   },
   "manchetes": [
     {
-      "titulo": "Ibovespa cai pela 5ª vez com temor fiscal e externo, rumo à queda histórica semanal",
+      "titulo": "26 ações caem mais de 20% e só 11 sobem: os destaques do outubro de baixa do Ibovespa",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-pela-5a-vez-com-temor-fiscal-e-externo-queda-historica-semanal/",
-      "hora": "2026-10-30T12:22:37-03:00"
+      "url": "https://www.infomoney.com.br/mercados/26-acoes-caem-mais-de-20-e-so-11-sobem-os-destaques-ibovespa-outubro-2026/",
+      "hora": "2026-10-30T18:26:30-03:00"
     },
     {
-      "titulo": "Conselho do FGTS prorroga regra do saque-aniversário usada em empréstimos",
+      "titulo": "Prompts para economizar na Black Friday; veja como usar a IA a seu favor",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/conselho-do-fgts-prorroga-regra-do-saque-aniversario-usada-em-emprestimos/",
-      "hora": "2026-10-30T12:17:08-03:00"
+      "url": "https://www.infomoney.com.br/consumo/ia-na-black-friday/",
+      "hora": "2026-10-30T18:19:21-03:00"
     },
     {
-      "titulo": "Ibovespa Hoje Ao Vivo: Bolsa cai 1% e engata 5ª sessão negativa; VALE3 e PETR4 sobem",
+      "titulo": "Wall St fecha com forte queda, com onda de vendas no setor de tecnologia",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-30102026/",
-      "hora": "2026-10-30T12:16:27-03:00"
+      "url": "https://www.infomoney.com.br/mercados/nasdaq-cai-forte-com-amazon-e-intel-agravando-preocupacoes-sobre-gastos-em-ia/",
+      "hora": "2026-10-30T18:15:56-03:00"
     },
     {
-      "titulo": "Justiça do Trabalho ordena que Meta remova conteúdos que incentivam assédio eleitoral",
+      "titulo": "Corinthians x Mirassol: Onde assistir?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/justica-do-trabalho-ordena-que-meta-remova-conteudos-que-incentivam-assedio-eleitoral/",
-      "hora": "2026-10-30T12:14:19-03:00"
+      "url": "https://www.infomoney.com.br/esportes/corinthians-mirassol-onde-assistir/",
+      "hora": "2026-10-30T18:00:00-03:00"
     },
     {
-      "titulo": "TVs de 98 polegadas, cadeiras de alto padrão e mais: veja itens do Banco Master que vão a leilão",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/10/30/tvs-de-98-polegadas-cadeiras-de-alto-padrao-e-mais-veja-itens-do-banco-master-que-vao-a-leilao.ghtml",
-      "hora": "2026-10-30T11:46:16-03:00"
-    },
-    {
-      "titulo": "Desemprego em 5,2% no 3° trimestre é o menor para o período desde 2012",
+      "titulo": "Aneel mantém bandeira tarifária verde em novembro",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/desemprego-em-52-no-3deg-trimestre-e-o-menor-para-o-periodo-desde-2012",
-      "hora": "2026-10-30T09:50:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
+      "hora": "2026-10-30T17:50:00-03:00"
+    },
+    {
+      "titulo": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas empresas",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/10/30/raizen-aprova-plano-para-evitar-falencia-e-preve-injecao-de-ate-r-398-bilhoes.ghtml",
+      "hora": "2026-10-30T17:49:18-03:00"
     }
   ]
 }
