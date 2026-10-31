@@ -111,6 +111,33 @@ input[type=text],input[type=email]{width:100%;min-height:48px;padding:0 14px;fon
 .result .two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .result .two b{font-size:20px}
 .stack{display:flex;flex-direction:column;gap:14px}
+.simbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px 36px;display:flex;flex-direction:column;gap:24px;scroll-margin-top:16px}
+.panelgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:36px;align-items:center}
+.panelgrid h2,.comp h2{font-size:32px;line-height:1.2}
+.panelgrid .eyebrow{color:var(--teal)}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tab{font-family:inherit;font-size:15px;font-weight:600;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;min-height:44px}
+.tab[aria-selected=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.comp{display:flex;flex-direction:column;gap:20px}
+.comp[hidden],.panelgrid[hidden]{display:none}
+.fields3{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.prods{border:0;padding:0;margin:0}
+.prods legend{font-size:14px;font-weight:700;margin-bottom:8px;padding:0}
+.chks{display:flex;flex-wrap:wrap;gap:8px}
+.chk{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:500;margin:0;cursor:pointer;min-height:40px}
+.chk input{width:18px;height:18px;margin:0}
+.hip summary{cursor:pointer;font-size:15px;font-weight:600;color:var(--teal);min-height:32px}
+.cres{display:flex;flex-direction:column;gap:14px}
+.crow{display:flex;flex-direction:column;gap:6px}
+.crow .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.crow .nome{font-size:17px;font-weight:700}
+.crow .val{font-size:20px}
+.crow .bar{height:12px;border-radius:999px;background:#E6EEF1;overflow:hidden}
+.crow .bar i{display:block;height:100%;background:var(--accent);border-radius:999px}
+.crow.top1 .bar i{background:var(--ink)}
+.crow small{font-size:13px;color:var(--muted);line-height:1.45}
+.badge{background:var(--ink);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;margin-left:8px;vertical-align:middle}
+
 .check{display:flex;gap:10px;align-items:flex-start}
 .check input{width:22px;height:22px;margin:2px 0 0;flex:none}
 .check label{font-weight:400;font-size:14px;line-height:1.5;color:var(--text);margin:0}
@@ -120,7 +147,7 @@ input[type=text],input[type=email]{width:100%;min-height:48px;padding:0 14px;fon
 footer{border-top:1px solid var(--line);background:#fff}
 footer .wrap{padding-top:24px;padding-bottom:24px;display:flex;gap:16px;align-items:flex-start;font-size:13px;line-height:1.6;color:var(--muted)}
 footer svg{flex:none}
-@media (max-width:640px){.hero h1{font-size:38px}header .wrap{justify-content:center}.panel{padding:24px}}
+@media (max-width:640px){.simbox{padding:20px}.hero h1{font-size:38px}header .wrap{justify-content:center}.panel{padding:24px}}
 </style>
 </head>
 <body>
@@ -181,7 +208,12 @@ footer svg{flex:none}
 <div class="news" id="news"></div>
 </section>
 
-<section id="simulador" class="panel">
+<section id="simulador" class="simbox">
+<div class="tabs" role="tablist" aria-label="Tipo de simulação">
+<button class="tab" role="tab" id="t1" aria-selected="true" aria-controls="tab-rent" type="button">Simulador de aportes</button>
+<button class="tab" role="tab" id="t2" aria-selected="false" aria-controls="tab-comp" type="button">Comparar produtos</button>
+</div>
+<div id="tab-rent" role="tabpanel" aria-labelledby="t1" class="panelgrid">
 <div>
 <span class="eyebrow">Simulador de aportes</span>
 <h2>Quanto o seu dinheiro pode virar?</h2>
@@ -196,6 +228,32 @@ footer svg{flex:none}
 <div class="result" aria-live="polite">
 <div><small id="r-prazo">Em 10 anos você terá</small><span class="big num" id="r-total">—</span></div>
 <div class="two"><div><small>Você investiu</small><b class="num" id="r-inv">—</b></div><div><small>Rendimento</small><b class="num" id="r-rend">—</b></div></div>
+</div>
+</div>
+<div id="tab-comp" role="tabpanel" aria-labelledby="t2" class="comp" hidden>
+<div>
+<span class="eyebrow" style="color:var(--teal)">Comparador</span>
+<h2 style="font-size:32px;line-height:1.2;margin-top:6px">Onde o seu dinheiro pode render mais?</h2>
+</div>
+<div class="fields3">
+<div><label for="c-aporte">Aporte mensal (R$)</label><input id="c-aporte" type="text" inputmode="decimal" value="500"></div>
+<div><label for="c-inicial">Valor inicial (R$)</label><input id="c-inicial" type="text" inputmode="decimal" value="0"></div>
+<div><label for="c-anos">Prazo (anos)</label><input id="c-anos" type="text" inputmode="decimal" value="5"></div>
+</div>
+<fieldset class="prods"><legend>Produtos para comparar</legend><div class="chks"><label class="chk"><input type="checkbox" id="p-poup" checked><span>Poupança</span></label><label class="chk"><input type="checkbox" id="p-tsel" checked><span>Tesouro Selic</span></label><label class="chk"><input type="checkbox" id="p-cdb" checked><span>CDB</span></label><label class="chk"><input type="checkbox" id="p-fdi" checked><span>Fundo DI</span></label><label class="chk"><input type="checkbox" id="p-lci" checked><span>LCI/LCA</span></label><label class="chk"><input type="checkbox" id="p-tipca" checked><span>Tesouro IPCA+</span></label></div></fieldset>
+<details class="hip"><summary>Ajustar as premissas (taxas)</summary>
+<p class="note" style="margin:10px 0 14px">Valores de exemplo: troque pelos da oferta que você recebeu. A Selic vem do Banco Central.</p>
+<div class="fields3">
+<div><label for="c-cdi">CDI (% ao ano)</label><input id="c-cdi" type="text" inputmode="decimal" value="13,65"></div>
+<div><label for="c-ipca">IPCA esperado (% ao ano)</label><input id="c-ipca" type="text" inputmode="decimal" value="4,58"></div>
+<div><label for="c-cdb">CDB (% do CDI)</label><input id="c-cdb" type="text" inputmode="decimal" value="100"></div>
+<div><label for="c-lci">LCI/LCA (% do CDI)</label><input id="c-lci" type="text" inputmode="decimal" value="90"></div>
+<div><label for="c-adm">Taxa de adm. do fundo DI (% ao ano)</label><input id="c-adm" type="text" inputmode="decimal" value="0,5"></div>
+<div><label for="c-real">Tesouro IPCA+ (taxa real, % ao ano)</label><input id="c-real" type="text" inputmode="decimal" value="7"></div>
+</div>
+</details>
+<div id="c-res" class="cres" aria-live="polite"></div>
+<p class="note" id="c-nota" style="margin:0"></p>
 </div>
 </section>
 
@@ -306,6 +364,9 @@ footer svg{flex:none}
       $('num-titulo').textContent = 'Os números · atualizado ' + dt.toLocaleDateString('pt-BR') + ' às ' + dt.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
     }
     if (d.humor) { $('mar').hidden = false; $('mar').textContent = (d.humor === 'agitado' ? 'Mercado fervendo' : 'Mercado morno'); }
+    if (i.selic) { SELIC = i.selic.valor; $('c-cdi').value = nf(Math.max(i.selic.valor - 0.1, 0), 2); }
+    if (i.ipca12) { $('c-ipca').value = nf(i.ipca12.valor, 2); }
+    if (i.selic || i.ipca12) { comparar(); }
     if (i.selic) { $('v-selic').textContent = nf(i.selic.valor, 2) + '%'; itens.push('Selic <b class="num">' + nf(i.selic.valor, 2) + '%</b>'); }
     if (i.ipca12) { $('v-ipca').textContent = nf(i.ipca12.valor, 2) + '%'; $('s-ipca').textContent = 'Fonte: IBGE (' + (i.ipca12.mes || '') + ')'; itens.push('IPCA 12 meses <b class="num">' + nf(i.ipca12.valor, 2) + '%</b>'); }
     if (i.dolar) { $('v-dolar').textContent = 'R$ ' + nf(i.dolar.valor, 2); $('s-dolar').textContent = seta(i.dolar.variacao) || 'Cotação em reais'; $('s-dolar').className = cls(i.dolar.variacao); itens.push('Dólar <b class="num">R$ ' + nf(i.dolar.valor, 2) + '</b> <b class="num var-' + cls(i.dolar.variacao) + '">' + seta(i.dolar.variacao) + '</b>'); }
@@ -328,6 +389,70 @@ footer svg{flex:none}
     faixaItens = ['Dados indisponíveis no momento'];
     montarFaixa();
   });
+
+
+  /* abas do simulador */
+  function aba(qual) {
+    var comp = qual === 'comp';
+    $('tab-rent').hidden = comp; $('tab-comp').hidden = !comp;
+    $('t1').setAttribute('aria-selected', String(!comp)); $('t2').setAttribute('aria-selected', String(comp));
+    if (comp) comparar();
+  }
+  $('t1').addEventListener('click', function () { aba('rent'); });
+  $('t2').addEventListener('click', function () { aba('comp'); });
+
+  /* comparador de produtos */
+  var SELIC = 13.75;
+  function irRate(dias) { return dias <= 180 ? 0.225 : (dias <= 360 ? 0.20 : (dias <= 720 ? 0.175 : 0.15)); }
+  function simM(P, A, n, i, tributa) {
+    var total = P * Math.pow(1 + i, n), ir = tributa ? (total - P) * irRate(n * 30) : 0;
+    for (var k = 1; k <= n; k++) {
+      var m = n - k, f = A * Math.pow(1 + i, m);
+      total += f;
+      if (tributa) ir += (f - A) * irRate(m * 30);
+    }
+    return { bruto: total, ir: ir, liquido: total - ir };
+  }
+  var mensal = function (aa) { return Math.pow(1 + aa, 1 / 12) - 1; };
+  function comparar() {
+    var P = num($('c-inicial').value, 0), A = num($('c-aporte').value, 0);
+    var anos = Math.min(num($('c-anos').value, 0), 40), n = Math.round(anos * 12);
+    var cdi = num($('c-cdi').value, SELIC - 0.1) / 100, ipca = num($('c-ipca').value, 0) / 100;
+    var pcdb = num($('c-cdb').value, 100) / 100, plci = num($('c-lci').value, 90) / 100;
+    var adm = num($('c-adm').value, 0) / 100, real = num($('c-real').value, 0) / 100;
+    var box = $('c-res'); box.textContent = '';
+    if (n < 1) { box.textContent = 'Informe um prazo de pelo menos 1 mês.'; return; }
+    var lista = [
+      { id: 'poup', nome: 'Poupança', desc: (SELIC > 8.5 ? '0,5% ao mês (Selic acima de 8,5%)' : '70% da Selic') + ' · isenta de IR', i: SELIC > 8.5 ? 0.005 : mensal(0.7 * SELIC / 100), t: false },
+      { id: 'tsel', nome: 'Tesouro Selic', desc: 'Selic de ' + nf(SELIC, 2) + '% · IR regressivo', i: mensal(SELIC / 100), t: true },
+      { id: 'cdb', nome: 'CDB', desc: nf(pcdb * 100, 0) + '% do CDI · IR regressivo', i: mensal(cdi * pcdb), t: true },
+      { id: 'fdi', nome: 'Fundo DI', desc: 'CDI menos ' + nf(adm * 100, 2) + '% de taxa · IR regressivo (simplificado)', i: mensal(Math.max(cdi - adm, 0)), t: true },
+      { id: 'lci', nome: 'LCI/LCA', desc: nf(plci * 100, 0) + '% do CDI · isenta de IR', i: mensal(cdi * plci), t: false },
+      { id: 'tipca', nome: 'Tesouro IPCA+', desc: 'IPCA de ' + nf(ipca * 100, 2) + '% + ' + nf(real * 100, 2) + '% · IR regressivo', i: mensal((1 + ipca) * (1 + real) - 1), t: true }
+    ].filter(function (p) { return $('p-' + p.id).checked; });
+    if (!lista.length) { box.textContent = 'Marque pelo menos um produto para comparar.'; return; }
+    lista.forEach(function (p) { p.r = simM(P, A, n, p.i, p.t); });
+    lista.sort(function (a, b) { return b.r.liquido - a.r.liquido; });
+    var max = lista[0].r.liquido, inv = P + A * n;
+    var cab = document.createElement('p'); cab.className = 'note'; cab.style.margin = '0';
+    cab.textContent = 'Total que você investiria: ' + brl(inv) + ' em ' + (Math.round(anos * 10) / 10) + (anos === 1 ? ' ano' : ' anos') + '. Resultado líquido, já descontado o IR quando houver.';
+    box.appendChild(cab);
+    lista.forEach(function (p, idx) {
+      var row = document.createElement('div'); row.className = 'crow' + (idx === 0 ? ' top1' : '');
+      var top = document.createElement('div'); top.className = 'top';
+      var nome = document.createElement('span'); nome.className = 'nome'; nome.textContent = p.nome;
+      if (idx === 0 && lista.length > 1) { var b = document.createElement('span'); b.className = 'badge'; b.textContent = 'maior resultado nesta simulação'; nome.appendChild(b); }
+      var val = document.createElement('span'); val.className = 'val num'; val.textContent = brl(p.r.liquido);
+      top.appendChild(nome); top.appendChild(val);
+      var bar = document.createElement('div'); bar.className = 'bar'; var fill = document.createElement('i'); fill.style.width = Math.max(max ? p.r.liquido / max * 100 : 0, 2) + '%'; bar.appendChild(fill);
+      var det = document.createElement('small');
+      det.textContent = p.desc + ' · rendimento líquido ' + brl(Math.max(p.r.liquido - inv, 0)) + (p.t ? ' · IR ' + brl(p.r.ir) : '');
+      row.appendChild(top); row.appendChild(bar); row.appendChild(det); box.appendChild(row);
+    });
+    $('c-nota').textContent = 'Simulação ilustrativa, com taxas constantes durante todo o prazo (hoje: Selic ' + nf(SELIC, 2) + '% ao ano). Não é previsão nem recomendação de investimento. Considera o IR regressivo (de 22,5% a 15%) e não considera IOF, come-cotas, taxa de custódia, marcação a mercado nem o FGC. Cada produto tem risco, liquidez e prazo diferentes; converse com seu assessor antes de decidir.';
+  }
+  ['c-aporte', 'c-inicial', 'c-anos', 'c-cdi', 'c-ipca', 'c-cdb', 'c-lci', 'c-adm', 'c-real'].forEach(function (id) { $(id).addEventListener('input', comparar); });
+  ['poup', 'tsel', 'cdb', 'fdi', 'lci', 'tipca'].forEach(function (k) { $('p-' + k).addEventListener('change', comparar); });
 
   /* simulador */
   function num(v, d) { var n = parseFloat(String(v).replace(',', '.')); return isFinite(n) && n >= 0 ? n : d; }
