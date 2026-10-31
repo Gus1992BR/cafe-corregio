@@ -123,6 +123,7 @@ input[type=text],input[type=email]{width:100%;min-height:48px;padding:0 14px;fon
 .fields3{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
 .prods{border:0;padding:0;margin:0}
 .prods legend{font-size:14px;font-weight:700;margin-bottom:8px;padding:0}
+.hip select,.fields3 select{width:100%;min-height:48px;padding:0 10px;font-family:inherit;font-size:16px;border:1px solid #8A94A3;border-radius:8px;background:#fff;color:var(--ink)}
 .chks{display:flex;flex-wrap:wrap;gap:8px}
 .chk{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px;font-weight:500;margin:0;cursor:pointer;min-height:40px}
 .chk input{width:18px;height:18px;margin:0}
@@ -240,7 +241,7 @@ footer svg{flex:none}
 <div><label for="c-inicial">Valor inicial (R$)</label><input id="c-inicial" type="text" inputmode="decimal" value="0"></div>
 <div><label for="c-anos">Prazo (anos)</label><input id="c-anos" type="text" inputmode="decimal" value="5"></div>
 </div>
-<fieldset class="prods"><legend>Produtos para comparar</legend><div class="chks"><label class="chk"><input type="checkbox" id="p-poup" checked><span>Poupança</span></label><label class="chk"><input type="checkbox" id="p-tsel" checked><span>Tesouro Selic</span></label><label class="chk"><input type="checkbox" id="p-cdb" checked><span>CDB</span></label><label class="chk"><input type="checkbox" id="p-fdi" checked><span>Fundo DI</span></label><label class="chk"><input type="checkbox" id="p-lci" checked><span>LCI/LCA</span></label><label class="chk"><input type="checkbox" id="p-tipca" checked><span>Tesouro IPCA+</span></label></div></fieldset>
+<fieldset class="prods"><legend>Produtos para comparar</legend><div class="chks"><label class="chk"><input type="checkbox" id="p-poup" checked><span>Poupança</span></label><label class="chk"><input type="checkbox" id="p-tsel" checked><span>Tesouro Selic</span></label><label class="chk"><input type="checkbox" id="p-cdb" checked><span>CDB</span></label><label class="chk"><input type="checkbox" id="p-fdil" checked><span>Fundo DI longo prazo</span></label><label class="chk"><input type="checkbox" id="p-fdic" checked><span>Fundo DI curto prazo</span></label><label class="chk"><input type="checkbox" id="p-lci" checked><span>LCI/LCA</span></label><label class="chk"><input type="checkbox" id="p-tipca" checked><span>Tesouro IPCA+</span></label></div></fieldset>
 <details class="hip"><summary>Ajustar as premissas (taxas)</summary>
 <p class="note" style="margin:10px 0 14px">Valores de exemplo: troque pelos da oferta que você recebeu. A Selic vem do Banco Central.</p>
 <div class="fields3">
@@ -403,7 +404,9 @@ footer svg{flex:none}
 
   /* comparador de produtos */
   var SELIC = 13.75;
+  var MESES_INICIO = new Date().getMonth();
   function irRate(dias) { return dias <= 180 ? 0.225 : (dias <= 360 ? 0.20 : (dias <= 720 ? 0.175 : 0.15)); }
+  /* produtos com IR regressivo pago no resgate (e sem IR, quando tributa = false) */
   function simM(P, A, n, i, tributa) {
     var total = P * Math.pow(1 + i, n), ir = tributa ? (total - P) * irRate(n * 30) : 0;
     for (var k = 1; k <= n; k++) {
@@ -411,7 +414,36 @@ footer svg{flex:none}
       total += f;
       if (tributa) ir += (f - A) * irRate(m * 30);
     }
-    return { bruto: total, ir: ir, liquido: total - ir };
+    return { bruto: total, ir: ir, taxa: 0, liquido: total - ir };
+  }
+  /* taxa de custódia da B3: 0,20% ao ano sobre o saldo, descontada no resgate; no Tesouro Selic só sobre o que passa de R$ 10 mil */
+  function custodia(P, A, n, i, isento) {
+    var saldo = P, taxa = 0;
+    for (var t = 1; t <= n; t++) {
+      saldo *= (1 + i);
+      taxa += Math.max(saldo - isento, 0) * 0.002 / 12;
+      saldo += A;
+    }
+    return taxa;
+  }
+  /* fundo DI: come-cotas em maio e novembro e complemento do IR no resgate */
+  function simFundo(P, A, n, i, cc) {
+    var liq = 0, ir = 0, bruto = 0;
+    function aporte(valor, k) {
+      var v = valor, gAcum = 0, gTaxado = 0, pago = 0;
+      for (var t = k + 1; t <= n; t++) {
+        var ganho = v * i; v += ganho; gAcum += ganho;
+        var mes = (MESES_INICIO + t) % 12;
+        if (mes === 4 || mes === 10) { var tx = cc * gAcum; v -= tx; pago += tx; gTaxado += gAcum; gAcum = 0; }
+      }
+      var dias = (n - k) * 30;
+      var aliq = cc === 0.15 ? irRate(dias) : (dias <= 180 ? 0.225 : 0.20);
+      var final = aliq * gAcum + Math.max(aliq - cc, 0) * gTaxado;
+      liq += v - final; ir += pago + final; bruto += valor * Math.pow(1 + i, n - k);
+    }
+    aporte(P, 0);
+    for (var k = 1; k <= n; k++) aporte(A, k);
+    return { bruto: bruto, ir: ir, taxa: 0, liquido: liq };
   }
   var mensal = function (aa) { return Math.pow(1 + aa, 1 / 12) - 1; };
   function comparar() {
@@ -422,21 +454,28 @@ footer svg{flex:none}
     var adm = num($('c-adm').value, 0) / 100, real = num($('c-real').value, 0) / 100;
     var box = $('c-res'); box.textContent = '';
     if (n < 1) { box.textContent = 'Informe um prazo de pelo menos 1 mês.'; return; }
+    var iSel = mensal(SELIC / 100), iIpca = mensal((1 + ipca) * (1 + real) - 1), iFundo = mensal(Math.max(cdi - adm, 0));
     var lista = [
-      { id: 'poup', nome: 'Poupança', desc: (SELIC > 8.5 ? '0,5% ao mês (Selic acima de 8,5%)' : '70% da Selic') + ' · isenta de IR', i: SELIC > 8.5 ? 0.005 : mensal(0.7 * SELIC / 100), t: false },
-      { id: 'tsel', nome: 'Tesouro Selic', desc: 'Selic de ' + nf(SELIC, 2) + '% · IR regressivo', i: mensal(SELIC / 100), t: true },
-      { id: 'cdb', nome: 'CDB', desc: nf(pcdb * 100, 0) + '% do CDI · IR regressivo', i: mensal(cdi * pcdb), t: true },
-      { id: 'fdi', nome: 'Fundo DI', desc: 'CDI menos ' + nf(adm * 100, 2) + '% de taxa · IR regressivo (simplificado)', i: mensal(Math.max(cdi - adm, 0)), t: true },
-      { id: 'lci', nome: 'LCI/LCA', desc: nf(plci * 100, 0) + '% do CDI · isenta de IR', i: mensal(cdi * plci), t: false },
-      { id: 'tipca', nome: 'Tesouro IPCA+', desc: 'IPCA de ' + nf(ipca * 100, 2) + '% + ' + nf(real * 100, 2) + '% · IR regressivo', i: mensal((1 + ipca) * (1 + real) - 1), t: true }
+      { id: 'poup', nome: 'Poupança', desc: (SELIC > 8.5 ? '0,5% ao mês (Selic acima de 8,5%)' : '70% da Selic') + ' · isenta de IR', f: function () { return simM(P, A, n, SELIC > 8.5 ? 0.005 : mensal(0.7 * SELIC / 100), false); } },
+      { id: 'tsel', nome: 'Tesouro Selic', desc: 'Selic de ' + nf(SELIC, 2) + '% · IR regressivo · custódia da B3 só acima de R$ 10 mil', f: function () { var r = simM(P, A, n, iSel, true); r.taxa = custodia(P, A, n, iSel, 10000); r.liquido -= r.taxa; return r; } },
+      { id: 'cdb', nome: 'CDB', desc: nf(pcdb * 100, 0) + '% do CDI · IR regressivo', f: function () { return simM(P, A, n, mensal(cdi * pcdb), true); } },
+      { id: 'fdil', nome: 'Fundo DI de longo prazo', desc: 'CDI menos ' + nf(adm * 100, 2) + '% de taxa · come-cotas de 15% em maio e novembro · IR no resgate', f: function () { return simFundo(P, A, n, iFundo, 0.15); } },
+      { id: 'fdic', nome: 'Fundo DI de curto prazo', desc: 'CDI menos ' + nf(adm * 100, 2) + '% de taxa · come-cotas de 20% em maio e novembro · IR no resgate', f: function () { return simFundo(P, A, n, iFundo, 0.20); } },
+      { id: 'lci', nome: 'LCI/LCA', desc: nf(plci * 100, 0) + '% do CDI · isenta de IR', f: function () { return simM(P, A, n, mensal(cdi * plci), false); } },
+      { id: 'tipca', nome: 'Tesouro IPCA+', desc: 'IPCA de ' + nf(ipca * 100, 2) + '% + ' + nf(real * 100, 2) + '% · IR regressivo · custódia da B3 de 0,20% ao ano', f: function () { var r = simM(P, A, n, iIpca, true); r.taxa = custodia(P, A, n, iIpca, 0); r.liquido -= r.taxa; return r; } }
     ].filter(function (p) { return $('p-' + p.id).checked; });
     if (!lista.length) { box.textContent = 'Marque pelo menos um produto para comparar.'; return; }
-    lista.forEach(function (p) { p.r = simM(P, A, n, p.i, p.t); });
+    lista.forEach(function (p) { p.r = p.f(); });
     lista.sort(function (a, b) { return b.r.liquido - a.r.liquido; });
     var max = lista[0].r.liquido, inv = P + A * n;
     var cab = document.createElement('p'); cab.className = 'note'; cab.style.margin = '0';
-    cab.textContent = 'Total que você investiria: ' + brl(inv) + ' em ' + (Math.round(anos * 10) / 10) + (anos === 1 ? ' ano' : ' anos') + '. Resultado líquido, já descontado o IR quando houver.';
+    cab.textContent = 'Você investiria ' + brl(inv) + ' em ' + (Math.round(anos * 10) / 10) + (anos === 1 ? ' ano' : ' anos') + '. O valor grande de cada produto é o que sobraria depois de resgatar tudo no fim do prazo, já com imposto e taxas descontados.';
     box.appendChild(cab);
+    if (anos > 10) {
+      var av = document.createElement('p'); av.className = 'note'; av.style.cssText = 'margin:0;font-weight:600;color:var(--ink)';
+      av.textContent = 'Atenção: em prazos longos, as taxas de hoje dificilmente se mantêm por tantos anos. Use o resultado só como ilustração.';
+      box.appendChild(av);
+    }
     lista.forEach(function (p, idx) {
       var row = document.createElement('div'); row.className = 'crow' + (idx === 0 ? ' top1' : '');
       var top = document.createElement('div'); top.className = 'top';
@@ -446,13 +485,16 @@ footer svg{flex:none}
       top.appendChild(nome); top.appendChild(val);
       var bar = document.createElement('div'); bar.className = 'bar'; var fill = document.createElement('i'); fill.style.width = Math.max(max ? p.r.liquido / max * 100 : 0, 2) + '%'; bar.appendChild(fill);
       var det = document.createElement('small');
-      det.textContent = p.desc + ' · rendimento líquido ' + brl(Math.max(p.r.liquido - inv, 0)) + (p.t ? ' · IR ' + brl(p.r.ir) : '');
+      var partes = [p.desc, 'ganho líquido de ' + brl(Math.max(p.r.liquido - inv, 0))];
+      if (p.r.ir > 0) partes.push('IR já descontado: ' + brl(p.r.ir));
+      if (p.r.taxa > 0) partes.push('taxa da B3 já descontada: ' + brl(p.r.taxa));
+      det.textContent = partes.join(' · ');
       row.appendChild(top); row.appendChild(bar); row.appendChild(det); box.appendChild(row);
     });
-    $('c-nota').textContent = 'Simulação ilustrativa, com taxas constantes durante todo o prazo (hoje: Selic ' + nf(SELIC, 2) + '% ao ano). Não é previsão nem recomendação de investimento. Considera o IR regressivo (de 22,5% a 15%) e não considera IOF, come-cotas, taxa de custódia, marcação a mercado nem o FGC. Cada produto tem risco, liquidez e prazo diferentes; converse com seu assessor antes de decidir.';
+    $('c-nota').textContent = 'Simulação ilustrativa, com taxas constantes durante todo o prazo (hoje: Selic ' + nf(SELIC, 2) + '% ao ano). Não é previsão nem recomendação de investimento. Considera o IR regressivo (de 22,5% a 15%) e a taxa de custódia da B3 no Tesouro (a isenção de R$ 10 mil no Tesouro Selic vale por CPF, somando todas as corretoras, e aqui foi aplicada só a esta simulação). Nos fundos, a taxa de administração varia de fundo para fundo: a simulação usa ' + nf(adm * 100, 2) + '% ao ano como exemplo, e uma taxa diferente muda o rendimento. Confira também no regulamento se o fundo é de curto ou longo prazo. Não considera IOF, marcação a mercado, nem o FGC. Cada produto tem risco, liquidez e prazo diferentes; converse com seu assessor antes de decidir.';
   }
   ['c-aporte', 'c-inicial', 'c-anos', 'c-cdi', 'c-ipca', 'c-cdb', 'c-lci', 'c-adm', 'c-real'].forEach(function (id) { $(id).addEventListener('input', comparar); });
-  ['poup', 'tsel', 'cdb', 'fdi', 'lci', 'tipca'].forEach(function (k) { $('p-' + k).addEventListener('change', comparar); });
+  ['poup', 'tsel', 'cdb', 'fdil', 'fdic', 'lci', 'tipca'].forEach(function (k) { $('p-' + k).addEventListener('change', comparar); });
 
   /* simulador */
   function num(v, d) { var n = parseFloat(String(v).replace(',', '.')); return isFinite(n) && n >= 0 ? n : d; }
