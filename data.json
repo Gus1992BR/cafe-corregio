@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-10-30T18:29-03:00",
-  "humor": "agitado",
+  "atualizadoEm": "2026-11-02T08:49-03:00",
+  "humor": "calmo",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4382,
-      "variacao": 1.73
+      "valor": 5.3817,
+      "variacao": -0.06
     },
     "ibov": {
       "valor": 167922,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "26 ações caem mais de 20% e só 11 sobem: os destaques do outubro de baixa do Ibovespa",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/26-acoes-caem-mais-de-20-e-so-11-sobem-os-destaques-ibovespa-outubro-2026/",
-      "hora": "2026-10-30T18:26:30-03:00"
-    },
-    {
-      "titulo": "Prompts para economizar na Black Friday; veja como usar a IA a seu favor",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/ia-na-black-friday/",
-      "hora": "2026-10-30T18:19:21-03:00"
-    },
-    {
-      "titulo": "Wall St fecha com forte queda, com onda de vendas no setor de tecnologia",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/nasdaq-cai-forte-com-amazon-e-intel-agravando-preocupacoes-sobre-gastos-em-ia/",
-      "hora": "2026-10-30T18:15:56-03:00"
-    },
-    {
-      "titulo": "Corinthians x Mirassol: Onde assistir?",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/esportes/corinthians-mirassol-onde-assistir/",
-      "hora": "2026-10-30T18:00:00-03:00"
-    },
-    {
-      "titulo": "Aneel mantém bandeira tarifária verde em novembro",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/aneel-mantem-bandeira-tarifaria-verde-em-novembro",
-      "hora": "2026-10-30T17:50:00-03:00"
-    },
-    {
-      "titulo": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas empresas",
+      "titulo": "Empresas devem oferecer atendimento humano para o consumidor a partir desta segunda-feira",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/10/30/raizen-aprova-plano-para-evitar-falencia-e-preve-injecao-de-ate-r-398-bilhoes.ghtml",
-      "hora": "2026-10-30T17:49:18-03:00"
+      "url": "https://g1.globo.com/politica/noticia/2026/11/02/empresas-devem-oferecer-atendimento-humano-para-o-consumidor-a-partir-desta-segunda-feira.ghtml",
+      "hora": "2026-11-02T07:22:23-03:00"
+    },
+    {
+      "titulo": "Investidores retiram US$ 3,6 bilhões da Binance após ataque hacker",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/investidores-retiram-us-36-bilhoes-da-binance-apos-ataque-hacker.ghtml",
+      "hora": "2026-11-02T06:41:52-03:00"
+    },
+    {
+      "titulo": "“Só arrume um trabalho”: Mark Cuban aconselha jovens a esquecer o “emprego perfeito”",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/business/global/so-arrume-um-trabalho-mark-cuban-aconselha-jovens-a-esquecer-o-emprego-perfeito/",
+      "hora": "2026-11-02T05:00:00-03:00"
+    },
+    {
+      "titulo": "O país improvável que virou um polo da corrida global da IA",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/business/global/o-pais-improvavel-que-virou-um-polo-da-corrida-global-da-ia/",
+      "hora": "2026-11-02T05:00:00-03:00"
+    },
+    {
+      "titulo": "Protestos violentos na França fazem outra vítima: o centro político",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/business/global/protestos-violentos-na-franca-fazem-outra-vitima-o-centro-politico/",
+      "hora": "2026-11-02T05:00:00-03:00"
+    },
+    {
+      "titulo": "Petrobras, Santander e Localiza pagam dividendos em novembro; veja a agenda",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/onde-investir/petrobras-santander-e-localiza-pagam-dividendos-em-novembro-veja-a-agenda/",
+      "hora": "2026-11-02T05:00:00-03:00"
     }
   ]
 }
