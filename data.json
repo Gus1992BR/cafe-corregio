@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-02T08:49-03:00",
+  "atualizadoEm": "2026-11-02T12:46-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.3817,
-      "variacao": -0.06
+      "valor": 5.4369,
+      "variacao": 0.97
     },
     "ibov": {
       "valor": 167922,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Empresas devem oferecer atendimento humano para o consumidor a partir desta segunda-feira",
+      "titulo": "Efeito de mirar no centro da meta fiscal alivia dívida bruta em 2,6 p.p. até 2036",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/economia/efeito-de-mirar-no-centro-da-meta-fiscal-alivia-divida-bruta-em-26-p-p-ate-2036/",
+      "hora": "2026-11-02T12:44:35-03:00"
+    },
+    {
+      "titulo": "Prejuízo trimestral da Anthropic diminui e receita dispara antes de IPO",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/business/prejuizo-trimestral-da-anthropic-diminui-e-receita-dispara-antes-de-ipo/",
+      "hora": "2026-11-02T12:29:21-03:00"
+    },
+    {
+      "titulo": "SAC: Atendimento humano vai ser obrigatório a partir desta segunda-feira",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/consumo/sac-atendimento-humano-vai-ser-obrigatorio-a-partir-desta-segunda-feira/",
+      "hora": "2026-11-02T12:26:53-03:00"
+    },
+    {
+      "titulo": "Embraer recebe pedido de até seis KC-390 da Grécia",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/business/embraer-recebe-pedido-de-ate-seis-kc-390-da-grecia/",
+      "hora": "2026-11-02T12:25:49-03:00"
+    },
+    {
+      "titulo": "Mercado Bitcoin sofre ataque e suspende saques dias após roubo bilionário na Binance",
       "fonte": "g1",
-      "url": "https://g1.globo.com/politica/noticia/2026/11/02/empresas-devem-oferecer-atendimento-humano-para-o-consumidor-a-partir-desta-segunda-feira.ghtml",
-      "hora": "2026-11-02T07:22:23-03:00"
+      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/mercado-bitcoin-incidente-seguranca.ghtml",
+      "hora": "2026-11-02T12:07:21-03:00"
     },
     {
-      "titulo": "Investidores retiram US$ 3,6 bilhões da Binance após ataque hacker",
+      "titulo": "Saiba como é o KC-390, maior avião produzido na América Latina e que será comprado pela Grécia",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/investidores-retiram-us-36-bilhoes-da-binance-apos-ataque-hacker.ghtml",
-      "hora": "2026-11-02T06:41:52-03:00"
-    },
-    {
-      "titulo": "“Só arrume um trabalho”: Mark Cuban aconselha jovens a esquecer o “emprego perfeito”",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/so-arrume-um-trabalho-mark-cuban-aconselha-jovens-a-esquecer-o-emprego-perfeito/",
-      "hora": "2026-11-02T05:00:00-03:00"
-    },
-    {
-      "titulo": "O país improvável que virou um polo da corrida global da IA",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/o-pais-improvavel-que-virou-um-polo-da-corrida-global-da-ia/",
-      "hora": "2026-11-02T05:00:00-03:00"
-    },
-    {
-      "titulo": "Protestos violentos na França fazem outra vítima: o centro político",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/protestos-violentos-na-franca-fazem-outra-vitima-o-centro-politico/",
-      "hora": "2026-11-02T05:00:00-03:00"
-    },
-    {
-      "titulo": "Petrobras, Santander e Localiza pagam dividendos em novembro; veja a agenda",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/onde-investir/petrobras-santander-e-localiza-pagam-dividendos-em-novembro-veja-a-agenda/",
-      "hora": "2026-11-02T05:00:00-03:00"
+      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/02/saiba-como-e-o-kc-390-maior-aviao-produzido-na-america-latina-e-que-sera-comprado-pela-grecia.ghtml",
+      "hora": "2026-11-02T11:03:41-03:00"
     }
   ]
 }
