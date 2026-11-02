@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-02T12:46-03:00",
+  "atualizadoEm": "2026-11-02T18:36-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4369,
-      "variacao": 0.97
+      "valor": 5.4366,
+      "variacao": 0.96
     },
     "ibov": {
       "valor": 167922,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Efeito de mirar no centro da meta fiscal alivia dívida bruta em 2,6 p.p. até 2036",
+      "titulo": "Bolsas de NY fecham mistas com queda do petróleo, em semana de payroll e midterms",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/efeito-de-mirar-no-centro-da-meta-fiscal-alivia-divida-bruta-em-26-p-p-ate-2036/",
-      "hora": "2026-11-02T12:44:35-03:00"
+      "url": "https://www.infomoney.com.br/mercados/bolsas-de-ny-abrem-em-alta-com-queda-do-petroleo-em-semana-de-agenda-cheia/",
+      "hora": "2026-11-02T18:22:33-03:00"
     },
     {
-      "titulo": "Prejuízo trimestral da Anthropic diminui e receita dispara antes de IPO",
+      "titulo": "Aprovação de Trump fica perto da mínima histórica, mostra pesquisa da Reuters/Ipsos",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/prejuizo-trimestral-da-anthropic-diminui-e-receita-dispara-antes-de-ipo/",
-      "hora": "2026-11-02T12:29:21-03:00"
+      "url": "https://www.infomoney.com.br/mundo/aprovacao-de-trump-fica-perto-da-minima-historica-mostra-pesquisa-da-reuters-ipsos/",
+      "hora": "2026-11-02T17:57:35-03:00"
     },
     {
-      "titulo": "SAC: Atendimento humano vai ser obrigatório a partir desta segunda-feira",
+      "titulo": "Brasileirão 2026: Onde assistir RB-Bragantino x Santos?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/sac-atendimento-humano-vai-ser-obrigatorio-a-partir-desta-segunda-feira/",
-      "hora": "2026-11-02T12:26:53-03:00"
+      "url": "https://www.infomoney.com.br/esportes/brasileirao-onde-assistir-santos-rb-bragantino/",
+      "hora": "2026-11-02T17:50:00-03:00"
     },
     {
-      "titulo": "Embraer recebe pedido de até seis KC-390 da Grécia",
+      "titulo": "Índice de ADRs brasileiros recua em dia de queda de petróleo e bolsas mistas em NY",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/embraer-recebe-pedido-de-ate-seis-kc-390-da-grecia/",
-      "hora": "2026-11-02T12:25:49-03:00"
+      "url": "https://www.infomoney.com.br/mercados/indice-de-adrs-brasileiros-sobe-em-dia-de-queda-de-petroleo-e-altas-em-ny/",
+      "hora": "2026-11-02T17:31:20-03:00"
     },
     {
-      "titulo": "Mercado Bitcoin sofre ataque e suspende saques dias após roubo bilionário na Binance",
+      "titulo": "Economista de Plano Real acusa BC de causar rombo fiscal via juros",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-juros",
+      "hora": "2026-11-02T14:09:00-03:00"
+    },
+    {
+      "titulo": "ICMS sobre os combustíveis: veja quanto será o aumento na gasolina, gás de cozinha e diesel a partir de 1° de fevereiro de 2027 em SP",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/mercado-bitcoin-incidente-seguranca.ghtml",
-      "hora": "2026-11-02T12:07:21-03:00"
-    },
-    {
-      "titulo": "Saiba como é o KC-390, maior avião produzido na América Latina e que será comprado pela Grécia",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/02/saiba-como-e-o-kc-390-maior-aviao-produzido-na-america-latina-e-que-sera-comprado-pela-grecia.ghtml",
-      "hora": "2026-11-02T11:03:41-03:00"
+      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/02/icms-sobre-os-combustiveis-veja-quanto-sera-o-aumento-na-gasolina-gas-de-cozinha-e-diesel-a-partir-de-1-de-fevereiro-de-2027-em-sp.ghtml",
+      "hora": "2026-11-02T14:06:19-03:00"
     }
   ]
 }
