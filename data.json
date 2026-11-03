@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-03T08:46-03:00",
-  "humor": "calmo",
+  "atualizadoEm": "2026-11-03T12:34-03:00",
+  "humor": "agitado",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.3837,
-      "variacao": -0.95
+      "valor": 5.497,
+      "variacao": 1.14
     },
     "ibov": {
-      "valor": 167922,
-      "variacao": -0.75
+      "valor": 165300,
+      "variacao": -1.56
     }
   },
   "manchetes": [
     {
-      "titulo": "Suprema Corte dos EUA rejeita pedido de Trump para anular cédulas da Califórnia",
+      "titulo": "Fiscal, Petrobras e especulações: o que faz Ibovespa cair até 2% na 1ª sessão do mês",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/suprema-corte-dos-eua-rejeita-pedido-de-trump-para-anular-cedulas-da-california/",
-      "hora": "2026-11-03T08:44:07-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-ate-2-fatores-perdas-temor-fiscal-especulacoes-plano-governo-fiscal/",
+      "hora": "2026-11-03T12:28:05-03:00"
     },
     {
-      "titulo": "Itaú, BB Seguridade, Braskem, Bradespar e mais ações para acompanhar nesta terça",
+      "titulo": "Startups: Livelo nomeia Carla Nesi como CEO",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/itau-bb-seguridade-braskem-bradespar-e-mais-acoes-para-acompanhar-nesta-terca/",
-      "hora": "2026-11-03T08:42:34-03:00"
+      "url": "https://www.infomoney.com.br/business/startups-livelo-nomeia-carla-nesi-como-ceo/",
+      "hora": "2026-11-03T12:27:10-03:00"
     },
     {
-      "titulo": "EUA votam hoje sob temor de contestação de Trump",
+      "titulo": "HIS e HMP: multas por irregularidades em apartamentos de SP chegam a R$ 78 milhões",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/eua-votam-hoje-sob-temor-de-contestacao-de-trump/",
-      "hora": "2026-11-03T08:38:45-03:00"
+      "url": "https://www.infomoney.com.br/brasil/his-e-hmp-multas-por-irregularidades-em-apartamentos-de-sp-chegam-a-r-78-milhoes/",
+      "hora": "2026-11-03T12:25:00-03:00"
     },
     {
-      "titulo": "Flávio Bolsonaro vai a culto evangélico em primeira aparição após fuga para os EUA",
+      "titulo": "Selic “tabelada” e ajuste fiscal pelos juros: a polêmica proposta de Lara Resende",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-vai-a-culto-evangelico-em-primeira-aparicao-apos-fuga-para-os-eua/",
-      "hora": "2026-11-03T08:38:19-03:00"
+      "url": "https://www.infomoney.com.br/economia/selic-tabelada-e-ajuste-fiscal-pelos-juros-a-polemica-proposta-de-lara-resende/",
+      "hora": "2026-11-03T12:08:06-03:00"
     },
     {
-      "titulo": "Após reeleição de Lula, mercado financeiro vê inflação mais alta e piora bastante previsão para taxa de juros e dólar",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/03/apos-reeleicao-de-lula-mercado-financeiro-ve-inflacao-mais-alta-e-piora-previsao-para-taxa-de-juros.ghtml",
-      "hora": "2026-11-03T08:31:14-03:00"
+      "titulo": "Site e aplicativo do Banco do Brasil apresentam instabilidade",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/site-e-aplicativo-do-banco-do-brasil-apresentam-instabilidade",
+      "hora": "2026-11-03T11:51:00-03:00"
     },
     {
-      "titulo": "O que se sabe sobre nova onda de ciberataques a supermercados europeus",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/03/o-que-se-sabe-sobre-nova-onda-de-ciberataques-a-supermercados-europeus.ghtml",
-      "hora": "2026-11-03T08:12:35-03:00"
+      "titulo": "Governo quer enviar MP do Imposto Seletivo ainda hoje ao Congresso",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-quer-enviar-mp-do-imposto-seletivo-ainda-hoje-ao-congresso",
+      "hora": "2026-11-03T11:42:00-03:00"
     }
   ]
 }
