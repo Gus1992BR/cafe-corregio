@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-03T12:34-03:00",
-  "humor": "agitado",
+  "atualizadoEm": "2026-11-03T18:37-03:00",
+  "humor": "calmo",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.497,
-      "variacao": 1.14
+      "valor": 5.4911,
+      "variacao": 1.03
     },
     "ibov": {
-      "valor": 165300,
-      "variacao": -1.56
+      "valor": 165529,
+      "variacao": -1.43
     }
   },
   "manchetes": [
     {
-      "titulo": "Fiscal, Petrobras e especulações: o que faz Ibovespa cair até 2% na 1ª sessão do mês",
+      "titulo": "Ibovespa cai 1,42%, na 6ª baixa seguida e na mínima desde janeiro: o que aconteceu?",
       "fonte": "InfoMoney",
       "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-ate-2-fatores-perdas-temor-fiscal-especulacoes-plano-governo-fiscal/",
-      "hora": "2026-11-03T12:28:05-03:00"
+      "hora": "2026-11-03T18:34:30-03:00"
     },
     {
-      "titulo": "Startups: Livelo nomeia Carla Nesi como CEO",
+      "titulo": "Ibovespa chega à 6ª baixa seguida, com novo temor sobre fiscal; dólar vai a R$ 5,48",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/startups-livelo-nomeia-carla-nesi-como-ceo/",
-      "hora": "2026-11-03T12:27:10-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
+      "hora": "2026-11-03T18:31:01-03:00"
     },
     {
-      "titulo": "HIS e HMP: multas por irregularidades em apartamentos de SP chegam a R$ 78 milhões",
+      "titulo": "Itaú (ITUB4) tem lucro líquido de R$ 12,6 bilhões no 3º tri, em linha com projeção",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/his-e-hmp-multas-por-irregularidades-em-apartamentos-de-sp-chegam-a-r-78-milhoes/",
-      "hora": "2026-11-03T12:25:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/itau-itub4-resultados-terceiro-trimestre-2026/",
+      "hora": "2026-11-03T18:29:35-03:00"
     },
     {
-      "titulo": "Selic “tabelada” e ajuste fiscal pelos juros: a polêmica proposta de Lara Resende",
+      "titulo": "Midterms nos EUA: como resultado pode impactar mercado no Brasil?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/selic-tabelada-e-ajuste-fiscal-pelos-juros-a-polemica-proposta-de-lara-resende/",
-      "hora": "2026-11-03T12:08:06-03:00"
+      "url": "https://www.infomoney.com.br/mercados/midterms-nos-eua-como-resultado-pode-impactar-mercado-no-brasil/",
+      "hora": "2026-11-03T18:13:39-03:00"
     },
     {
-      "titulo": "Site e aplicativo do Banco do Brasil apresentam instabilidade",
+      "titulo": "Tarifaço: Brasil deve receber proposta dos EUA entre esta semana e a próxima, diz ministro",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/politica/noticia/2026/11/03/tarifaco-brasil-deve-receber-proposta-dos-eua-entre-esta-semana-e-a-proxima-diz-ministro.ghtml",
+      "hora": "2026-11-03T16:33:24-03:00"
+    },
+    {
+      "titulo": "Mega da Virada: Caixa anuncia que prêmio deve superar R$ 1 bilhão",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/site-e-aplicativo-do-banco-do-brasil-apresentam-instabilidade",
-      "hora": "2026-11-03T11:51:00-03:00"
-    },
-    {
-      "titulo": "Governo quer enviar MP do Imposto Seletivo ainda hoje ao Congresso",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-quer-enviar-mp-do-imposto-seletivo-ainda-hoje-ao-congresso",
-      "hora": "2026-11-03T11:42:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-da-virada-caixa-anuncia-que-premio-deve-superar-r-1-bilhao",
+      "hora": "2026-11-03T15:58:00-03:00"
     }
   ]
 }
