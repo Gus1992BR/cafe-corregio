@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-02T18:36-03:00",
+  "atualizadoEm": "2026-11-03T08:46-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4366,
-      "variacao": 0.96
+      "valor": 5.3837,
+      "variacao": -0.95
     },
     "ibov": {
       "valor": 167922,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Bolsas de NY fecham mistas com queda do petróleo, em semana de payroll e midterms",
+      "titulo": "Suprema Corte dos EUA rejeita pedido de Trump para anular cédulas da Califórnia",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/bolsas-de-ny-abrem-em-alta-com-queda-do-petroleo-em-semana-de-agenda-cheia/",
-      "hora": "2026-11-02T18:22:33-03:00"
+      "url": "https://www.infomoney.com.br/mundo/suprema-corte-dos-eua-rejeita-pedido-de-trump-para-anular-cedulas-da-california/",
+      "hora": "2026-11-03T08:44:07-03:00"
     },
     {
-      "titulo": "Aprovação de Trump fica perto da mínima histórica, mostra pesquisa da Reuters/Ipsos",
+      "titulo": "Itaú, BB Seguridade, Braskem, Bradespar e mais ações para acompanhar nesta terça",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/aprovacao-de-trump-fica-perto-da-minima-historica-mostra-pesquisa-da-reuters-ipsos/",
-      "hora": "2026-11-02T17:57:35-03:00"
+      "url": "https://www.infomoney.com.br/mercados/itau-bb-seguridade-braskem-bradespar-e-mais-acoes-para-acompanhar-nesta-terca/",
+      "hora": "2026-11-03T08:42:34-03:00"
     },
     {
-      "titulo": "Brasileirão 2026: Onde assistir RB-Bragantino x Santos?",
+      "titulo": "EUA votam hoje sob temor de contestação de Trump",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/esportes/brasileirao-onde-assistir-santos-rb-bragantino/",
-      "hora": "2026-11-02T17:50:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/eua-votam-hoje-sob-temor-de-contestacao-de-trump/",
+      "hora": "2026-11-03T08:38:45-03:00"
     },
     {
-      "titulo": "Índice de ADRs brasileiros recua em dia de queda de petróleo e bolsas mistas em NY",
+      "titulo": "Flávio Bolsonaro vai a culto evangélico em primeira aparição após fuga para os EUA",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/indice-de-adrs-brasileiros-sobe-em-dia-de-queda-de-petroleo-e-altas-em-ny/",
-      "hora": "2026-11-02T17:31:20-03:00"
+      "url": "https://www.infomoney.com.br/politica/flavio-bolsonaro-vai-a-culto-evangelico-em-primeira-aparicao-apos-fuga-para-os-eua/",
+      "hora": "2026-11-03T08:38:19-03:00"
     },
     {
-      "titulo": "Economista de Plano Real acusa BC de causar rombo fiscal via juros",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/economista-de-plano-real-acusa-bc-de-causar-rombo-fiscal-juros",
-      "hora": "2026-11-02T14:09:00-03:00"
-    },
-    {
-      "titulo": "ICMS sobre os combustíveis: veja quanto será o aumento na gasolina, gás de cozinha e diesel a partir de 1° de fevereiro de 2027 em SP",
+      "titulo": "Após reeleição de Lula, mercado financeiro vê inflação mais alta e piora bastante previsão para taxa de juros e dólar",
       "fonte": "g1",
-      "url": "https://g1.globo.com/sp/sao-paulo/noticia/2026/11/02/icms-sobre-os-combustiveis-veja-quanto-sera-o-aumento-na-gasolina-gas-de-cozinha-e-diesel-a-partir-de-1-de-fevereiro-de-2027-em-sp.ghtml",
-      "hora": "2026-11-02T14:06:19-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/03/apos-reeleicao-de-lula-mercado-financeiro-ve-inflacao-mais-alta-e-piora-previsao-para-taxa-de-juros.ghtml",
+      "hora": "2026-11-03T08:31:14-03:00"
+    },
+    {
+      "titulo": "O que se sabe sobre nova onda de ciberataques a supermercados europeus",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/03/o-que-se-sabe-sobre-nova-onda-de-ciberataques-a-supermercados-europeus.ghtml",
+      "hora": "2026-11-03T08:12:35-03:00"
     }
   ]
 }
