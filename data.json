@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-03T18:37-03:00",
+  "atualizadoEm": "2026-11-04T08:53-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4911,
-      "variacao": 1.03
+      "valor": 5.4883,
+      "variacao": 0.96
     },
     "ibov": {
       "valor": 165529,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Ibovespa cai 1,42%, na 6ª baixa seguida e na mínima desde janeiro: o que aconteceu?",
+      "titulo": "Como hackers usaram falsa entrevista de emprego e IA para roubar US$6,3 bi da Binance",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-ate-2-fatores-perdas-temor-fiscal-especulacoes-plano-governo-fiscal/",
-      "hora": "2026-11-03T18:34:30-03:00"
+      "url": "https://www.infomoney.com.br/business/como-hackers-usaram-falsa-entrevista-de-emprego-e-ia-para-roubar-us63-bi-da-binance/",
+      "hora": "2026-11-04T08:53:15-03:00"
     },
     {
-      "titulo": "Ibovespa chega à 6ª baixa seguida, com novo temor sobre fiscal; dólar vai a R$ 5,48",
+      "titulo": "“O povo americano repudiou Trump”, diz editorial do New York Times",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-03112026/",
-      "hora": "2026-11-03T18:31:01-03:00"
+      "url": "https://www.infomoney.com.br/business/global/o-povo-americano-repudiou-trump-diz-editorial-do-new-york-times/",
+      "hora": "2026-11-04T08:53:10-03:00"
     },
     {
-      "titulo": "Itaú (ITUB4) tem lucro líquido de R$ 12,6 bilhões no 3º tri, em linha com projeção",
+      "titulo": "Coreia do Norte nega acusação da Binance e se recusa a dialogar com Washington",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/itau-itub4-resultados-terceiro-trimestre-2026/",
-      "hora": "2026-11-03T18:29:35-03:00"
+      "url": "https://www.infomoney.com.br/mundo/coreia-do-norte-nega-acusacao-da-binance-e-se-recusa-a-dialogar-com-washington/",
+      "hora": "2026-11-04T08:46:20-03:00"
     },
     {
-      "titulo": "Midterms nos EUA: como resultado pode impactar mercado no Brasil?",
+      "titulo": "Itaú (ITUB4) entrega mais um tri sólido e reforça “favoritismo” do mercado com ações",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/midterms-nos-eua-como-resultado-pode-impactar-mercado-no-brasil/",
-      "hora": "2026-11-03T18:13:39-03:00"
+      "url": "https://www.infomoney.com.br/mercados/itau-itub4-entrega-mais-um-trimestre-solido-e-reforca-favoritismo-do-mercado-desempenho-acoes/",
+      "hora": "2026-11-04T08:41:55-03:00"
     },
     {
-      "titulo": "Tarifaço: Brasil deve receber proposta dos EUA entre esta semana e a próxima, diz ministro",
+      "titulo": "Canva anuncia demissão de 1,2 mil funcionários e corta 22% da equipe",
       "fonte": "g1",
-      "url": "https://g1.globo.com/politica/noticia/2026/11/03/tarifaco-brasil-deve-receber-proposta-dos-eua-entre-esta-semana-e-a-proxima-diz-ministro.ghtml",
-      "hora": "2026-11-03T16:33:24-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/04/canva-anuncia-demissao-de-12-mil-funcionarios-em-reestruturacao.ghtml",
+      "hora": "2026-11-04T08:20:20-03:00"
     },
     {
-      "titulo": "Mega da Virada: Caixa anuncia que prêmio deve superar R$ 1 bilhão",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mega-da-virada-caixa-anuncia-que-premio-deve-superar-r-1-bilhao",
-      "hora": "2026-11-03T15:58:00-03:00"
+      "titulo": "Midterms nos EUA: vitória democrata ameaça planos de Trump e pode afetar dólar e juros no Brasil",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/04/midterms-nos-eua-vitoria-democrata-ameaca-planos-de-trump-e-pode-afetar-dolar-e-juros-no-brasil.ghtml",
+      "hora": "2026-11-04T08:02:43-03:00"
     }
   ]
 }
