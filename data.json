@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-04T08:53-03:00",
+  "atualizadoEm": "2026-11-04T12:43-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4883,
-      "variacao": 0.96
+      "valor": 5.4829,
+      "variacao": 0.86
     },
     "ibov": {
-      "valor": 165529,
-      "variacao": -1.43
+      "valor": 167188,
+      "variacao": 1.0
     }
   },
   "manchetes": [
     {
-      "titulo": "Como hackers usaram falsa entrevista de emprego e IA para roubar US$6,3 bi da Binance",
+      "titulo": "RD Saúde vê potencial de maior penetração no segmento GLP-1 em 2027, diz CEO",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/como-hackers-usaram-falsa-entrevista-de-emprego-e-ia-para-roubar-us63-bi-da-binance/",
-      "hora": "2026-11-04T08:53:15-03:00"
+      "url": "https://www.infomoney.com.br/mercados/rd-saude-ve-potencial-de-maior-penetracao-no-segmento-glp-1-em-2027-diz-ceo/",
+      "hora": "2026-11-04T12:43:32-03:00"
     },
     {
-      "titulo": "“O povo americano repudiou Trump”, diz editorial do New York Times",
+      "titulo": "Wall Street sobe após vitória de democratas no Congresso; ações de data centers caem",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/o-povo-americano-repudiou-trump-diz-editorial-do-new-york-times/",
-      "hora": "2026-11-04T08:53:10-03:00"
+      "url": "https://www.infomoney.com.br/mercados/wall-street-sobe-apos-vitoria-de-democratas-no-congresso-acoes-de-data-centers-caem/",
+      "hora": "2026-11-04T12:41:33-03:00"
     },
     {
-      "titulo": "Coreia do Norte nega acusação da Binance e se recusa a dialogar com Washington",
+      "titulo": "Gerdau encerra produção de aço em sua unidade de Divinópolis, em MG",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/coreia-do-norte-nega-acusacao-da-binance-e-se-recusa-a-dialogar-com-washington/",
-      "hora": "2026-11-04T08:46:20-03:00"
+      "url": "https://www.infomoney.com.br/mercados/gerdau-encerra-producao-de-aco-em-sua-unidade-de-divinopolis-em-mg/",
+      "hora": "2026-11-04T12:40:44-03:00"
     },
     {
-      "titulo": "Itaú (ITUB4) entrega mais um tri sólido e reforça “favoritismo” do mercado com ações",
+      "titulo": "PMI de serviços dos EUA cai a 56,1 em outubro, mostra S&P; PMI composto recua a 55,9",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/itau-itub4-entrega-mais-um-trimestre-solido-e-reforca-favoritismo-do-mercado-desempenho-acoes/",
-      "hora": "2026-11-04T08:41:55-03:00"
+      "url": "https://www.infomoney.com.br/economia/pmi-de-servicos-dos-eua-cai-a-561-em-outubro-mostra-s-pmi-composto-recua-a-559/",
+      "hora": "2026-11-04T12:39:30-03:00"
     },
     {
-      "titulo": "Canva anuncia demissão de 1,2 mil funcionários e corta 22% da equipe",
+      "titulo": "Vitória dos democratas nos EUA aumenta incerteza sobre guerra, juros e dívida americana",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/04/canva-anuncia-demissao-de-12-mil-funcionarios-em-reestruturacao.ghtml",
-      "hora": "2026-11-04T08:20:20-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/04/vitoria-democrata-nos-eua-ameaca-planos-de-trump-para-economia-e-ia-entenda.ghtml",
+      "hora": "2026-11-04T11:00:54-03:00"
     },
     {
-      "titulo": "Midterms nos EUA: vitória democrata ameaça planos de Trump e pode afetar dólar e juros no Brasil",
+      "titulo": "Carro voador da Embraer: Eve fecha acordo para vender até 12 aeronaves para empresa que vai operar no Sul do Brasil",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/04/midterms-nos-eua-vitoria-democrata-ameaca-planos-de-trump-e-pode-afetar-dolar-e-juros-no-brasil.ghtml",
-      "hora": "2026-11-04T08:02:43-03:00"
+      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/04/carro-voador-da-embraer-eve-fecha-acordo-para-vender-ate-12-aeronaves-para-empresa-que-vai-operar-no-sul-do-brasil.ghtml",
+      "hora": "2026-11-04T10:04:00-03:00"
     }
   ]
 }
