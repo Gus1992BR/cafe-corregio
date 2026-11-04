@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-04T12:43-03:00",
+  "atualizadoEm": "2026-11-04T18:44-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4829,
-      "variacao": 0.86
+      "valor": 5.4588,
+      "variacao": 0.41
     },
     "ibov": {
-      "valor": 167188,
-      "variacao": 1.0
+      "valor": 167563,
+      "variacao": 1.23
     }
   },
   "manchetes": [
     {
-      "titulo": "RD Saúde vê potencial de maior penetração no segmento GLP-1 em 2027, diz CEO",
+      "titulo": "Selic mantida em 13,75%: o que fazer (e o que evitar) com seus investimentos agora",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/rd-saude-ve-potencial-de-maior-penetracao-no-segmento-glp-1-em-2027-diz-ceo/",
-      "hora": "2026-11-04T12:43:32-03:00"
+      "url": "https://www.infomoney.com.br/onde-investir/selic-mantida-em-1375-o-que-fazer-e-o-que-evitar-com-seus-investimentos-agora/",
+      "hora": "2026-11-04T18:34:32-03:00"
     },
     {
-      "titulo": "Wall Street sobe após vitória de democratas no Congresso; ações de data centers caem",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/wall-street-sobe-apos-vitoria-de-democratas-no-congresso-acoes-de-data-centers-caem/",
-      "hora": "2026-11-04T12:41:33-03:00"
+      "titulo": "Banco Central surpreende e mantém juros básicos em 13,75% ao ano",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano",
+      "hora": "2026-11-04T18:33:00-03:00"
     },
     {
-      "titulo": "Gerdau encerra produção de aço em sua unidade de Divinópolis, em MG",
+      "titulo": "BC mantém Selic em 13,75% ao ano e destaca “aumento significativo das incertezas”",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/gerdau-encerra-producao-de-aco-em-sua-unidade-de-divinopolis-em-mg/",
-      "hora": "2026-11-04T12:40:44-03:00"
+      "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
+      "hora": "2026-11-04T18:31:46-03:00"
     },
     {
-      "titulo": "PMI de serviços dos EUA cai a 56,1 em outubro, mostra S&P; PMI composto recua a 55,9",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/pmi-de-servicos-dos-eua-cai-a-561-em-outubro-mostra-s-pmi-composto-recua-a-559/",
-      "hora": "2026-11-04T12:39:30-03:00"
-    },
-    {
-      "titulo": "Vitória dos democratas nos EUA aumenta incerteza sobre guerra, juros e dívida americana",
+      "titulo": "Brasil amplia distância e segue com o maior juro real do mundo após Copom manter Selic; veja ranking",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/04/vitoria-democrata-nos-eua-ameaca-planos-de-trump-para-economia-e-ia-entenda.ghtml",
-      "hora": "2026-11-04T11:00:54-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/04/ranking-juro-real-novembro.ghtml",
+      "hora": "2026-11-04T18:31:45-03:00"
     },
     {
-      "titulo": "Carro voador da Embraer: Eve fecha acordo para vender até 12 aeronaves para empresa que vai operar no Sul do Brasil",
+      "titulo": "Copom mantém taxa básica de juros da economia em 13,75% ao ano",
       "fonte": "g1",
-      "url": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/04/carro-voador-da-embraer-eve-fecha-acordo-para-vender-ate-12-aeronaves-para-empresa-que-vai-operar-no-sul-do-brasil.ghtml",
-      "hora": "2026-11-04T10:04:00-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/04/copom-mantem-taxa-basica-de-juros-da-economia-em-1375percent-ao-ano.ghtml",
+      "hora": "2026-11-04T18:31:43-03:00"
+    },
+    {
+      "titulo": "Taxas do Tesouro Direto despencam até 38 pontos-base em dia de pausa na Selic",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-04112026/",
+      "hora": "2026-11-04T18:30:34-03:00"
     }
   ]
 }
