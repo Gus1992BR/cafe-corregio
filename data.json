@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-05T08:52-03:00",
+  "atualizadoEm": "2026-11-05T12:45-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4551,
-      "variacao": -0.58
+      "valor": 5.4832,
+      "variacao": -0.07
     },
     "ibov": {
-      "valor": 167564,
-      "variacao": 1.23
+      "valor": 167037,
+      "variacao": -0.31
     }
   },
   "manchetes": [
     {
-      "titulo": "Hackers desviam mais de 100 milhões de euros de banco francês em ataque cibernético",
+      "titulo": "Governo Lula estuda corte permanente no teto de gastos para conter dívida, diz jornal",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/hackers-desviam-mais-de-100-milhoes-de-euros-de-banco-frances-em-ataque-cibernetico/",
-      "hora": "2026-11-05T08:33:28-03:00"
+      "url": "https://www.infomoney.com.br/politica/governo-lula-estuda-corte-permanente-no-teto-de-gastos-para-conter-divida-diz-jornal/",
+      "hora": "2026-11-05T12:32:56-03:00"
     },
     {
-      "titulo": "Relator da PEC da Maioridade Penal vai apresentar parecer até final do mês",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/relator-da-pec-da-maioridade-penal-vai-apresentar-parecer-ate-final-do-mes/",
-      "hora": "2026-11-05T08:31:00-03:00"
+      "titulo": "Durigan diz que é preciso dar condições para a queda dos juros",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-diz-que-e-preciso-dar-condicoes-para-queda-dos-juros",
+      "hora": "2026-11-05T12:30:00-03:00"
     },
     {
-      "titulo": "Axia, PRIO, Vibra, Azzas, Oncoclínicas e mais ações para acompanhar hoje",
+      "titulo": "Ibovespa opera volátil, em meio à queda em NY e cautela fiscal, apesar de commodities",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/axia-prio-vibra-azzas-oncoclinicas-e-mais-acoes-para-acompanhar-hoje/",
-      "hora": "2026-11-05T08:29:06-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-opera-volatil-em-meio-a-queda-em-ny-e-cautela-fiscal-apesar-de-commodities/",
+      "hora": "2026-11-05T12:24:16-03:00"
     },
     {
-      "titulo": "Imposto do pecado começa em fevereiro; cerveja será taxada em 4,2% e vinhos em 8%",
+      "titulo": "Durigan vê juros muito altos, mas evita criticar decisão do Copom",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/politica/durigan-ve-juros-muito-altos-mas-evita-criticar-decisao-do-copom/",
+      "hora": "2026-11-05T12:22:29-03:00"
+    },
+    {
+      "titulo": "Bolsonaro pede visitas de Marinho e Tereza Cristina em meio à disputa pelo Senado",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/politica/bolsonaro-pede-visitas-de-marinho-e-tereza-cristina-em-meio-a-disputa-pelo-senado/",
+      "hora": "2026-11-05T12:18:23-03:00"
+    },
+    {
+      "titulo": "Banco digital que quebrou no Paraguai administrava mais de US$ 800 milhões em dinheiro público",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/05/imposto-do-pecado-comeca-em-fevereiro-cerveja-sera-taxada-em-42percent.ghtml",
-      "hora": "2026-11-05T08:28:39-03:00"
-    },
-    {
-      "titulo": "Lavvi, Méliuz, Pague Menos, Mills e Iochpe-Maxion divulgam resultados no 3T26",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/lavvi-meliuz-pague-menos-mills-e-iochpe-maxion-divulgam-resultados-no-3t26/",
-      "hora": "2026-11-05T08:26:28-03:00"
-    },
-    {
-      "titulo": "Crise bancária leva oposição a pedir impeachment do presidente do Paraguai",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/05/crise-bancaria-leva-oposicao-a-pedir-impeachment-do-presidente-do-paraguai.ghtml",
-      "hora": "2026-11-05T07:43:57-03:00"
+      "url": "https://g1.globo.com/bom-dia-brasil/noticia/2026/11/05/banco-digital-que-quebrou-no-paraguai-administrava-mais-de-us-800-milhoes-em-dinheiro-publico.ghtml",
+      "hora": "2026-11-05T12:14:50-03:00"
     }
   ]
 }
