@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-04T18:44-03:00",
+  "atualizadoEm": "2026-11-05T08:52-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4588,
-      "variacao": 0.41
+      "valor": 5.4551,
+      "variacao": -0.58
     },
     "ibov": {
-      "valor": 167563,
+      "valor": 167564,
       "variacao": 1.23
     }
   },
   "manchetes": [
     {
-      "titulo": "Selic mantida em 13,75%: o que fazer (e o que evitar) com seus investimentos agora",
+      "titulo": "Hackers desviam mais de 100 milhões de euros de banco francês em ataque cibernético",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/onde-investir/selic-mantida-em-1375-o-que-fazer-e-o-que-evitar-com-seus-investimentos-agora/",
-      "hora": "2026-11-04T18:34:32-03:00"
+      "url": "https://www.infomoney.com.br/mundo/hackers-desviam-mais-de-100-milhoes-de-euros-de-banco-frances-em-ataque-cibernetico/",
+      "hora": "2026-11-05T08:33:28-03:00"
     },
     {
-      "titulo": "Banco Central surpreende e mantém juros básicos em 13,75% ao ano",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-surpreende-e-mantem-juros-basicos-em-1375-ao-ano",
-      "hora": "2026-11-04T18:33:00-03:00"
-    },
-    {
-      "titulo": "BC mantém Selic em 13,75% ao ano e destaca “aumento significativo das incertezas”",
+      "titulo": "Relator da PEC da Maioridade Penal vai apresentar parecer até final do mês",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/banco-central-copom-decisao-selic-04112026/",
-      "hora": "2026-11-04T18:31:46-03:00"
+      "url": "https://www.infomoney.com.br/politica/relator-da-pec-da-maioridade-penal-vai-apresentar-parecer-ate-final-do-mes/",
+      "hora": "2026-11-05T08:31:00-03:00"
     },
     {
-      "titulo": "Brasil amplia distância e segue com o maior juro real do mundo após Copom manter Selic; veja ranking",
+      "titulo": "Axia, PRIO, Vibra, Azzas, Oncoclínicas e mais ações para acompanhar hoje",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/axia-prio-vibra-azzas-oncoclinicas-e-mais-acoes-para-acompanhar-hoje/",
+      "hora": "2026-11-05T08:29:06-03:00"
+    },
+    {
+      "titulo": "Imposto do pecado começa em fevereiro; cerveja será taxada em 4,2% e vinhos em 8%",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/04/ranking-juro-real-novembro.ghtml",
-      "hora": "2026-11-04T18:31:45-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/05/imposto-do-pecado-comeca-em-fevereiro-cerveja-sera-taxada-em-42percent.ghtml",
+      "hora": "2026-11-05T08:28:39-03:00"
     },
     {
-      "titulo": "Copom mantém taxa básica de juros da economia em 13,75% ao ano",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/04/copom-mantem-taxa-basica-de-juros-da-economia-em-1375percent-ao-ano.ghtml",
-      "hora": "2026-11-04T18:31:43-03:00"
-    },
-    {
-      "titulo": "Taxas do Tesouro Direto despencam até 38 pontos-base em dia de pausa na Selic",
+      "titulo": "Lavvi, Méliuz, Pague Menos, Mills e Iochpe-Maxion divulgam resultados no 3T26",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-04112026/",
-      "hora": "2026-11-04T18:30:34-03:00"
+      "url": "https://www.infomoney.com.br/mercados/lavvi-meliuz-pague-menos-mills-e-iochpe-maxion-divulgam-resultados-no-3t26/",
+      "hora": "2026-11-05T08:26:28-03:00"
+    },
+    {
+      "titulo": "Crise bancária leva oposição a pedir impeachment do presidente do Paraguai",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/05/crise-bancaria-leva-oposicao-a-pedir-impeachment-do-presidente-do-paraguai.ghtml",
+      "hora": "2026-11-05T07:43:57-03:00"
     }
   ]
 }
