@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-05T12:45-03:00",
+  "atualizadoEm": "2026-11-05T18:40-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4832,
-      "variacao": -0.07
+      "valor": 5.5044,
+      "variacao": 0.32
     },
     "ibov": {
-      "valor": 167037,
-      "variacao": -0.31
+      "valor": 166191,
+      "variacao": -0.82
     }
   },
   "manchetes": [
     {
-      "titulo": "Governo Lula estuda corte permanente no teto de gastos para conter dívida, diz jornal",
+      "titulo": "Nasdaq tem maior queda diária em 19 meses com temor sobre regulamentações de IA",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/governo-lula-estuda-corte-permanente-no-teto-de-gastos-para-conter-divida-diz-jornal/",
-      "hora": "2026-11-05T12:32:56-03:00"
+      "url": "https://www.infomoney.com.br/mercados/nasdaq-cai-com-queda-de-acoes-de-chips-e-data-centers/",
+      "hora": "2026-11-05T18:34:03-03:00"
     },
     {
-      "titulo": "Durigan diz que é preciso dar condições para a queda dos juros",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-diz-que-e-preciso-dar-condicoes-para-queda-dos-juros",
-      "hora": "2026-11-05T12:30:00-03:00"
-    },
-    {
-      "titulo": "Ibovespa opera volátil, em meio à queda em NY e cautela fiscal, apesar de commodities",
+      "titulo": "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-opera-volatil-em-meio-a-queda-em-ny-e-cautela-fiscal-apesar-de-commodities/",
-      "hora": "2026-11-05T12:24:16-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05112026/",
+      "hora": "2026-11-05T18:28:10-03:00"
     },
     {
-      "titulo": "Durigan vê juros muito altos, mas evita criticar decisão do Copom",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/durigan-ve-juros-muito-altos-mas-evita-criticar-decisao-do-copom/",
-      "hora": "2026-11-05T12:22:29-03:00"
-    },
-    {
-      "titulo": "Bolsonaro pede visitas de Marinho e Tereza Cristina em meio à disputa pelo Senado",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/bolsonaro-pede-visitas-de-marinho-e-tereza-cristina-em-meio-a-disputa-pelo-senado/",
-      "hora": "2026-11-05T12:18:23-03:00"
-    },
-    {
-      "titulo": "Banco digital que quebrou no Paraguai administrava mais de US$ 800 milhões em dinheiro público",
+      "titulo": "Governo define lista de minerais críticos e estratégicos; veja quais são",
       "fonte": "g1",
-      "url": "https://g1.globo.com/bom-dia-brasil/noticia/2026/11/05/banco-digital-que-quebrou-no-paraguai-administrava-mais-de-us-800-milhoes-em-dinheiro-publico.ghtml",
-      "hora": "2026-11-05T12:14:50-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/05/governo-define-lista-de-minerais-criticos-e-estrategicos-veja-quais-sao.ghtml",
+      "hora": "2026-11-05T18:26:11-03:00"
+    },
+    {
+      "titulo": "Tenda (TEND3) desaba 17,7% após resultados fracos no 3T: veja o que desanimou mercado",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/tenda-tend3-desaba-177-apos-resultados-fracos-no-3t-veja-o-que-desanimou-mercado/",
+      "hora": "2026-11-05T18:18:48-03:00"
+    },
+    {
+      "titulo": "Porto (PSSA3): lucro sobe, mas resultados recorrentes recuam no 3º tri; ação cai 2,6%",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/porto-pssa3-lucro-sobe-mas-resultados-recorrentes-recuam-no-3o-tri-acao-cai-26/",
+      "hora": "2026-11-05T18:17:38-03:00"
+    },
+    {
+      "titulo": "Durigan discutirá medidas fiscais com Lula após viagem à COP31",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-discutira-medidas-fiscais-com-lula-apos-viagem-cop31",
+      "hora": "2026-11-05T17:40:00-03:00"
     }
   ]
 }
