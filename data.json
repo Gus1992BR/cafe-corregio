@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-05T18:40-03:00",
+  "atualizadoEm": "2026-11-06T08:48-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5044,
-      "variacao": 0.32
+      "valor": 5.487,
+      "variacao": 0.52
     },
     "ibov": {
-      "valor": 166191,
+      "valor": 166192,
       "variacao": -0.82
     }
   },
   "manchetes": [
     {
-      "titulo": "Nasdaq tem maior queda diária em 19 meses com temor sobre regulamentações de IA",
+      "titulo": "Lara Resende nega reunião com Lula e diz que notícia foi plantada para gerar desgaste",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/nasdaq-cai-com-queda-de-acoes-de-chips-e-data-centers/",
-      "hora": "2026-11-05T18:34:03-03:00"
+      "url": "https://www.infomoney.com.br/politica/lara-resende-nega-reuniao-com-lula-e-diz-que-noticia-foi-plantada-para-gerar-desgaste/",
+      "hora": "2026-11-06T08:46:04-03:00"
     },
     {
-      "titulo": "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48",
+      "titulo": "Minério de ferro registra segundo ganho semanal na China",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-05112026/",
-      "hora": "2026-11-05T18:28:10-03:00"
+      "url": "https://www.infomoney.com.br/mercados/minerio-de-ferro-registra-segundo-ganho-semanal-na-china/",
+      "hora": "2026-11-06T08:39:32-03:00"
     },
     {
-      "titulo": "Governo define lista de minerais críticos e estratégicos; veja quais são",
+      "titulo": "Importações de soja pela China em 2026/27 devem chegar a 110 mi t, diz adido do USDA",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/economia/importacoes-de-soja-pela-china-em-2026-27-devem-chegar-a-110-mi-t-diz-adido-do-usda/",
+      "hora": "2026-11-06T08:37:59-03:00"
+    },
+    {
+      "titulo": "Oposição consegue maioria para formar governo em Israel",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/oposicao-consegue-maioria-para-formar-governo-em-israel/",
+      "hora": "2026-11-06T08:37:02-03:00"
+    },
+    {
+      "titulo": "Tesla vai reduzir gradualmente produção do Cybertruck no Texas, diz Musk",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/05/governo-define-lista-de-minerais-criticos-e-estrategicos-veja-quais-sao.ghtml",
-      "hora": "2026-11-05T18:26:11-03:00"
+      "url": "https://g1.globo.com/carros/noticia/2026/11/06/tesla-cybertruck-musk.ghtml",
+      "hora": "2026-11-06T08:24:20-03:00"
     },
     {
-      "titulo": "Tenda (TEND3) desaba 17,7% após resultados fracos no 3T: veja o que desanimou mercado",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/tenda-tend3-desaba-177-apos-resultados-fracos-no-3t-veja-o-que-desanimou-mercado/",
-      "hora": "2026-11-05T18:18:48-03:00"
-    },
-    {
-      "titulo": "Porto (PSSA3): lucro sobe, mas resultados recorrentes recuam no 3º tri; ação cai 2,6%",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/porto-pssa3-lucro-sobe-mas-resultados-recorrentes-recuam-no-3o-tri-acao-cai-26/",
-      "hora": "2026-11-05T18:17:38-03:00"
-    },
-    {
-      "titulo": "Durigan discutirá medidas fiscais com Lula após viagem à COP31",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-discutira-medidas-fiscais-com-lula-apos-viagem-cop31",
-      "hora": "2026-11-05T17:40:00-03:00"
+      "titulo": "Superesportivo da BYD chega a 503 km/h e bate recorde mundial de velocidade",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/carros/noticia/2026/11/06/superesportivo-da-byd-chega-a-503-kmh-e-bate-recorde-mundial-de-velocidade.ghtml",
+      "hora": "2026-11-06T07:52:53-03:00"
     }
   ]
 }
