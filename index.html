@@ -148,6 +148,38 @@ input[type=text],input[type=email]{width:100%;min-height:48px;padding:0 14px;fon
 footer{border-top:1px solid var(--line);background:#fff}
 footer .wrap{padding-top:24px;padding-bottom:24px;display:flex;gap:16px;align-items:flex-start;font-size:13px;line-height:1.6;color:var(--muted)}
 footer svg{flex:none}
+
+/* novidades */
+.cred{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 22px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.cred .who{display:flex;align-items:center;gap:14px}
+.cred .who b{display:block;font-size:17px}
+.cred .who small{display:block;font-size:14px;color:var(--muted);margin-top:2px}
+.cred .btn{padding:12px 18px;font-size:14px}
+.btn-ghost{display:inline-flex;align-items:center;gap:8px;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-family:inherit;font-size:14px;font-weight:600;text-decoration:none;cursor:pointer;min-height:44px}
+.btn-ghost:hover{background:#EAF7F6;color:var(--ink)}
+.dark .btn-ghost{color:#fff;border-color:rgba(255,255,255,.35);align-self:flex-start}
+.dark .btn-ghost:hover{background:rgba(42,183,171,.18);color:#fff}
+.btn-ghost svg{flex:none}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;align-items:stretch}
+.card .acts{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap;padding-top:8px}
+.card .eyebrow.t{color:var(--teal)}
+.faca{background:#EAF7F6;border-radius:10px;padding:12px 14px;font-size:15px;line-height:1.5;color:var(--ink)}
+details.gl{background:#fff;border:1px solid var(--line);border-radius:16px;padding:8px 24px;margin-top:16px}
+details.gl>summary{cursor:pointer;font-size:16px;font-weight:600;min-height:44px;display:flex;align-items:center;color:var(--teal)}
+.gl-list{display:flex;flex-direction:column;padding-bottom:12px}
+.gl-list details{border-top:1px solid var(--line);padding:4px 0}
+.gl-list summary{cursor:pointer;font-size:16px;font-weight:600;min-height:44px;display:flex;align-items:center;color:var(--ink)}
+.gl-list p{margin:0 0 12px;font-size:15px;line-height:1.6;color:var(--text)}
+.gl-list small{display:block;font-size:13px;color:var(--muted);margin-bottom:4px}
+.ag{display:flex;flex-direction:column;gap:14px}
+.ag .it{display:grid;grid-template-columns:104px 1fr;gap:12px;border-top:1px solid var(--line);padding-top:12px}
+.ag .dt{font-weight:600;font-size:14px;color:var(--teal)}
+.ag .dt small{display:block;color:var(--muted);font-weight:500;margin-top:2px}
+.ag b{display:block;font-size:16px}
+.ag p{margin:4px 0 0;font-size:14px;line-height:1.5;color:var(--text)}
+.result .real{border-top:1px solid rgba(255,255,255,.18);padding-top:14px}
+.result .real b{font-size:20px}
+@media (max-width:640px){.ag .it{grid-template-columns:1fr;gap:4px}}
 @media (max-width:640px){.simbox{padding:20px}.hero h1{font-size:38px}header .wrap{justify-content:center}.panel{padding:24px}}
 </style>
 </head>
@@ -164,6 +196,8 @@ footer svg{flex:none}
 <nav aria-label="Principal">
 <a class="on" href="#">Início</a>
 <a href="#resumo">Resumo</a>
+<a href="#aprender">Aprenda</a>
+<a href="#agenda">Agenda</a>
 <a href="#simulador">Simulador</a>
 <a href="#newsletter">Newsletter</a>
 </nav>
@@ -179,6 +213,11 @@ footer svg{flex:none}
 <p class="sub">Um resumo claro do cenário, com a visão do seu assessor.</p>
 </section>
 
+<section class="cred" aria-label="Sobre o assessor">
+<div class="who"><div class="avatar" aria-hidden="true">GC</div><div><b>Gustavo Corregio</b><small id="cred-txt">Assessor de investimentos · <span id="anos-mercado">8</span> anos no mercado financeiro</small></div></div>
+<a class="btn" id="cred-nl" href="#newsletter" target="_blank" rel="noopener">☕ Receber o Café por e-mail</a>
+</section>
+
 <section id="resumo" class="grid2" style="scroll-margin-top:16px">
 <article class="dark">
 <span class="eyebrow">Café da semana</span>
@@ -186,6 +225,7 @@ footer svg{flex:none}
 <h2 id="luz-titulo">Carregando…</h2>
 <p id="luz-texto"></p>
 <div class="by"><div class="avatar" aria-hidden="true">GC</div><div><b>Gustavo Corregio</b><small id="luz-data">Assessor de investimentos</small></div></div>
+<a class="btn-ghost" id="luz-wa" href="#" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12Z"/></svg>Compartilhar no WhatsApp</a>
 </article>
 <article class="card">
 <span class="eyebrow" style="color:var(--muted)">Amargo</span>
@@ -209,10 +249,50 @@ footer svg{flex:none}
 <div class="news" id="news"></div>
 </section>
 
+
+<section id="aprender" aria-label="Para ler com café" style="scroll-margin-top:16px">
+<div class="sec-head"><h2>Para ler com café</h2><span class="mar">Educação financeira</span></div>
+<div class="grid3">
+<article class="card">
+<span class="eyebrow t">Curiosidade do dia</span>
+<h2 id="cur-t">Carregando…</h2>
+<p id="cur-x"></p>
+<div class="acts"><a class="btn-ghost" id="cur-wa" href="#" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12Z"/></svg>Compartilhar</a><button class="btn-ghost" id="cur-next" type="button">Outra curiosidade</button></div>
+</article>
+<article class="card">
+<span class="eyebrow t">Pergunta da semana</span>
+<h2 id="perg-t">Carregando…</h2>
+<p id="perg-x"></p>
+<div class="acts"><a class="btn-ghost" id="perg-wa" href="#" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12Z"/></svg>Compartilhar</a><a class="btn-ghost" href="#glossario" id="perg-gl">Ver glossário</a></div>
+</article>
+<article class="card">
+<span class="eyebrow t">Erro comum do investidor</span>
+<h2 id="err-t">Carregando…</h2>
+<p id="err-x"></p>
+<p class="faca" id="err-f"></p>
+<div class="acts"><a class="btn-ghost" id="err-wa" href="#" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12Z"/></svg>Compartilhar</a></div>
+</article>
+</div>
+<details class="gl" id="glossario"><summary>Glossário do investidor: termos explicados sem jargão</summary><div class="gl-list" id="gl-list"></div></details>
+</section>
+
+<section id="agenda" aria-label="Agenda" style="scroll-margin-top:16px">
+<div class="sec-head"><h2>Agenda</h2></div>
+<div class="grid2">
+<article class="card"><span class="eyebrow t">Mercado</span><h2>O que vem por aí</h2><div class="ag" id="ag-mercado"></div></article>
+<article class="card"><span class="eyebrow t">Bolso</span><h2>Datas úteis</h2><div class="ag" id="ag-bolso"></div></article>
+</div>
+</section>
+
+<section id="arquivo" hidden>
+<details class="gl"><summary>Cafés anteriores</summary><div class="gl-list" id="arq-list"></div></details>
+</section>
+
 <section id="simulador" class="simbox">
 <div class="tabs" role="tablist" aria-label="Tipo de simulação">
 <button class="tab" role="tab" id="t1" aria-selected="true" aria-controls="tab-rent" type="button">Simulador de aportes</button>
 <button class="tab" role="tab" id="t2" aria-selected="false" aria-controls="tab-comp" type="button">Comparar produtos</button>
+<button class="tab" role="tab" id="t3" aria-selected="false" aria-controls="tab-meta" type="button">Quanto preciso poupar?</button>
 </div>
 <div id="tab-rent" role="tabpanel" aria-labelledby="t1" class="panelgrid">
 <div>
@@ -229,6 +309,25 @@ footer svg{flex:none}
 <div class="result" aria-live="polite">
 <div><small id="r-prazo">Em 10 anos você terá</small><span class="big num" id="r-total">—</span></div>
 <div class="two"><div><small>Você investiu</small><b class="num" id="r-inv">—</b></div><div><small>Rendimento</small><b class="num" id="r-rend">—</b></div></div>
+<div class="real"><small>Em poder de compra de hoje</small><b class="num" id="r-real">—</b><small id="r-real-n" style="margin-top:4px"></small></div>
+</div>
+</div>
+<div id="tab-meta" role="tabpanel" aria-labelledby="t3" class="panelgrid" hidden>
+<div>
+<span class="eyebrow">Meta</span>
+<h2>Quanto preciso poupar por mês?</h2>
+<div class="fields">
+<div><label for="m-meta">Quero juntar (R$)</label><input id="m-meta" type="text" inputmode="decimal" value="100000"></div>
+<div><label for="m-inicial">Valor inicial (R$)</label><input id="m-inicial" type="text" inputmode="decimal" value="0"></div>
+<div><label for="m-anos">Prazo (anos)</label><input id="m-anos" type="text" inputmode="decimal" value="10"></div>
+<div><label for="m-taxa">Rentabilidade líquida (% ao ano)</label><input id="m-taxa" type="text" inputmode="decimal" value="10"></div>
+</div>
+<p class="note">Os valores iniciais são apenas um exemplo: troque pelos seus. Simulação ilustrativa, com a taxa constante informada por você; não considera impostos nem taxas e não garante resultado.</p>
+</div>
+<div class="result" aria-live="polite">
+<div><small id="m-prazo">Para chegar lá em 10 anos, aporte por mês</small><span class="big num" id="m-aporte">—</span></div>
+<div class="two"><div><small>Você investiria</small><b class="num" id="m-inv">—</b></div><div><small>Rendimento</small><b class="num" id="m-rend">—</b></div></div>
+<small id="m-nota"></small>
 </div>
 </div>
 <div id="tab-comp" role="tabpanel" aria-labelledby="t2" class="comp" hidden>
@@ -286,6 +385,8 @@ footer svg{flex:none}
 
 <script>
 (function () {
+  var SITE = 'https://gus1992br.github.io/cafe-corregio/';
+  var wa = function (t) { return 'https://wa.me/?text=' + encodeURIComponent(t); };
   var WA = 'https://wa.me/5511911437371?text=' + encodeURIComponent('Olá, vim pelo site do Café Corregio e gostaria de conversar.');
   document.getElementById('wa-top').href = WA;
   document.getElementById('wa-bottom').href = WA;
@@ -329,6 +430,9 @@ footer svg{flex:none}
       $('luz-data').textContent = 'Assessor de investimentos · atualizado em ' + p[2] + '/' + p[1] + '/' + p[0];
     }
     $('draft').hidden = r.revisado === true;
+    var pf = (r.texto || '').indexOf('. ');
+    var resumo1 = pf > 0 ? r.texto.slice(0, pf + 1) : (r.texto || '');
+    $('luz-wa').href = wa('☕ *Café Corregio* · ' + (r.titulo || '') + '\n\n' + resumo1 + '\n\nResumo completo da semana: ' + SITE);
   }).catch(function () { $('luz-titulo').textContent = 'Resumo indisponível no momento'; });
 
   /* faixa de destaques: repete o conteúdo até cobrir a tela, para nunca ficar vazia */
@@ -364,7 +468,7 @@ footer svg{flex:none}
     }
     if (d.humor) { $('mar').hidden = false; $('mar').textContent = (d.humor === 'agitado' ? 'Mercado fervendo' : 'Mercado morno'); }
     if (i.selic) { SELIC = i.selic.valor; $('c-cdi').value = nf(Math.max(i.selic.valor - 0.1, 0), 2); }
-    if (i.ipca12) { $('c-ipca').value = nf(i.ipca12.valor, 2); }
+    if (i.ipca12) { $('c-ipca').value = nf(i.ipca12.valor, 2); IPCA_REF = i.ipca12.valor; simular(); }
     if (i.selic || i.ipca12) { comparar(); }
     if (i.selic) { $('v-selic').textContent = nf(i.selic.valor, 2) + '%'; itens.push('Selic <b class="num">' + nf(i.selic.valor, 2) + '%</b>'); }
     if (i.ipca12) { $('v-ipca').textContent = nf(i.ipca12.valor, 2) + '%'; $('s-ipca').textContent = 'Fonte: IBGE (' + (i.ipca12.mes || '') + ')'; itens.push('IPCA 12 meses <b class="num">' + nf(i.ipca12.valor, 2) + '%</b>'); }
@@ -390,18 +494,104 @@ footer svg{flex:none}
   });
 
 
+
+  /* link do cadastro da newsletter reaproveitado no topo */
+  $('cred-nl').href = $('nl-link').href;
+
+  /* conteúdo editorial (editável em conteudo.json) */
+  var DIA = Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / 86400000);
+  var SEMANA = Math.floor(DIA / 7);
+  var hoje0 = new Date(); hoje0.setHours(0, 0, 0, 0);
+  function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+
+  carregar('conteudo.json').then(function (c) {
+    if (c.assessor && c.assessor.anosMercado) $('anos-mercado').textContent = c.assessor.anosMercado;
+
+    /* curiosidade do dia (muda sozinha todo dia; o botão mostra outra) */
+    var cur = c.curiosidades || [], ci = cur.length ? DIA % cur.length : 0;
+    function mostraCur() {
+      var x = cur[ci]; if (!x) return;
+      $('cur-t').textContent = x.titulo; $('cur-x').textContent = x.texto;
+      $('cur-wa').href = wa('💡 *' + x.titulo + '*\n\n' + x.texto + '\n\nMais no Café Corregio: ' + SITE);
+    }
+    mostraCur();
+    $('cur-next').addEventListener('click', function () { ci = (ci + 1) % cur.length; mostraCur(); });
+
+    /* pergunta da semana + glossário completo */
+    var gl = c.glossario || [];
+    if (gl.length) {
+      var g = gl[SEMANA % gl.length];
+      $('perg-t').textContent = g.pergunta; $('perg-x').textContent = g.resposta;
+      $('perg-wa').href = wa('❓ *' + g.pergunta + '*\n\n' + g.resposta + '\n\nMais no Café Corregio: ' + SITE);
+      var lista = $('gl-list');
+      gl.slice().sort(function (a, b) { return a.termo.localeCompare(b.termo, 'pt-BR'); }).forEach(function (t) {
+        var d = el('details'); d.appendChild(el('summary', null, t.termo + ' · ' + t.pergunta)); d.appendChild(el('p', null, t.resposta)); lista.appendChild(d);
+      });
+      $('perg-gl').addEventListener('click', function () { $('glossario').open = true; });
+    }
+
+    /* erro comum da semana */
+    var er = c.erros || [];
+    if (er.length) {
+      var e = er[SEMANA % er.length];
+      $('err-t').textContent = e.titulo; $('err-x').textContent = e.texto; $('err-f').textContent = 'O que fazer: ' + e.faca;
+      $('err-wa').href = wa('⚠️ *Erro comum do investidor: ' + e.titulo + '*\n\n' + e.texto + '\n\nO que fazer: ' + e.faca + '\n\nMais no Café Corregio: ' + SITE);
+    }
+
+    /* agenda: mostra só o que ainda não passou */
+    function dataLocal(iso) { var q = iso.split('-'); return new Date(+q[0], +q[1] - 1, +q[2]); }
+    function quando(iso) {
+      var dd = Math.round((dataLocal(iso) - hoje0) / 86400000);
+      return dd <= 0 ? 'hoje' : (dd === 1 ? 'amanhã' : 'em ' + dd + ' dias');
+    }
+    function agenda(tipo, id) {
+      var box = $(id), itens = (c.agenda || []).filter(function (a) { return a.tipo === tipo && dataLocal(a.data) >= hoje0; })
+        .sort(function (a, b) { return a.data < b.data ? -1 : 1; }).slice(0, 4);
+      if (!itens.length) { box.appendChild(el('p', null, 'Novas datas em breve.')); return; }
+      itens.forEach(function (a) {
+        var it = el('div', 'it'), dt = el('div', 'dt', a.quando); dt.appendChild(el('small', null, quando(a.data)));
+        var tx = el('div'); tx.appendChild(el('b', null, a.titulo)); tx.appendChild(el('p', null, a.texto));
+        it.appendChild(dt); it.appendChild(tx); box.appendChild(it);
+      });
+    }
+    agenda('mercado', 'ag-mercado'); agenda('bolso', 'ag-bolso');
+  }).catch(function () {
+    ['cur-t', 'perg-t', 'err-t'].forEach(function (id) { $(id).textContent = 'Conteúdo indisponível no momento'; });
+  });
+
+  /* cafés anteriores (historico.json) */
+  carregar('historico.json').then(function (h) {
+    var atual = '';
+    return carregar('resumo.json').then(function (r) { atual = r.atualizadoEm; }, function () {}).then(function () {
+      var itens = (h || []).filter(function (x) { return x.atualizadoEm !== atual; })
+        .sort(function (a, b) { return a.atualizadoEm < b.atualizadoEm ? 1 : -1; }).slice(0, 12);
+      if (!itens.length) return;
+      var box = $('arq-list');
+      itens.forEach(function (x) {
+        var q = x.atualizadoEm.split('-'), d = el('details');
+        d.appendChild(el('summary', null, q[2] + '/' + q[1] + '/' + q[0] + ' · ' + x.titulo));
+        d.appendChild(el('p', null, x.texto)); box.appendChild(d);
+      });
+      $('arquivo').hidden = false;
+    });
+  }).catch(function () {});
+
   /* abas do simulador */
   function aba(qual) {
-    var comp = qual === 'comp';
-    $('tab-rent').hidden = comp; $('tab-comp').hidden = !comp;
-    $('t1').setAttribute('aria-selected', String(!comp)); $('t2').setAttribute('aria-selected', String(comp));
-    if (comp) comparar();
+    var m = { rent: ['tab-rent', 't1'], comp: ['tab-comp', 't2'], meta: ['tab-meta', 't3'] };
+    Object.keys(m).forEach(function (k) {
+      var on = k === qual; $(m[k][0]).hidden = !on; $(m[k][1]).setAttribute('aria-selected', String(on));
+    });
+    if (qual === 'comp') comparar();
+    if (qual === 'meta') meta();
   }
   $('t1').addEventListener('click', function () { aba('rent'); });
   $('t2').addEventListener('click', function () { aba('comp'); });
+  $('t3').addEventListener('click', function () { aba('meta'); });
 
   /* comparador de produtos */
   var SELIC = 13.75;
+  var IPCA_REF = 4.5;
   var MESES_INICIO = new Date().getMonth();
   function irRate(dias) { return dias <= 180 ? 0.225 : (dias <= 360 ? 0.20 : (dias <= 720 ? 0.175 : 0.15)); }
   /* produtos com IR regressivo pago no resgate (e sem IR, quando tributa = false) */
@@ -506,9 +696,29 @@ footer svg{flex:none}
     $('r-total').textContent = brl(fv);
     $('r-inv').textContent = brl(inv);
     $('r-rend').textContent = brl(Math.max(fv - inv, 0));
+    var real = fv / Math.pow(1 + IPCA_REF / 100, Y);
+    $('r-real').textContent = brl(real);
+    $('r-real-n').textContent = 'Valor de hoje, com inflação de ' + nf(IPCA_REF, 2) + '% ao ano (IPCA em 12 meses) mantida constante.';
   }
+
+  /* meta: quanto poupar por mês para chegar a um valor */
+  function meta() {
+    var M = num($('m-meta').value, 0), P = num($('m-inicial').value, 0);
+    var Y = Math.min(num($('m-anos').value, 0), 60), R = Math.min(num($('m-taxa').value, 0), 100) / 100;
+    var n = Math.round(Y * 12), i = Math.pow(1 + R, 1 / 12) - 1, y = Math.round(Y * 10) / 10;
+    if (n < 1) { $('m-aporte').textContent = '—'; $('m-inv').textContent = '—'; $('m-rend').textContent = '—'; $('m-nota').textContent = 'Informe um prazo de pelo menos 1 mês.'; return; }
+    var cresce = P * Math.pow(1 + i, n), fator = i > 0 ? (Math.pow(1 + i, n) - 1) / i : n;
+    var A = Math.max(M - cresce, 0) / fator, inv = P + A * n;
+    $('m-prazo').textContent = 'Para chegar a ' + brl(M) + ' em ' + y + (y === 1 ? ' ano' : ' anos') + ', aporte por mês';
+    $('m-aporte').textContent = brl(A);
+    $('m-inv').textContent = brl(inv);
+    $('m-rend').textContent = brl(Math.max(M - inv, 0));
+    $('m-nota').textContent = A === 0 && M > 0 ? 'Só o valor inicial, rendendo, já chega nesse valor.' : '';
+  }
+  ['m-meta', 'm-inicial', 'm-anos', 'm-taxa'].forEach(function (id) { $(id).addEventListener('input', meta); });
   ['aporte', 'inicial', 'anos', 'taxa'].forEach(function (id) { $(id).addEventListener('input', simular); });
   simular();
+  meta();
 })();
 </script>
 </body>
