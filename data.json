@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-06T12:36-03:00",
-  "humor": "agitado",
+  "atualizadoEm": "2026-11-06T18:34-03:00",
+  "humor": "calmo",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.4907,
-      "variacao": 0.59
+      "valor": 5.5057,
+      "variacao": 0.86
     },
     "ibov": {
-      "valor": 168696,
-      "variacao": 1.51
+      "valor": 168498,
+      "variacao": 1.39
     }
   },
   "manchetes": [
     {
-      "titulo": "Trump diz que ajudará estados a “ficarem ricos” com IA após vitória democrata",
+      "titulo": "Nasdaq sobe após setor de chips corrigir perdas, mas persiste temor de alta de juros",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/trump-diz-que-ajudara-estados-a-ficarem-ricos-com-ia-apos-vitoria-democrata/",
-      "hora": "2026-11-06T12:29:18-03:00"
+      "url": "https://www.infomoney.com.br/mercados/nasdaq-sobe-apos-setor-de-chips-reduzir-perdas-mas-persiste-temor-de-alta-de-juros/",
+      "hora": "2026-11-06T18:33:15-03:00"
     },
     {
-      "titulo": "Vencedor do Prêmio Goncourt 2026, Philippe Jaenada admite uso de IA em romance",
+      "titulo": "Ações da Sabesp (SBSP3) sobem 7% após balanço: o que agradou no 3º tri?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/vencedor-do-premio-goncourt-2026-philippe-jaenada-admite-uso-de-ia-em-romance/",
-      "hora": "2026-11-06T12:29:13-03:00"
+      "url": "https://www.infomoney.com.br/mercados/acoes-da-sabesp-sbsp3-sobem-apos-balanco-o-que-agradou-no-3o-tri/",
+      "hora": "2026-11-06T18:28:30-03:00"
     },
     {
-      "titulo": "Payroll: operadores aumentam apostas em alta de juros pelo Fed após dado",
+      "titulo": "Cosan (CSAN3): ação salta mais de 10% após notícia sobre venda de fatia da Compass",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/payroll-operadores-aumentam-apostas-em-alta-de-juros-pelo-fed-apos-dado/",
-      "hora": "2026-11-06T12:28:40-03:00"
+      "url": "https://www.infomoney.com.br/mercados/cosan-csan3-acao-salta-8-apos-noticia-sobre-venda-de-fatia-da-compass/",
+      "hora": "2026-11-06T18:26:40-03:00"
     },
     {
-      "titulo": "IBGE divulga dados definitivos e confirma que PIB de 2024 cresceu 3,4%",
+      "titulo": "Assaí, Renner e Grendene sobem após resultados, enquanto Vivara tem queda",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibge-divulga-dados-definitivos-e-confirma-que-pib-de-2024-cresceu-34/",
-      "hora": "2026-11-06T12:27:33-03:00"
+      "url": "https://www.infomoney.com.br/mercados/assai-renner-e-grendene-sobem-apos-resultados-enquanto-vivara-tem-forte-queda/",
+      "hora": "2026-11-06T18:25:52-03:00"
     },
     {
-      "titulo": "Japão anuncia pacote emergencial de cibersegurança após onda de ataques",
+      "titulo": "Paraguai começa a devolver dinheiro a clientes de banco em crise",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/06/japao-anuncia-pacote-emergencial-de-ciberseguranca-apos-onda-de-ataques.ghtml",
-      "hora": "2026-11-06T12:10:35-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/06/paraguai-comeca-a-devolver-dinheiro-a-clientes-de-banco-em-crise.ghtml",
+      "hora": "2026-11-06T18:24:47-03:00"
     },
     {
-      "titulo": "Servidores do IBGE têm salários zerados após greve; sindicato contesta descontos",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/06/ibge-salarios-servidores.ghtml",
-      "hora": "2026-11-06T11:42:20-03:00"
+      "titulo": "Brasil tem maior juro real do mundo, seguido por Turquia e Argentina",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-tem-maior-juro-real-do-mundo-seguido-por-turquia-e-argentina",
+      "hora": "2026-11-06T16:51:00-03:00"
     }
   ]
 }
