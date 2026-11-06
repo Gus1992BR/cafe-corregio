@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-06T08:48-03:00",
-  "humor": "calmo",
+  "atualizadoEm": "2026-11-06T12:36-03:00",
+  "humor": "agitado",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.487,
-      "variacao": 0.52
+      "valor": 5.4907,
+      "variacao": 0.59
     },
     "ibov": {
-      "valor": 166192,
-      "variacao": -0.82
+      "valor": 168696,
+      "variacao": 1.51
     }
   },
   "manchetes": [
     {
-      "titulo": "Lara Resende nega reunião com Lula e diz que notícia foi plantada para gerar desgaste",
+      "titulo": "Trump diz que ajudará estados a “ficarem ricos” com IA após vitória democrata",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/lara-resende-nega-reuniao-com-lula-e-diz-que-noticia-foi-plantada-para-gerar-desgaste/",
-      "hora": "2026-11-06T08:46:04-03:00"
+      "url": "https://www.infomoney.com.br/mundo/trump-diz-que-ajudara-estados-a-ficarem-ricos-com-ia-apos-vitoria-democrata/",
+      "hora": "2026-11-06T12:29:18-03:00"
     },
     {
-      "titulo": "Minério de ferro registra segundo ganho semanal na China",
+      "titulo": "Vencedor do Prêmio Goncourt 2026, Philippe Jaenada admite uso de IA em romance",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/minerio-de-ferro-registra-segundo-ganho-semanal-na-china/",
-      "hora": "2026-11-06T08:39:32-03:00"
+      "url": "https://www.infomoney.com.br/mundo/vencedor-do-premio-goncourt-2026-philippe-jaenada-admite-uso-de-ia-em-romance/",
+      "hora": "2026-11-06T12:29:13-03:00"
     },
     {
-      "titulo": "Importações de soja pela China em 2026/27 devem chegar a 110 mi t, diz adido do USDA",
+      "titulo": "Payroll: operadores aumentam apostas em alta de juros pelo Fed após dado",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/importacoes-de-soja-pela-china-em-2026-27-devem-chegar-a-110-mi-t-diz-adido-do-usda/",
-      "hora": "2026-11-06T08:37:59-03:00"
+      "url": "https://www.infomoney.com.br/mercados/payroll-operadores-aumentam-apostas-em-alta-de-juros-pelo-fed-apos-dado/",
+      "hora": "2026-11-06T12:28:40-03:00"
     },
     {
-      "titulo": "Oposição consegue maioria para formar governo em Israel",
+      "titulo": "IBGE divulga dados definitivos e confirma que PIB de 2024 cresceu 3,4%",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/oposicao-consegue-maioria-para-formar-governo-em-israel/",
-      "hora": "2026-11-06T08:37:02-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibge-divulga-dados-definitivos-e-confirma-que-pib-de-2024-cresceu-34/",
+      "hora": "2026-11-06T12:27:33-03:00"
     },
     {
-      "titulo": "Tesla vai reduzir gradualmente produção do Cybertruck no Texas, diz Musk",
+      "titulo": "Japão anuncia pacote emergencial de cibersegurança após onda de ataques",
       "fonte": "g1",
-      "url": "https://g1.globo.com/carros/noticia/2026/11/06/tesla-cybertruck-musk.ghtml",
-      "hora": "2026-11-06T08:24:20-03:00"
+      "url": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/06/japao-anuncia-pacote-emergencial-de-ciberseguranca-apos-onda-de-ataques.ghtml",
+      "hora": "2026-11-06T12:10:35-03:00"
     },
     {
-      "titulo": "Superesportivo da BYD chega a 503 km/h e bate recorde mundial de velocidade",
+      "titulo": "Servidores do IBGE têm salários zerados após greve; sindicato contesta descontos",
       "fonte": "g1",
-      "url": "https://g1.globo.com/carros/noticia/2026/11/06/superesportivo-da-byd-chega-a-503-kmh-e-bate-recorde-mundial-de-velocidade.ghtml",
-      "hora": "2026-11-06T07:52:53-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/06/ibge-salarios-servidores.ghtml",
+      "hora": "2026-11-06T11:42:20-03:00"
     }
   ]
 }
