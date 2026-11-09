@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-09T08:53-03:00",
+  "atualizadoEm": "2026-11-09T12:47-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5011,
-      "variacao": -0.04
+      "valor": 5.5266,
+      "variacao": 0.42
     },
     "ibov": {
-      "valor": 168499,
-      "variacao": 1.39
+      "valor": 170457,
+      "variacao": 1.16
     }
   },
   "manchetes": [
     {
-      "titulo": "Lula edita MP com vigência do Gás do Povo até 2031",
+      "titulo": "EzTec: Citi vê cenário difícil para imóveis de média renda e corta EZTC3 para venda",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/lula-edita-mp-com-vigencia-do-gas-do-povo-ate-2031/",
-      "hora": "2026-11-09T08:47:32-03:00"
+      "url": "https://www.infomoney.com.br/mercados/eztec-citi-ve-cenario-dificil-para-imoveis-de-media-renda-e-corta-eztc3-para-venda/",
+      "hora": "2026-11-09T12:45:01-03:00"
     },
     {
-      "titulo": "Filipinas proíbem importações de carne de porco por 60 dias; país é maior cliente do Brasil",
+      "titulo": "Alpargatas (ALPA4) sobe mais de 6% após balanço acima do esperado e anima analistas",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/alpargatas-alpa4-sobe-mais-de-6-apos-balanco-acima-do-esperado-e-anima-analistas/",
+      "hora": "2026-11-09T12:22:19-03:00"
+    },
+    {
+      "titulo": "Wall Street abre em alta após perdas do setor de IA na semana passada",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/wall-street-abre-em-alta-apos-perdas-do-setor-de-ia-na-semana-passada/",
+      "hora": "2026-11-09T12:21:01-03:00"
+    },
+    {
+      "titulo": "Por que o Ibovespa sobe 1% nesta 2ª mesmo com queda de commodities e cautela fiscal",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/por-que-o-ibovespa-sobe-1-nesta-2a-mesmo-com-queda-de-commodities-e-cautela-fiscal/",
+      "hora": "2026-11-09T12:11:55-03:00"
+    },
+    {
+      "titulo": "China estende trégua comercial com os EUA até janeiro de 2027",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/09/filipinas-proibem-importacoes-de-carne-de-porco-por-60-dias-pais-e-maior-cliente-do-brasil.ghtml",
-      "hora": "2026-11-09T08:45:51-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/09/china-estende-tregua-comercial-com-os-eua-ate-janeiro-de-2027.ghtml",
+      "hora": "2026-11-09T12:02:16-03:00"
     },
     {
-      "titulo": "Rússia espera que derrota de Trump não atrapalhe negociações sobre a Ucrânia",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/russia-espera-que-derrota-de-trump-nao-atrapalhe-negociacoes-sobre-a-ucrania/",
-      "hora": "2026-11-09T08:45:21-03:00"
-    },
-    {
-      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/",
-      "hora": "2026-11-09T08:39:24-03:00"
-    },
-    {
-      "titulo": "Papa Leão XIV chega à Argentina e é recebido por Javier Milei",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/papa-leao-xiv-chega-a-argentina-e-e-recebido-por-javier-milei/",
-      "hora": "2026-11-09T08:39:23-03:00"
-    },
-    {
-      "titulo": "De lavador de pratos a bilionário: quem é o CEO da Nvidia envolvido em caso de traição e suspeita de espionagem",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/09/de-lavador-de-pratos-a-bilionario-quem-e-o-ceo-da-nvidia-envolvido-em-caso-de-traicao-e-suspeita-de-espionagem.ghtml",
-      "hora": "2026-11-09T08:21:52-03:00"
+      "titulo": "Gás do Povo: governo prorroga vigência do auxílio até 2031",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/gas-do-povo-governo-prorroga-vigencia-do-programa-ate-2031",
+      "hora": "2026-11-09T12:02:00-03:00"
     }
   ]
 }
