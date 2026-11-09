@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-06T18:34-03:00",
+  "atualizadoEm": "2026-11-09T08:53-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5057,
-      "variacao": 0.86
+      "valor": 5.5011,
+      "variacao": -0.04
     },
     "ibov": {
-      "valor": 168498,
+      "valor": 168499,
       "variacao": 1.39
     }
   },
   "manchetes": [
     {
-      "titulo": "Nasdaq sobe após setor de chips corrigir perdas, mas persiste temor de alta de juros",
+      "titulo": "Lula edita MP com vigência do Gás do Povo até 2031",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/nasdaq-sobe-apos-setor-de-chips-reduzir-perdas-mas-persiste-temor-de-alta-de-juros/",
-      "hora": "2026-11-06T18:33:15-03:00"
+      "url": "https://www.infomoney.com.br/brasil/lula-edita-mp-com-vigencia-do-gas-do-povo-ate-2031/",
+      "hora": "2026-11-09T08:47:32-03:00"
     },
     {
-      "titulo": "Ações da Sabesp (SBSP3) sobem 7% após balanço: o que agradou no 3º tri?",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/acoes-da-sabesp-sbsp3-sobem-apos-balanco-o-que-agradou-no-3o-tri/",
-      "hora": "2026-11-06T18:28:30-03:00"
-    },
-    {
-      "titulo": "Cosan (CSAN3): ação salta mais de 10% após notícia sobre venda de fatia da Compass",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/cosan-csan3-acao-salta-8-apos-noticia-sobre-venda-de-fatia-da-compass/",
-      "hora": "2026-11-06T18:26:40-03:00"
-    },
-    {
-      "titulo": "Assaí, Renner e Grendene sobem após resultados, enquanto Vivara tem queda",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/assai-renner-e-grendene-sobem-apos-resultados-enquanto-vivara-tem-forte-queda/",
-      "hora": "2026-11-06T18:25:52-03:00"
-    },
-    {
-      "titulo": "Paraguai começa a devolver dinheiro a clientes de banco em crise",
+      "titulo": "Filipinas proíbem importações de carne de porco por 60 dias; país é maior cliente do Brasil",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/06/paraguai-comeca-a-devolver-dinheiro-a-clientes-de-banco-em-crise.ghtml",
-      "hora": "2026-11-06T18:24:47-03:00"
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/09/filipinas-proibem-importacoes-de-carne-de-porco-por-60-dias-pais-e-maior-cliente-do-brasil.ghtml",
+      "hora": "2026-11-09T08:45:51-03:00"
     },
     {
-      "titulo": "Brasil tem maior juro real do mundo, seguido por Turquia e Argentina",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-tem-maior-juro-real-do-mundo-seguido-por-turquia-e-argentina",
-      "hora": "2026-11-06T16:51:00-03:00"
+      "titulo": "Rússia espera que derrota de Trump não atrapalhe negociações sobre a Ucrânia",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mundo/russia-espera-que-derrota-de-trump-nao-atrapalhe-negociacoes-sobre-a-ucrania/",
+      "hora": "2026-11-09T08:45:21-03:00"
+    },
+    {
+      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-09112026/",
+      "hora": "2026-11-09T08:39:24-03:00"
+    },
+    {
+      "titulo": "Papa Leão XIV chega à Argentina e é recebido por Javier Milei",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mundo/papa-leao-xiv-chega-a-argentina-e-e-recebido-por-javier-milei/",
+      "hora": "2026-11-09T08:39:23-03:00"
+    },
+    {
+      "titulo": "De lavador de pratos a bilionário: quem é o CEO da Nvidia envolvido em caso de traição e suspeita de espionagem",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/09/de-lavador-de-pratos-a-bilionario-quem-e-o-ceo-da-nvidia-envolvido-em-caso-de-traicao-e-suspeita-de-espionagem.ghtml",
+      "hora": "2026-11-09T08:21:52-03:00"
     }
   ]
 }
