@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-09T12:47-03:00",
-  "humor": "calmo",
+  "atualizadoEm": "2026-11-09T18:43-03:00",
+  "humor": "agitado",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5266,
-      "variacao": 0.42
+      "valor": 5.5074,
+      "variacao": 0.07
     },
     "ibov": {
-      "valor": 170457,
-      "variacao": 1.16
+      "valor": 172236,
+      "variacao": 2.22
     }
   },
   "manchetes": [
     {
-      "titulo": "EzTec: Citi vê cenário difícil para imóveis de média renda e corta EZTC3 para venda",
+      "titulo": "Ações de petroleiras como Petrobras e PRIO caem acompanhando petróleo nesta 2ª",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/eztec-citi-ve-cenario-dificil-para-imoveis-de-media-renda-e-corta-eztc3-para-venda/",
-      "hora": "2026-11-09T12:45:01-03:00"
+      "url": "https://www.infomoney.com.br/mercados/petroleiras-sao-maiores-quedas-do-ibov-nesta-2o-acompanhando-movimento-do-petroleo/",
+      "hora": "2026-11-09T18:43:07-03:00"
     },
     {
-      "titulo": "Alpargatas (ALPA4) sobe mais de 6% após balanço acima do esperado e anima analistas",
+      "titulo": "Gás do Povo: governo federal prorroga vigência do auxílio até 2031",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/alpargatas-alpa4-sobe-mais-de-6-apos-balanco-acima-do-esperado-e-anima-analistas/",
-      "hora": "2026-11-09T12:22:19-03:00"
+      "url": "https://www.infomoney.com.br/politica/gas-do-povo-governo-federal-prorroga-vigencia-do-auxilio-ate-2031/",
+      "hora": "2026-11-09T18:41:34-03:00"
     },
     {
-      "titulo": "Wall Street abre em alta após perdas do setor de IA na semana passada",
+      "titulo": "JBS tem lucro 72% menor no 3T, a US$ 164 mi, mas vê melhora em carne bovina nos EUA",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/wall-street-abre-em-alta-apos-perdas-do-setor-de-ia-na-semana-passada/",
-      "hora": "2026-11-09T12:21:01-03:00"
+      "url": "https://www.infomoney.com.br/mercados/jbs-jbss32-resultados-terceiro-trimestre-2026/",
+      "hora": "2026-11-09T18:38:24-03:00"
     },
     {
-      "titulo": "Por que o Ibovespa sobe 1% nesta 2ª mesmo com queda de commodities e cautela fiscal",
+      "titulo": "JBS compra Flora por US$ 542 mi para crescer no setor de limpeza e cuidados pessoais",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/por-que-o-ibovespa-sobe-1-nesta-2a-mesmo-com-queda-de-commodities-e-cautela-fiscal/",
-      "hora": "2026-11-09T12:11:55-03:00"
+      "url": "https://www.infomoney.com.br/mercados/jbs-compra-flora-por-us-542-mi-para-crescer-no-setor-de-limpeza-e-cuidados-pessoais/",
+      "hora": "2026-11-09T18:33:29-03:00"
     },
     {
-      "titulo": "China estende trégua comercial com os EUA até janeiro de 2027",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/09/china-estende-tregua-comercial-com-os-eua-ate-janeiro-de-2027.ghtml",
-      "hora": "2026-11-09T12:02:16-03:00"
-    },
-    {
-      "titulo": "Gás do Povo: governo prorroga vigência do auxílio até 2031",
+      "titulo": "BC passa a divulgar lista de empresas aptas a operar com criptoativos",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/gas-do-povo-governo-prorroga-vigencia-do-programa-ate-2031",
-      "hora": "2026-11-09T12:02:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-passa-divulgar-lista-de-empresas-aptas-operar-com-criptoativos",
+      "hora": "2026-11-09T17:42:00-03:00"
+    },
+    {
+      "titulo": "Pix bate recorde e supera 319 milhões de transações em um dia",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-bate-recorde-e-supera-319-milhoes-de-transacoes-em-um-dia",
+      "hora": "2026-11-09T17:09:00-03:00"
     }
   ]
 }
