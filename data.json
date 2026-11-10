@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-09T18:43-03:00",
+  "atualizadoEm": "2026-11-10T08:47-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5074,
-      "variacao": 0.07
+      "valor": 5.5069,
+      "variacao": 0.06
     },
     "ibov": {
       "valor": 172236,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Ações de petroleiras como Petrobras e PRIO caem acompanhando petróleo nesta 2ª",
+      "titulo": "Minério de ferro oscila diante da queda de embarques e chegadas aos portos",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/petroleiras-sao-maiores-quedas-do-ibov-nesta-2o-acompanhando-movimento-do-petroleo/",
-      "hora": "2026-11-09T18:43:07-03:00"
+      "url": "https://www.infomoney.com.br/mercados/minerio-de-ferro-oscila-diante-da-queda-de-embarques-e-chegadas-aos-portos/",
+      "hora": "2026-11-10T08:46:37-03:00"
     },
     {
-      "titulo": "Gás do Povo: governo federal prorroga vigência do auxílio até 2031",
+      "titulo": "Caso envolvendo CEO da Nvidia favoreceu US$ 7,5 bi em chips à China, diz Information",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/gas-do-povo-governo-federal-prorroga-vigencia-do-auxilio-ate-2031/",
-      "hora": "2026-11-09T18:41:34-03:00"
+      "url": "https://www.infomoney.com.br/mercados/caso-envolvendo-ceo-da-nvidia-favoreceu-us-75-bi-em-chips-a-china-diz-information/",
+      "hora": "2026-11-10T08:45:21-03:00"
     },
     {
-      "titulo": "JBS tem lucro 72% menor no 3T, a US$ 164 mi, mas vê melhora em carne bovina nos EUA",
+      "titulo": "Embraer, JBS, Brava, Magalu, B3, Klabin e mais ações para acompanhar hoje",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/jbs-jbss32-resultados-terceiro-trimestre-2026/",
-      "hora": "2026-11-09T18:38:24-03:00"
+      "url": "https://www.infomoney.com.br/mercados/embraer-jbs-brava-magalu-b3-klabin-e-mais-acoes-para-acompanhar-hoje/",
+      "hora": "2026-11-10T08:43:20-03:00"
     },
     {
-      "titulo": "JBS compra Flora por US$ 542 mi para crescer no setor de limpeza e cuidados pessoais",
+      "titulo": "Escala 6×1: audiência reúne no STF representantes de empregadores e trabalhadores",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/jbs-compra-flora-por-us-542-mi-para-crescer-no-setor-de-limpeza-e-cuidados-pessoais/",
-      "hora": "2026-11-09T18:33:29-03:00"
+      "url": "https://www.infomoney.com.br/politica/escala-6x1-audiencia-reune-no-stf-representantes-de-empregadores-e-trabalhadores/",
+      "hora": "2026-11-10T08:41:02-03:00"
     },
     {
-      "titulo": "BC passa a divulgar lista de empresas aptas a operar com criptoativos",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-passa-divulgar-lista-de-empresas-aptas-operar-com-criptoativos",
-      "hora": "2026-11-09T17:42:00-03:00"
+      "titulo": "Anthropic revela plano de IPO de quase US$ 70 bilhões, mas retira dados após apontar erro",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/10/anthropic-ipo.ghtml",
+      "hora": "2026-11-10T08:38:40-03:00"
     },
     {
-      "titulo": "Pix bate recorde e supera 319 milhões de transações em um dia",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-bate-recorde-e-supera-319-milhoes-de-transacoes-em-um-dia",
-      "hora": "2026-11-09T17:09:00-03:00"
+      "titulo": "Ata do Copom: Banco Central diz que piora nas expectativas de inflação exige juros mais altos por tempo maior",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/10/ata-do-copom-banco-central-diz-que-piora-nas-expectativas-de-inflacao-exige-juros-mais-altos-e-por-tempo-maior.ghtml",
+      "hora": "2026-11-10T08:06:52-03:00"
     }
   ]
 }
