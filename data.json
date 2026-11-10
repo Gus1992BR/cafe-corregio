@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-10T08:47-03:00",
+  "atualizadoEm": "2026-11-10T12:34-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5069,
-      "variacao": 0.06
+      "valor": 5.595,
+      "variacao": 1.66
     },
     "ibov": {
-      "valor": 172236,
-      "variacao": 2.22
+      "valor": 171560,
+      "variacao": -0.39
     }
   },
   "manchetes": [
     {
-      "titulo": "Minério de ferro oscila diante da queda de embarques e chegadas aos portos",
+      "titulo": "Idea: Maioria dos brasileiros encontra fake news com frequência; 53% acreditam nelas",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/minerio-de-ferro-oscila-diante-da-queda-de-embarques-e-chegadas-aos-portos/",
-      "hora": "2026-11-10T08:46:37-03:00"
+      "url": "https://www.infomoney.com.br/brasil/idea-maioria-dos-brasileiros-encontra-fake-news-com-frequencia-53-acreditam-nelas/",
+      "hora": "2026-11-10T12:31:05-03:00"
     },
     {
-      "titulo": "Caso envolvendo CEO da Nvidia favoreceu US$ 7,5 bi em chips à China, diz Information",
+      "titulo": "CNJ aprova regras para a venda de precatórios e reduzir ações judiciais contra o INSS",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/caso-envolvendo-ceo-da-nvidia-favoreceu-us-75-bi-em-chips-a-china-diz-information/",
-      "hora": "2026-11-10T08:45:21-03:00"
+      "url": "https://www.infomoney.com.br/politica/cnj-aprova-regras-para-a-venda-de-precatorios-e-reduzir-acoes-judiciais-contra-o-inss/",
+      "hora": "2026-11-10T12:26:24-03:00"
     },
     {
-      "titulo": "Embraer, JBS, Brava, Magalu, B3, Klabin e mais ações para acompanhar hoje",
+      "titulo": "Ibovespa reduz fôlego com inflação dos EUA e cai após superar 173 mil pontos",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/embraer-jbs-brava-magalu-b3-klabin-e-mais-acoes-para-acompanhar-hoje/",
-      "hora": "2026-11-10T08:43:20-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-reduz-folego-com-inflacao-dos-eua-e-cai-apos-superar-173-mil-pontos/",
+      "hora": "2026-11-10T12:20:31-03:00"
     },
     {
-      "titulo": "Escala 6×1: audiência reúne no STF representantes de empregadores e trabalhadores",
+      "titulo": "Taxas do Tesouro viram para alta após inflação vir acima do esperado nos EUA",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/escala-6x1-audiencia-reune-no-stf-representantes-de-empregadores-e-trabalhadores/",
-      "hora": "2026-11-10T08:41:02-03:00"
+      "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-10112026/",
+      "hora": "2026-11-10T12:13:15-03:00"
     },
     {
-      "titulo": "Anthropic revela plano de IPO de quase US$ 70 bilhões, mas retira dados após apontar erro",
+      "titulo": "Microsoft pressiona Trump a desistir de proibição de tecnologia chinesa para data centers",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/10/anthropic-ipo.ghtml",
-      "hora": "2026-11-10T08:38:40-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/10/microsoft-pressiona-trump-a-desistir-de-proibicao-de-tecnologia-chinesa-para-data-centers.ghtml",
+      "hora": "2026-11-10T11:58:07-03:00"
     },
     {
-      "titulo": "Ata do Copom: Banco Central diz que piora nas expectativas de inflação exige juros mais altos por tempo maior",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/10/ata-do-copom-banco-central-diz-que-piora-nas-expectativas-de-inflacao-exige-juros-mais-altos-e-por-tempo-maior.ghtml",
-      "hora": "2026-11-10T08:06:52-03:00"
+      "titulo": "Ata do Copom indica que desaceleração da economia não conteve inflação",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ata-do-copom-indica-que-desaceleracao-da-economia-nao-conteve-inflacao",
+      "hora": "2026-11-10T11:20:00-03:00"
     }
   ]
 }
