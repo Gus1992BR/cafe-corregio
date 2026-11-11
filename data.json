@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-11T08:51-03:00",
+  "atualizadoEm": "2026-11-11T12:37-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5803,
-      "variacao": 1.3
+      "valor": 5.5666,
+      "variacao": 1.05
     },
     "ibov": {
-      "valor": 171337,
-      "variacao": -0.52
+      "valor": 172937,
+      "variacao": 0.93
     }
   },
   "manchetes": [
     {
-      "titulo": "Pés doloridos: estátua em Washington zomba de como Trump escapou do Vietnã",
+      "titulo": "CoreWeave dissipa temores sobre IA com perspectivas otimistas e ações saltam 20%",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/pes-doloridos-estatua-em-washington-zomba-de-como-trump-escapou-do-vietna/",
-      "hora": "2026-11-11T08:51:47-03:00"
+      "url": "https://www.infomoney.com.br/mercados/coreweave-dissipa-temores-sobre-ia-com-perspectivas-otimistas-e-acoes-saltam-20/",
+      "hora": "2026-11-11T12:31:07-03:00"
     },
     {
-      "titulo": "Leilão de Ronaldo terá raquete de João Fonseca e jogo de tênis com Fenômeno",
+      "titulo": "Só 5% das cidades têm plano público contra o El Niño; 1.093 decretaram emergência",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/leilao-de-ronaldo-tera-raquete-de-joao-fonseca-e-jogo-de-tenis-com-fenomeno/",
-      "hora": "2026-11-11T08:50:00-03:00"
+      "url": "https://www.infomoney.com.br/brasil/so-5-das-cidades-tem-plano-publico-contra-o-el-nino-1-093-decretaram-emergencia/",
+      "hora": "2026-11-11T12:29:14-03:00"
     },
     {
-      "titulo": "Espanha tem 1ª greve geral em 14 anos por crise de moradia a semanas da eleição",
+      "titulo": "IBGE: Administração pública teve aumento de 251 mil postos em 2025",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/espanha-tem-1a-greve-geral-em-14-anos-por-crise-de-moradia-a-semanas-da-eleicao/",
-      "hora": "2026-11-11T08:48:45-03:00"
+      "url": "https://www.infomoney.com.br/brasil/ibge-administracao-publica-teve-aumento-de-251-mil-postos-em-2025/",
+      "hora": "2026-11-11T12:25:34-03:00"
     },
     {
-      "titulo": "PF abre investigação sobre suspeita de financiamento estrangeiro à campanha de Flávio",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/pf-abre-investigacao-sobre-suspeita-de-financiamento-estrangeiro-a-campanha-de-flavio/",
-      "hora": "2026-11-11T08:47:06-03:00"
-    },
-    {
-      "titulo": "Suposta espiã chinesa que teve caso com CEO da Nvidia entrou em Taiwan com passaporte de Hong Kong",
+      "titulo": "Nvidia perde quase R$ 6 trilhões após caso envolvendo CEO, mais que toda a Bolsa brasileira",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/11/suposta-espia-chinesa-que-teve-caso-com-ceo-da-nvidia-entrou-em-taiwan-com-passaporte-de-hong-kong.ghtml",
-      "hora": "2026-11-11T07:53:27-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/11/nvidia-bolsa-brasileira.ghtml",
+      "hora": "2026-11-11T12:20:29-03:00"
     },
     {
-      "titulo": "Brasil nunca produziu tanta carne bovina, mas brasileiro come cada vez menos; entenda o paradoxo",
+      "titulo": "Wall Street sobe com impulso da CoreWeave a negociações relacionadas à IA",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/wall-street-sobe-com-impulso-da-coreweave-a-negociacoes-relacionadas-a-ia/",
+      "hora": "2026-11-11T12:19:32-03:00"
+    },
+    {
+      "titulo": "Promoção ou pegadinha? g1 compara preços do 11.11 e revela o que realmente baixou",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/11/brasil-nunca-produziu-tanta-carne-bovina-mas-brasileiro-come-cada-vez-menos-entenda-o-paradoxo.ghtml",
-      "hora": "2026-11-11T05:00:00-03:00"
+      "url": "https://g1.globo.com/guia/guia-de-compras/promocao-ou-pegadinha-g1-compara-precos-do-11-11-e-revela-o-que-realmente-baixou.ghtml",
+      "hora": "2026-11-11T12:05:57-03:00"
     }
   ]
 }
