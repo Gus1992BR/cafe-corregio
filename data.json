@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-11T12:37-03:00",
+  "atualizadoEm": "2026-11-11T19:03-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5666,
-      "variacao": 1.05
+      "valor": 5.5528,
+      "variacao": 0.8
     },
     "ibov": {
-      "valor": 172937,
-      "variacao": 0.93
+      "valor": 172060,
+      "variacao": 0.42
     }
   },
   "manchetes": [
     {
-      "titulo": "CoreWeave dissipa temores sobre IA com perspectivas otimistas e ações saltam 20%",
+      "titulo": "Minerva (BEEF3) tem prejuízo de R$ 717 mi no 3º tri ante lucro um ano antes",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/coreweave-dissipa-temores-sobre-ia-com-perspectivas-otimistas-e-acoes-saltam-20/",
-      "hora": "2026-11-11T12:31:07-03:00"
+      "url": "https://www.infomoney.com.br/mercados/resultados-minerva-beef3-terceiro-trimestre-2026/",
+      "hora": "2026-11-11T18:57:28-03:00"
     },
     {
-      "titulo": "Só 5% das cidades têm plano público contra o El Niño; 1.093 decretaram emergência",
+      "titulo": "Frasle (FRAS3) tem queda de 5% no lucro no 3º trimestre, para R$ 100,7 milhões",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/so-5-das-cidades-tem-plano-publico-contra-o-el-nino-1-093-decretaram-emergencia/",
-      "hora": "2026-11-11T12:29:14-03:00"
+      "url": "https://www.infomoney.com.br/mercados/frasle-fras3-resultados-terceiro-trimestre-2026/",
+      "hora": "2026-11-11T18:56:57-03:00"
     },
     {
-      "titulo": "IBGE: Administração pública teve aumento de 251 mil postos em 2025",
+      "titulo": "Equatorial (EQTL3) tem lucro ajustado de R$ 535 mi no 3º tri, queda de 37%",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/ibge-administracao-publica-teve-aumento-de-251-mil-postos-em-2025/",
-      "hora": "2026-11-11T12:25:34-03:00"
+      "url": "https://www.infomoney.com.br/mercados/equatorial-eqtl3-resultados-terceiro-trimestre-2026/",
+      "hora": "2026-11-11T18:54:23-03:00"
     },
     {
-      "titulo": "Nvidia perde quase R$ 6 trilhões após caso envolvendo CEO, mais que toda a Bolsa brasileira",
+      "titulo": "Mahle (LEVE3) tem lucro de R$ 158 milhões no 3º tri, queda de 16%",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/mahle-leve3-resultados-terceiro-trimestre-2026/",
+      "hora": "2026-11-11T18:52:25-03:00"
+    },
+    {
+      "titulo": "Senado aprova MP que renegocia dívidas rurais e retira mudanças em regras propostas pela Câmara sobre cigarros eletrônicos",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/11/nvidia-bolsa-brasileira.ghtml",
-      "hora": "2026-11-11T12:20:29-03:00"
+      "url": "https://g1.globo.com/politica/noticia/2026/11/11/senado-aprova-mp-que-renegocia-dividas-rurais-e-retira-mudancas-em-regras-propostas-pela-camara-sobre-cigarros-eletronicos.ghtml",
+      "hora": "2026-11-11T18:41:25-03:00"
     },
     {
-      "titulo": "Wall Street sobe com impulso da CoreWeave a negociações relacionadas à IA",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/wall-street-sobe-com-impulso-da-coreweave-a-negociacoes-relacionadas-a-ia/",
-      "hora": "2026-11-11T12:19:32-03:00"
-    },
-    {
-      "titulo": "Promoção ou pegadinha? g1 compara preços do 11.11 e revela o que realmente baixou",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/guia/guia-de-compras/promocao-ou-pegadinha-g1-compara-precos-do-11-11-e-revela-o-que-realmente-baixou.ghtml",
-      "hora": "2026-11-11T12:05:57-03:00"
+      "titulo": "BB e banco alemão farão aporte de 100 milhões de euros em bioeconomia",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-e-banco-alemao-farao-aporte-de-100-milhoes-de-euros-em-bioeconomia",
+      "hora": "2026-11-11T18:21:00-03:00"
     }
   ]
 }
