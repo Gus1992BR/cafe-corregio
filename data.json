@@ -1,59 +1,59 @@
 {
-  "atualizadoEm": "2026-11-12T08:53-03:00",
+  "atualizadoEm": "2026-11-12T12:45-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
       "valor": 13.75
     },
     "ipca12": {
-      "valor": 4.58,
-      "mes": "set/2026"
+      "valor": 4.63,
+      "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.5899,
-      "variacao": 0.13
+      "valor": 5.6319,
+      "variacao": 0.88
     },
     "ibov": {
-      "valor": 172060,
-      "variacao": 0.42
+      "valor": 171041,
+      "variacao": -0.59
     }
   },
   "manchetes": [
     {
-      "titulo": "Banco do Brasil, BTG, Santander, Cosan, Rumo e mais ações para acompanhar hoje",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-btg-santander-cosan-rumo-e-mais-acoes-para-acompanhar-hoje/",
-      "hora": "2026-11-12T08:51:13-03:00"
+      "titulo": "Governo estuda novo modelo para concurso público unificado em 2017",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-estuda-novo-modelo-para-concurso-publico-unificado-em-2017",
+      "hora": "2026-11-12T12:42:00-03:00"
     },
     {
-      "titulo": "Moretti estima que limitar supersalários pode render economia de cerca de R$ 3 bi",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/moretti-estima-que-limitar-supersalarios-pode-render-economia-de-cerca-de-r-3-bi/",
-      "hora": "2026-11-12T08:50:17-03:00"
-    },
-    {
-      "titulo": "Câmara convida Mauro Vieira para explicar apoio à mudança de Lulinha para Espanha",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/camara-convida-mauro-vieira-para-explicar-apoio-a-mudanca-de-lulinha-para-espanha/",
-      "hora": "2026-11-12T08:44:34-03:00"
-    },
-    {
-      "titulo": "PF apreende celular de suspeito de ameaçar deputada eleita Ana Elisa",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/pf-apreende-celular-de-suspeito-de-ameacar-deputada-eleita-ana-elisa/",
-      "hora": "2026-11-12T08:38:39-03:00"
-    },
-    {
-      "titulo": "Santander aumenta oferta para comprar participação restante em sua operação no Brasil",
+      "titulo": "Petrobras anuncia compra de empresa de transporte de etanol por R$ 620 milhões",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/12/santander-aumenta-oferta-para-comprar-participacao-restante-em-sua-operacao-no-brasil.ghtml",
-      "hora": "2026-11-12T07:55:57-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/12/petrobras-anuncia-compra-de-empresa-de-transporte-de-etanol-por-r-620-milhoes.ghtml",
+      "hora": "2026-11-12T12:40:46-03:00"
     },
     {
-      "titulo": "Como suposto novo caso extraconjugal de CEO da Nvidia aumenta pressão para que ele saia do cargo",
+      "titulo": "Do agro aos dividendos: a cronologia da crise que derrubou as expectativas para o BB",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/do-agro-aos-dividendos-a-cronologia-da-crise-que-derrubou-as-expectativas-para-o-bb/",
+      "hora": "2026-11-12T12:37:35-03:00"
+    },
+    {
+      "titulo": "Banco do Brasil diz que parte do agro deu calote à espera de novas medidas de renegociação",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/12/como-suposto-novo-caso-extraconjugal-de-ceo-da-nvidia-aumenta-pressao-para-que-ele-saia-do-cargo.ghtml",
-      "hora": "2026-11-12T07:43:08-03:00"
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/12/banco-do-brasil-dividas-do-agro.ghtml",
+      "hora": "2026-11-12T12:33:28-03:00"
+    },
+    {
+      "titulo": "Ibovespa cai: fiscal, cautela com juros nos EUA e balanço do BB pesam no índice",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-fiscal-cautela-com-juros-nos-eua-e-balanco-do-bb-pesam-no-indice/",
+      "hora": "2026-11-12T12:29:16-03:00"
+    },
+    {
+      "titulo": "Reúso de computadores pelo governo brasileiro gera economia de água",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reuso-de-computadores-pelo-governo-brasileiro-gera-economia-de-agua",
+      "hora": "2026-11-12T12:24:00-03:00"
     }
   ]
 }
