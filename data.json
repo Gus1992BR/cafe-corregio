@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T12:45-03:00",
+  "atualizadoEm": "2026-11-12T18:40-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.6319,
-      "variacao": 0.88
+      "valor": 5.6405,
+      "variacao": 1.04
     },
     "ibov": {
-      "valor": 171041,
-      "variacao": -0.59
+      "valor": 171324,
+      "variacao": -0.43
     }
   },
   "manchetes": [
     {
-      "titulo": "Governo estuda novo modelo para concurso público unificado em 2017",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-estuda-novo-modelo-para-concurso-publico-unificado-em-2017",
-      "hora": "2026-11-12T12:42:00-03:00"
-    },
-    {
-      "titulo": "Petrobras anuncia compra de empresa de transporte de etanol por R$ 620 milhões",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/12/petrobras-anuncia-compra-de-empresa-de-transporte-de-etanol-por-r-620-milhoes.ghtml",
-      "hora": "2026-11-12T12:40:46-03:00"
-    },
-    {
-      "titulo": "Do agro aos dividendos: a cronologia da crise que derrubou as expectativas para o BB",
+      "titulo": "Bolsas de NY caem, com baixa da Nvidia ofuscando ganhos no setor de energia",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/do-agro-aos-dividendos-a-cronologia-da-crise-que-derrubou-as-expectativas-para-o-bb/",
-      "hora": "2026-11-12T12:37:35-03:00"
+      "url": "https://www.infomoney.com.br/mercados/wall-street-cai-apos-a-renuncia-do-presidente-executivo-da-nvidia/",
+      "hora": "2026-11-12T18:39:45-03:00"
     },
     {
-      "titulo": "Banco do Brasil diz que parte do agro deu calote à espera de novas medidas de renegociação",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/12/banco-do-brasil-dividas-do-agro.ghtml",
-      "hora": "2026-11-12T12:33:28-03:00"
-    },
-    {
-      "titulo": "Ibovespa cai: fiscal, cautela com juros nos EUA e balanço do BB pesam no índice",
+      "titulo": "Tarcísio ameaça ViaMobilidade após passageiros ficarem presos sem ar-condicionado",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-fiscal-cautela-com-juros-nos-eua-e-balanco-do-bb-pesam-no-indice/",
-      "hora": "2026-11-12T12:29:16-03:00"
+      "url": "https://www.infomoney.com.br/brasil/tarcisio-ameaca-viamobilidade-apos-passageiros-ficarem-presos-sem-ar-condicionado/",
+      "hora": "2026-11-12T18:35:14-03:00"
     },
     {
-      "titulo": "Reúso de computadores pelo governo brasileiro gera economia de água",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reuso-de-computadores-pelo-governo-brasileiro-gera-economia-de-agua",
-      "hora": "2026-11-12T12:24:00-03:00"
+      "titulo": "BBAS3: ação do BB desaba mais de 8% com balanço abaixo em todas as frentes",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/bbas3-acoes-do-banco-do-brasil-desabam-10-com-resultado-abaixo-em-todas-as-frentes/",
+      "hora": "2026-11-12T18:35:11-03:00"
+    },
+    {
+      "titulo": "Americanas (AMER3) fecha com queda de 20% após prejuízo no 3º trimestre",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/americanas-amer3-desaba-quase-20-apos-prejuizo-no-3o-tri/",
+      "hora": "2026-11-12T18:34:03-03:00"
+    },
+    {
+      "titulo": "Aeroporto de Vitória vai ganhar shopping, hospital e centro de eventos; investimento de R$ 1,7 bi vai gerar 7 mil empregos",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/11/12/aeroporto-de-vitoria-vai-ganhar-shopping-hospital-e-centro-de-eventos-investimento-de-r-17-bi-vai-gerar-7-mil-empregos.ghtml",
+      "hora": "2026-11-12T17:57:59-03:00"
+    },
+    {
+      "titulo": "Ministério da Saúde abre processo seletivo com centenas de vagas e salários de até R$ 10,3 mil",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/11/12/ministerio-da-saude-processo-seletivo.ghtml",
+      "hora": "2026-11-12T17:42:59-03:00"
     }
   ]
 }
