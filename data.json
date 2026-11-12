@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-11T19:03-03:00",
+  "atualizadoEm": "2026-11-12T08:53-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "set/2026"
     },
     "dolar": {
-      "valor": 5.5528,
-      "variacao": 0.8
+      "valor": 5.5899,
+      "variacao": 0.13
     },
     "ibov": {
       "valor": 172060,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Minerva (BEEF3) tem prejuízo de R$ 717 mi no 3º tri ante lucro um ano antes",
+      "titulo": "Banco do Brasil, BTG, Santander, Cosan, Rumo e mais ações para acompanhar hoje",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/resultados-minerva-beef3-terceiro-trimestre-2026/",
-      "hora": "2026-11-11T18:57:28-03:00"
+      "url": "https://www.infomoney.com.br/mercados/banco-do-brasil-btg-santander-cosan-rumo-e-mais-acoes-para-acompanhar-hoje/",
+      "hora": "2026-11-12T08:51:13-03:00"
     },
     {
-      "titulo": "Frasle (FRAS3) tem queda de 5% no lucro no 3º trimestre, para R$ 100,7 milhões",
+      "titulo": "Moretti estima que limitar supersalários pode render economia de cerca de R$ 3 bi",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/frasle-fras3-resultados-terceiro-trimestre-2026/",
-      "hora": "2026-11-11T18:56:57-03:00"
+      "url": "https://www.infomoney.com.br/politica/moretti-estima-que-limitar-supersalarios-pode-render-economia-de-cerca-de-r-3-bi/",
+      "hora": "2026-11-12T08:50:17-03:00"
     },
     {
-      "titulo": "Equatorial (EQTL3) tem lucro ajustado de R$ 535 mi no 3º tri, queda de 37%",
+      "titulo": "Câmara convida Mauro Vieira para explicar apoio à mudança de Lulinha para Espanha",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/equatorial-eqtl3-resultados-terceiro-trimestre-2026/",
-      "hora": "2026-11-11T18:54:23-03:00"
+      "url": "https://www.infomoney.com.br/politica/camara-convida-mauro-vieira-para-explicar-apoio-a-mudanca-de-lulinha-para-espanha/",
+      "hora": "2026-11-12T08:44:34-03:00"
     },
     {
-      "titulo": "Mahle (LEVE3) tem lucro de R$ 158 milhões no 3º tri, queda de 16%",
+      "titulo": "PF apreende celular de suspeito de ameaçar deputada eleita Ana Elisa",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/mahle-leve3-resultados-terceiro-trimestre-2026/",
-      "hora": "2026-11-11T18:52:25-03:00"
+      "url": "https://www.infomoney.com.br/politica/pf-apreende-celular-de-suspeito-de-ameacar-deputada-eleita-ana-elisa/",
+      "hora": "2026-11-12T08:38:39-03:00"
     },
     {
-      "titulo": "Senado aprova MP que renegocia dívidas rurais e retira mudanças em regras propostas pela Câmara sobre cigarros eletrônicos",
+      "titulo": "Santander aumenta oferta para comprar participação restante em sua operação no Brasil",
       "fonte": "g1",
-      "url": "https://g1.globo.com/politica/noticia/2026/11/11/senado-aprova-mp-que-renegocia-dividas-rurais-e-retira-mudancas-em-regras-propostas-pela-camara-sobre-cigarros-eletronicos.ghtml",
-      "hora": "2026-11-11T18:41:25-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/12/santander-aumenta-oferta-para-comprar-participacao-restante-em-sua-operacao-no-brasil.ghtml",
+      "hora": "2026-11-12T07:55:57-03:00"
     },
     {
-      "titulo": "BB e banco alemão farão aporte de 100 milhões de euros em bioeconomia",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bb-e-banco-alemao-farao-aporte-de-100-milhoes-de-euros-em-bioeconomia",
-      "hora": "2026-11-11T18:21:00-03:00"
+      "titulo": "Como suposto novo caso extraconjugal de CEO da Nvidia aumenta pressão para que ele saia do cargo",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/12/como-suposto-novo-caso-extraconjugal-de-ceo-da-nvidia-aumenta-pressao-para-que-ele-saia-do-cargo.ghtml",
+      "hora": "2026-11-12T07:43:08-03:00"
     }
   ]
 }
