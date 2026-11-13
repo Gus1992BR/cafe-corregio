@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T08:52-03:00",
+  "atualizadoEm": "2026-11-13T12:36-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.6453,
-      "variacao": 1.13
+      "valor": 5.6361,
+      "variacao": 0.97
     },
     "ibov": {
-      "valor": 171324,
-      "variacao": -0.43
+      "valor": 172132,
+      "variacao": 0.47
     }
   },
   "manchetes": [
     {
-      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
+      "titulo": "Ibovespa sobe com apoio de Petrobras em meio a incertezas fiscais elevadas no Brasil",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/",
-      "hora": "2026-11-13T08:41:08-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-sobe-com-apoio-de-petrobras-em-meio-a-incertezas-fiscais-elevadas-no-brasil/",
+      "hora": "2026-11-13T12:32:27-03:00"
     },
     {
-      "titulo": "Sabre de luz de Darth Vader é leiloado pelo valor recorde de R$ 27,5 milhões",
+      "titulo": "Dólar hoje vira para baixa de olho no fiscal e dados econômicos",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/sabre-de-luz-de-darth-vader-e-leiloado-pelo-valor-recorde-de-r-275-milhoes/",
-      "hora": "2026-11-13T08:34:46-03:00"
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-13112026/",
+      "hora": "2026-11-13T12:30:40-03:00"
     },
     {
-      "titulo": "Irã relata explosão de navio de GNL em Ormuz e de sistema de radar dos EUA no Bahrein",
+      "titulo": "Anvisa proíbe propagandas de cogumelos e cannabis que estavam em circulação; entenda",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/ira-relata-explosao-de-navio-de-gnl-em-ormuz-e-de-sistema-de-radar-dos-eua-no-bahrein/",
-      "hora": "2026-11-13T08:34:10-03:00"
+      "url": "https://www.infomoney.com.br/consumo/propagandas-cogumelo-cannabis-retiradas-anvisa/",
+      "hora": "2026-11-13T12:30:00-03:00"
     },
     {
-      "titulo": "Fim da escala 6×1: STF começa a votar hoje decisão de Flávio Dino",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/fim-da-escala-6x1-stf-comeca-a-votar-hoje-decisao-de-flavio-dino/",
-      "hora": "2026-11-13T08:29:12-03:00"
-    },
-    {
-      "titulo": "Microsoft descarta ataque hacker após falha global afetar Outlook, Teams e Copilot",
+      "titulo": "Placar do ajuste fiscal no Senado indica que o governo terá dificuldades para aprovar PECs em 2027",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/13/microsoft-descarta-ataque-hacker-apos-falha-global-afetar-outlook-teams-e-copilot.ghtml",
-      "hora": "2026-11-13T08:21:38-03:00"
+      "url": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/11/13/placar-do-ajuste-fiscal-no-senado-indica-que-o-governo-tera-dificuldades-para-aprovar-pecs-em-2027.ghtml",
+      "hora": "2026-11-13T12:23:13-03:00"
     },
     {
-      "titulo": "Como implementar sistemas agroflorestais",
+      "titulo": "Reforma de programas sociais pode erradicar extrema pobreza no Brasil, aponta estudo",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/economia/reforma-de-programas-sociais-pode-erradicar-extrema-pobreza-no-brasil-aponta-estudo/",
+      "hora": "2026-11-13T12:20:34-03:00"
+    },
+    {
+      "titulo": "Volkswagen lucra apenas R$ 75 por veículo vendido, aponta estudo",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/11/13/como-implementar-sistemas-agroflorestais.ghtml",
-      "hora": "2026-11-13T07:59:58-03:00"
+      "url": "https://g1.globo.com/carros/noticia/2026/11/13/volkswagen-lucra-apenas-r-75-por-veiculo-vendido-aponta-estudo.ghtml",
+      "hora": "2026-11-13T12:15:24-03:00"
     }
   ]
 }
