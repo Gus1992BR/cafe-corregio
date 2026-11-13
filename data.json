@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T18:40-03:00",
+  "atualizadoEm": "2026-11-13T08:52-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.6405,
-      "variacao": 1.04
+      "valor": 5.6453,
+      "variacao": 1.13
     },
     "ibov": {
       "valor": 171324,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Bolsas de NY caem, com baixa da Nvidia ofuscando ganhos no setor de energia",
+      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta sexta",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/wall-street-cai-apos-a-renuncia-do-presidente-executivo-da-nvidia/",
-      "hora": "2026-11-12T18:39:45-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/",
+      "hora": "2026-11-13T08:41:08-03:00"
     },
     {
-      "titulo": "Tarcísio ameaça ViaMobilidade após passageiros ficarem presos sem ar-condicionado",
+      "titulo": "Sabre de luz de Darth Vader é leiloado pelo valor recorde de R$ 27,5 milhões",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/tarcisio-ameaca-viamobilidade-apos-passageiros-ficarem-presos-sem-ar-condicionado/",
-      "hora": "2026-11-12T18:35:14-03:00"
+      "url": "https://www.infomoney.com.br/consumo/sabre-de-luz-de-darth-vader-e-leiloado-pelo-valor-recorde-de-r-275-milhoes/",
+      "hora": "2026-11-13T08:34:46-03:00"
     },
     {
-      "titulo": "BBAS3: ação do BB desaba mais de 8% com balanço abaixo em todas as frentes",
+      "titulo": "Irã relata explosão de navio de GNL em Ormuz e de sistema de radar dos EUA no Bahrein",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/bbas3-acoes-do-banco-do-brasil-desabam-10-com-resultado-abaixo-em-todas-as-frentes/",
-      "hora": "2026-11-12T18:35:11-03:00"
+      "url": "https://www.infomoney.com.br/mundo/ira-relata-explosao-de-navio-de-gnl-em-ormuz-e-de-sistema-de-radar-dos-eua-no-bahrein/",
+      "hora": "2026-11-13T08:34:10-03:00"
     },
     {
-      "titulo": "Americanas (AMER3) fecha com queda de 20% após prejuízo no 3º trimestre",
+      "titulo": "Fim da escala 6×1: STF começa a votar hoje decisão de Flávio Dino",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/americanas-amer3-desaba-quase-20-apos-prejuizo-no-3o-tri/",
-      "hora": "2026-11-12T18:34:03-03:00"
+      "url": "https://www.infomoney.com.br/mercados/fim-da-escala-6x1-stf-comeca-a-votar-hoje-decisao-de-flavio-dino/",
+      "hora": "2026-11-13T08:29:12-03:00"
     },
     {
-      "titulo": "Aeroporto de Vitória vai ganhar shopping, hospital e centro de eventos; investimento de R$ 1,7 bi vai gerar 7 mil empregos",
+      "titulo": "Microsoft descarta ataque hacker após falha global afetar Outlook, Teams e Copilot",
       "fonte": "g1",
-      "url": "https://g1.globo.com/es/espirito-santo/noticia/2026/11/12/aeroporto-de-vitoria-vai-ganhar-shopping-hospital-e-centro-de-eventos-investimento-de-r-17-bi-vai-gerar-7-mil-empregos.ghtml",
-      "hora": "2026-11-12T17:57:59-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/13/microsoft-descarta-ataque-hacker-apos-falha-global-afetar-outlook-teams-e-copilot.ghtml",
+      "hora": "2026-11-13T08:21:38-03:00"
     },
     {
-      "titulo": "Ministério da Saúde abre processo seletivo com centenas de vagas e salários de até R$ 10,3 mil",
+      "titulo": "Como implementar sistemas agroflorestais",
       "fonte": "g1",
-      "url": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/11/12/ministerio-da-saude-processo-seletivo.ghtml",
-      "hora": "2026-11-12T17:42:59-03:00"
+      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/11/13/como-implementar-sistemas-agroflorestais.ghtml",
+      "hora": "2026-11-13T07:59:58-03:00"
     }
   ]
 }
