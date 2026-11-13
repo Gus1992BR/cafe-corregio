@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-13T12:36-03:00",
-  "humor": "calmo",
+  "atualizadoEm": "2026-11-13T18:41-03:00",
+  "humor": "agitado",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.6361,
-      "variacao": 0.97
+      "valor": 5.6666,
+      "variacao": 1.51
     },
     "ibov": {
-      "valor": 172132,
-      "variacao": 0.47
+      "valor": 172458,
+      "variacao": 0.66
     }
   },
   "manchetes": [
     {
-      "titulo": "Ibovespa sobe com apoio de Petrobras em meio a incertezas fiscais elevadas no Brasil",
+      "titulo": "Ibovespa retoma o caminho da vitória e tem segunda semana positiva; dólar sobe",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-sobe-com-apoio-de-petrobras-em-meio-a-incertezas-fiscais-elevadas-no-brasil/",
-      "hora": "2026-11-13T12:32:27-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/",
+      "hora": "2026-11-13T18:28:53-03:00"
     },
     {
-      "titulo": "Dólar hoje vira para baixa de olho no fiscal e dados econômicos",
+      "titulo": "CSN desaba 12% e CSN Mineração cai 3,7% após resultados abaixo do esperado",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-13112026/",
-      "hora": "2026-11-13T12:30:40-03:00"
+      "url": "https://www.infomoney.com.br/mercados/csn-e-csn-mineracao-caem-forte-apos-resultados-do-3t26-ficarem-abaixo-do-esperado/",
+      "hora": "2026-11-13T18:27:30-03:00"
     },
     {
-      "titulo": "Anvisa proíbe propagandas de cogumelos e cannabis que estavam em circulação; entenda",
+      "titulo": "Compass e Rumo saltam após balanços e “puxam” Cosan; veja o que agradou mercado",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/propagandas-cogumelo-cannabis-retiradas-anvisa/",
-      "hora": "2026-11-13T12:30:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/compass-e-rumo-sobem-apos-balancos-e-puxam-cosan-veja-o-que-agradou-mercado/",
+      "hora": "2026-11-13T18:24:53-03:00"
     },
     {
-      "titulo": "Placar do ajuste fiscal no Senado indica que o governo terá dificuldades para aprovar PECs em 2027",
+      "titulo": "Natura (NATU3) cai 3,75% mesmo após voltar ao lucro; veja o que preocupa analistas",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/natura-natu3-cai-5-mesmo-apos-voltar-ao-lucro-veja-o-que-preocupa-analistas/",
+      "hora": "2026-11-13T18:22:14-03:00"
+    },
+    {
+      "titulo": "Confiança da indústria atinge menor nível desde maio de 2020",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/confianca-da-industria-atinge-menor-nivel-desde-maio-de-2020",
+      "hora": "2026-11-13T17:29:00-03:00"
+    },
+    {
+      "titulo": "OpenAI lança carteira digital que permite ao ChatGPT fazer compras e pagamentos pelo usuário",
       "fonte": "g1",
-      "url": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/11/13/placar-do-ajuste-fiscal-no-senado-indica-que-o-governo-tera-dificuldades-para-aprovar-pecs-em-2027.ghtml",
-      "hora": "2026-11-13T12:23:13-03:00"
-    },
-    {
-      "titulo": "Reforma de programas sociais pode erradicar extrema pobreza no Brasil, aponta estudo",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/reforma-de-programas-sociais-pode-erradicar-extrema-pobreza-no-brasil-aponta-estudo/",
-      "hora": "2026-11-13T12:20:34-03:00"
-    },
-    {
-      "titulo": "Volkswagen lucra apenas R$ 75 por veículo vendido, aponta estudo",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/carros/noticia/2026/11/13/volkswagen-lucra-apenas-r-75-por-veiculo-vendido-aponta-estudo.ghtml",
-      "hora": "2026-11-13T12:15:24-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/13/chat-gpt-wallet.ghtml",
+      "hora": "2026-11-13T17:28:07-03:00"
     }
   ]
 }
