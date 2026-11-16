@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-13T18:41-03:00",
-  "humor": "agitado",
+  "atualizadoEm": "2026-11-16T09:02-03:00",
+  "humor": "calmo",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.6666,
-      "variacao": 1.51
+      "valor": 5.6816,
+      "variacao": 0.73
     },
     "ibov": {
       "valor": 172458,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Ibovespa retoma o caminho da vitória e tem segunda semana positiva; dólar sobe",
+      "titulo": "IBC-Br: “prévia do PIB” cai 0,2% em setembro, um pouco melhor do que o esperado",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-13112026/",
-      "hora": "2026-11-13T18:28:53-03:00"
+      "url": "https://www.infomoney.com.br/economia/ibc-br-previa-do-pib-setembro-2026/",
+      "hora": "2026-11-16T09:02:10-03:00"
     },
     {
-      "titulo": "CSN desaba 12% e CSN Mineração cai 3,7% após resultados abaixo do esperado",
+      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/csn-e-csn-mineracao-caem-forte-apos-resultados-do-3t26-ficarem-abaixo-do-esperado/",
-      "hora": "2026-11-13T18:27:30-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-16112026/",
+      "hora": "2026-11-16T08:56:46-03:00"
     },
     {
-      "titulo": "Compass e Rumo saltam após balanços e “puxam” Cosan; veja o que agradou mercado",
+      "titulo": "China diz que encontro entre Xi, Putin e Trump tem “importância histórica”",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/compass-e-rumo-sobem-apos-balancos-e-puxam-cosan-veja-o-que-agradou-mercado/",
-      "hora": "2026-11-13T18:24:53-03:00"
+      "url": "https://www.infomoney.com.br/mundo/china-diz-que-encontro-entre-xi-putin-e-trump-tem-importancia-historica/",
+      "hora": "2026-11-16T08:39:51-03:00"
     },
     {
-      "titulo": "Natura (NATU3) cai 3,75% mesmo após voltar ao lucro; veja o que preocupa analistas",
+      "titulo": "IGP-10 desacelera para 0,76% em novembro, com pressão menor de petróleo e soja",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/natura-natu3-cai-5-mesmo-apos-voltar-ao-lucro-veja-o-que-preocupa-analistas/",
-      "hora": "2026-11-13T18:22:14-03:00"
+      "url": "https://www.infomoney.com.br/economia/igp-10-desacelera-para-076-em-novembro-com-pressao-menor-de-petroleo-e-soja/",
+      "hora": "2026-11-16T08:39:50-03:00"
     },
     {
-      "titulo": "Confiança da indústria atinge menor nível desde maio de 2020",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/confianca-da-industria-atinge-menor-nivel-desde-maio-de-2020",
-      "hora": "2026-11-13T17:29:00-03:00"
-    },
-    {
-      "titulo": "OpenAI lança carteira digital que permite ao ChatGPT fazer compras e pagamentos pelo usuário",
+      "titulo": "Mercado eleva estimativa de inflação para 5% em 2027 e prevê corte menor nos juros",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/13/chat-gpt-wallet.ghtml",
-      "hora": "2026-11-13T17:28:07-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/16/mercado-eleva-estimativa-de-inflacao-para-5percent-em-2027-e-preve-corte-menor-nos-juros.ghtml",
+      "hora": "2026-11-16T08:33:20-03:00"
+    },
+    {
+      "titulo": "Caixa começa a pagar parcela do Bolsa Família de novembro",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/caixa-comeca-pagar-parcela-do-bolsa-familia-de-novembro",
+      "hora": "2026-11-16T07:28:00-03:00"
     }
   ]
 }
