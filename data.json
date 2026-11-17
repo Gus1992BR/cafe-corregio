@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T08:47-03:00",
+  "atualizadoEm": "2026-11-17T12:42-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.7791,
-      "variacao": 2.02
+      "valor": 5.7835,
+      "variacao": 2.1
     },
     "ibov": {
-      "valor": 169295,
-      "variacao": -1.83
+      "valor": 171674,
+      "variacao": 1.41
     }
   },
   "manchetes": [
     {
-      "titulo": "Reforma Tributária: Durigan vai ao Senado explicar alíquota de 11,3% para a CBS",
+      "titulo": "Restrição dos EUA a chips pode ameaçar avanço de data centers e afetar a WEG?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/reforma-tributaria-durigan-vai-ao-senado-explicar-aliquota-de-113-para-a-cbs/",
-      "hora": "2026-11-17T08:46:53-03:00"
+      "url": "https://www.infomoney.com.br/mercados/wege3-restricao-dos-eua-a-chips-pode-ameacar-avanco-de-data-centers-e-afetar-a-weg/",
+      "hora": "2026-11-17T12:40:00-03:00"
     },
     {
-      "titulo": "Episódio de ‘Os Simpsons’ e teste em sistema nos EUA rendeu um falso alerta de apagão",
+      "titulo": "Queridinha da IA na China perde 85% do valor após restrições dos EUA",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/episodio-de-os-simpsons-e-teste-em-sistema-nos-eua-rendeu-um-falso-alerta-de-apagao/",
-      "hora": "2026-11-17T08:43:06-03:00"
+      "url": "https://www.infomoney.com.br/mercados/queridinha-da-ia-na-china-perde-85-do-valor-apos-restricoes-dos-eua/",
+      "hora": "2026-11-17T12:38:25-03:00"
     },
     {
-      "titulo": "Trump chega às Filipinas para viagem à Ásia com foco em comércio e segurança regional",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/trump-chega-as-filipinas-para-viagem-a-asia-com-foco-em-comercio-e-seguranca-regional/",
-      "hora": "2026-11-17T08:42:46-03:00"
-    },
-    {
-      "titulo": "Oposição acusa Netanyahu de tentar golpe após intervenção em prisões no partido árabe",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/oposicao-acusa-netanyahu-de-tentar-golpe-apos-intervencao-em-prisoes-no-partido-arabe/",
-      "hora": "2026-11-17T08:40:58-03:00"
-    },
-    {
-      "titulo": "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial 2026",
+      "titulo": "Reforma tributária: Receita descarta punição a erros de boa-fé",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026",
-      "hora": "2026-11-17T08:12:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe",
+      "hora": "2026-11-17T12:30:00-03:00"
     },
     {
-      "titulo": "Durigan explica no Senado alíquota de 11,3% da CBS",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs",
-      "hora": "2026-11-17T07:15:00-03:00"
+      "titulo": "Anvisa proíbe venda de melatonina sublingual",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/brasil/anvisa-proibe-venda-de-melatonina-sublingual/",
+      "hora": "2026-11-17T12:29:59-03:00"
+    },
+    {
+      "titulo": "Ibovespa sobe mais de 1% de olho em plano fiscal, mas mercado segue cauteloso",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-sobe-mas-investidor-segue-cauteloso-a-espera-de-definicoes-do-governo-lula/",
+      "hora": "2026-11-17T12:26:49-03:00"
+    },
+    {
+      "titulo": "Com medidas do governo, Saúde pode deixar de receber R$ 9 bilhões em 2027 e ter alta limitada até 2030; organizações sociais reagem",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/17/com-medidas-do-governo-saude-pode-deixar-de-receber-r-9-bilhoes-em-2027-e-ter-alta-limitada-ate-2030-organizacoes-sociais-reagem.ghtml",
+      "hora": "2026-11-17T12:25:28-03:00"
     }
   ]
 }
