@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T18:43-03:00",
+  "atualizadoEm": "2026-11-17T08:47-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.7833,
-      "variacao": 2.53
+      "valor": 5.7791,
+      "variacao": 2.02
     },
     "ibov": {
       "valor": 169295,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Wall Street cai com preocupação sobre IA, antes de dados da Nvidia e IPO da Anthropic",
+      "titulo": "Reforma Tributária: Durigan vai ao Senado explicar alíquota de 11,3% para a CBS",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/wall-street-cai-com-preocupacao-sobre-ia-antes-de-dados-da-nvidia-e-ipo-da-anthropic/",
-      "hora": "2026-11-16T18:42:56-03:00"
+      "url": "https://www.infomoney.com.br/politica/reforma-tributaria-durigan-vai-ao-senado-explicar-aliquota-de-113-para-a-cbs/",
+      "hora": "2026-11-17T08:46:53-03:00"
     },
     {
-      "titulo": "Cinco países europeus anunciam centro em Ruanda para deportados",
+      "titulo": "Episódio de ‘Os Simpsons’ e teste em sistema nos EUA rendeu um falso alerta de apagão",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/cinco-paises-europeus-anunciam-centro-em-ruanda-para-deportados/",
-      "hora": "2026-11-16T18:38:59-03:00"
+      "url": "https://www.infomoney.com.br/mundo/episodio-de-os-simpsons-e-teste-em-sistema-nos-eua-rendeu-um-falso-alerta-de-apagao/",
+      "hora": "2026-11-17T08:43:06-03:00"
     },
     {
-      "titulo": "Ibovespa cai cerca de 2% e fica abaixo dos 170 mil pontos: o que explica forte queda?",
+      "titulo": "Trump chega às Filipinas para viagem à Ásia com foco em comércio e segurança regional",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-cai-15-e-fica-abaixo-dos-170-mil-pontos-o-que-explica-queda-nesta-2a/",
-      "hora": "2026-11-16T18:38:54-03:00"
+      "url": "https://www.infomoney.com.br/mundo/trump-chega-as-filipinas-para-viagem-a-asia-com-foco-em-comercio-e-seguranca-regional/",
+      "hora": "2026-11-17T08:42:46-03:00"
     },
     {
-      "titulo": "Moedas Globais: força do dólar segue e DXY sobe a maior nível desde Dia da Libertação",
+      "titulo": "Oposição acusa Netanyahu de tentar golpe após intervenção em prisões no partido árabe",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/moedas-globais-forca-do-dolar-segue-e-dxy-sobe-a-maior-nivel-desde-dia-da-libertacao/",
-      "hora": "2026-11-16T18:30:21-03:00"
+      "url": "https://www.infomoney.com.br/mundo/oposicao-acusa-netanyahu-de-tentar-golpe-apos-intervencao-em-prisoes-no-partido-arabe/",
+      "hora": "2026-11-17T08:40:58-03:00"
     },
     {
-      "titulo": "Falha técnica afeta serviços de grandes bancos dos Estados Unidos",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/16/grandes-bancos-dos-eua-relatam-interrupcoes-generalizadas-em-seus-servicos.ghtml",
-      "hora": "2026-11-16T17:48:14-03:00"
+      "titulo": "Mais de 276 mil trabalhadores ainda não sacaram o abono salarial 2026",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/mais-de-276-mil-trabalhadores-ainda-nao-sacaram-o-abono-salarial-2026",
+      "hora": "2026-11-17T08:12:00-03:00"
     },
     {
-      "titulo": "Fornecedora de café da Nestlé enfrenta audiência por denúncias de violações trabalhistas",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/16/fornecedora-de-cafe-da-nestle-enfrenta-audiencia-por-denuncias-de-violacoes-trabalhistas.ghtml",
-      "hora": "2026-11-16T17:17:37-03:00"
+      "titulo": "Durigan explica no Senado alíquota de 11,3% da CBS",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/durigan-explica-no-senado-aliquota-de-113-da-cbs",
+      "hora": "2026-11-17T07:15:00-03:00"
     }
   ]
 }
