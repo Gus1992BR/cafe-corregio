@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T12:42-03:00",
+  "atualizadoEm": "2026-11-17T18:46-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.7835,
-      "variacao": 2.1
+      "valor": 5.7789,
+      "variacao": 2.01
     },
     "ibov": {
-      "valor": 171674,
-      "variacao": 1.41
+      "valor": 169817,
+      "variacao": 0.31
     }
   },
   "manchetes": [
     {
-      "titulo": "Restrição dos EUA a chips pode ameaçar avanço de data centers e afetar a WEG?",
+      "titulo": "Nvidia apresenta projeção otimista em seu primeiro balanço desde a saída de Huang",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/wege3-restricao-dos-eua-a-chips-pode-ameacar-avanco-de-data-centers-e-afetar-a-weg/",
-      "hora": "2026-11-17T12:40:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/nvidia-apresenta-projecao-otimista-em-seu-primeiro-balanco-desde-a-saida-de-huang/",
+      "hora": "2026-11-17T18:46:50-03:00"
     },
     {
-      "titulo": "Queridinha da IA na China perde 85% do valor após restrições dos EUA",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/queridinha-da-ia-na-china-perde-85-do-valor-apos-restricoes-dos-eua/",
-      "hora": "2026-11-17T12:38:25-03:00"
-    },
-    {
-      "titulo": "Reforma tributária: Receita descarta punição a erros de boa-fé",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-receita-descarta-punicao-erros-de-boa-fe",
-      "hora": "2026-11-17T12:30:00-03:00"
-    },
-    {
-      "titulo": "Anvisa proíbe venda de melatonina sublingual",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/anvisa-proibe-venda-de-melatonina-sublingual/",
-      "hora": "2026-11-17T12:29:59-03:00"
-    },
-    {
-      "titulo": "Ibovespa sobe mais de 1% de olho em plano fiscal, mas mercado segue cauteloso",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-sobe-mas-investidor-segue-cauteloso-a-espera-de-definicoes-do-governo-lula/",
-      "hora": "2026-11-17T12:26:49-03:00"
-    },
-    {
-      "titulo": "Com medidas do governo, Saúde pode deixar de receber R$ 9 bilhões em 2027 e ter alta limitada até 2030; organizações sociais reagem",
+      "titulo": "Lucro da Nvidia dobra no 3º trimestre, para US$ 65,3 bilhões",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/17/com-medidas-do-governo-saude-pode-deixar-de-receber-r-9-bilhoes-em-2027-e-ter-alta-limitada-ate-2030-organizacoes-sociais-reagem.ghtml",
-      "hora": "2026-11-17T12:25:28-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/17/balanco-nvidia.ghtml",
+      "hora": "2026-11-17T18:36:15-03:00"
+    },
+    {
+      "titulo": "Ibovespa desidrata durante o dia mas fecha positivo; dólar sobe de novo",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-17112026/",
+      "hora": "2026-11-17T18:25:13-03:00"
+    },
+    {
+      "titulo": "Senado aprova MP do Brasil Soberano 3, para empresas afetadas por tarifaço",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/politica/senado-aprova-mp-do-brasil-soberano-3-para-empresas-afetadas-por-tarifaco/",
+      "hora": "2026-11-17T17:57:19-03:00"
+    },
+    {
+      "titulo": "Justiça dos EUA derruba limite de permanência de estudantes imposto por Trump",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/carreira/justica-dos-eua-derruba-limite-de-permanencia-de-estudantes-imposto-por-trump/",
+      "hora": "2026-11-17T17:54:24-03:00"
+    },
+    {
+      "titulo": "Brasil simplifica exportação de cosméticos para América Latina",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-simplifica-exportacao-de-cosmeticos-para-america-latina",
+      "hora": "2026-11-17T17:48:00-03:00"
     }
   ]
 }
