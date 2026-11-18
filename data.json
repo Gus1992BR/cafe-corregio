@@ -1,6 +1,6 @@
 {
-  "atualizadoEm": "2026-11-17T18:46-03:00",
-  "humor": "agitado",
+  "atualizadoEm": "2026-11-17T21:24-03:00",
+  "humor": "calmo",
   "indicadores": {
     "selic": {
       "valor": 13.75
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.7789,
-      "variacao": 2.01
+      "valor": 5.7778,
+      "variacao": -0.11
     },
     "ibov": {
       "valor": 169817,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Nvidia apresenta projeção otimista em seu primeiro balanço desde a saída de Huang",
+      "titulo": "Dia de Sorte: confira o resultado do concurso 1350 sorteado nesta terça (17)",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/nvidia-apresenta-projecao-otimista-em-seu-primeiro-balanco-desde-a-saida-de-huang/",
-      "hora": "2026-11-17T18:46:50-03:00"
+      "url": "https://www.infomoney.com.br/consumo/dia-de-sorte-confira-o-resultado-do-concurso-1350-sorteado-nesta-terca-17/",
+      "hora": "2026-11-17T21:20:08-03:00"
     },
     {
-      "titulo": "Lucro da Nvidia dobra no 3º trimestre, para US$ 65,3 bilhões",
+      "titulo": "Quina hoje, concurso 7170: confira o resultado sorteado nesta terça (17)",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7170-confira-o-resultado-sorteado-nesta-terca-17/",
+      "hora": "2026-11-17T21:10:29-03:00"
+    },
+    {
+      "titulo": "Lotofácil hoje, concurso 3832: confira o resultado sorteado nesta terça (17)",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3832-confira-o-resultado-sorteado-nesta-terca-17/",
+      "hora": "2026-11-17T21:08:52-03:00"
+    },
+    {
+      "titulo": "Mega-Sena, concurso 3087: confira os números sorteados",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/11/17/mega-sena-concurso-3087-confira-os-numeros-sorteados.ghtml",
+      "hora": "2026-11-17T21:05:09-03:00"
+    },
+    {
+      "titulo": "Mega-Sena hoje, concurso 3087: confira o resultado sorteado nesta terça (17)",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3087-confira-o-resultado-sorteado-nesta-terca-17/",
+      "hora": "2026-11-17T21:04:39-03:00"
+    },
+    {
+      "titulo": "Nvidia dobra lucro para US$ 65,3 bilhões em primeiro balanço após saída de Jensen Huang",
       "fonte": "g1",
       "url": "https://g1.globo.com/tecnologia/noticia/2026/11/17/balanco-nvidia.ghtml",
       "hora": "2026-11-17T18:36:15-03:00"
-    },
-    {
-      "titulo": "Ibovespa desidrata durante o dia mas fecha positivo; dólar sobe de novo",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-17112026/",
-      "hora": "2026-11-17T18:25:13-03:00"
-    },
-    {
-      "titulo": "Senado aprova MP do Brasil Soberano 3, para empresas afetadas por tarifaço",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/senado-aprova-mp-do-brasil-soberano-3-para-empresas-afetadas-por-tarifaco/",
-      "hora": "2026-11-17T17:57:19-03:00"
-    },
-    {
-      "titulo": "Justiça dos EUA derruba limite de permanência de estudantes imposto por Trump",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/carreira/justica-dos-eua-derruba-limite-de-permanencia-de-estudantes-imposto-por-trump/",
-      "hora": "2026-11-17T17:54:24-03:00"
-    },
-    {
-      "titulo": "Brasil simplifica exportação de cosméticos para América Latina",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-simplifica-exportacao-de-cosmeticos-para-america-latina",
-      "hora": "2026-11-17T17:48:00-03:00"
     }
   ]
 }
