@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18T12:46-03:00",
+  "atualizadoEm": "2026-11-18T18:47-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.8123,
-      "variacao": 0.7
+      "valor": 5.8488,
+      "variacao": 1.33
     },
     "ibov": {
-      "valor": 168325,
-      "variacao": -0.88
+      "valor": 167538,
+      "variacao": -1.34
     }
   },
   "manchetes": [
     {
-      "titulo": "Vendas pendentes de moradias nos EUA caem para mínima recorde em outubro",
+      "titulo": "Anthropic fixa preço de IPO em US$83 por ação, diz fonte",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/vendas-pendentes-de-moradias-nos-eua-caem-para-minima-recorde-em-outubro/",
-      "hora": "2026-11-18T12:39:45-03:00"
+      "url": "https://www.infomoney.com.br/mercados/anthropic-fixa-preco-de-ipo-em-us83-por-acao-diz-fonte/",
+      "hora": "2026-11-18T18:46:15-03:00"
     },
     {
-      "titulo": "Trump, Xi e Putin apertam as mãos durante encontro de líderes na China",
+      "titulo": "Senado rejeita destaques e avança com pacote fiscal proposto pelo governo Lula",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/trump-xi-e-putin-apertam-as-maos-durante-encontro-de-lideres-na-china/",
-      "hora": "2026-11-18T12:38:14-03:00"
+      "url": "https://www.infomoney.com.br/politica/senado-rejeita-destaques-e-avanca-com-pacote-fiscal-proposto-pelo-governo-lula/",
+      "hora": "2026-11-18T18:40:23-03:00"
     },
     {
-      "titulo": "Ucrânia pode abrir mão de território para entrar na OTAN? Entenda a negociação",
+      "titulo": "Wall St fecha sem direção única após divulgação dos resultados da Nvidia",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/ucrania-pode-abrir-mao-de-territorio-para-entrar-na-otan-entenda-a-negociacao/",
-      "hora": "2026-11-18T12:37:21-03:00"
+      "url": "https://www.infomoney.com.br/mercados/wall-st-fecha-sem-direcao-unica-apos-divulgacao-dos-resultados-da-nvidia/",
+      "hora": "2026-11-18T18:34:05-03:00"
     },
     {
-      "titulo": "Número de desempregados há dois anos ou mais é o menor já registrado",
+      "titulo": "Governo fecha acordo e flexibiliza trecho do ajuste fiscal sobre Lei Kandir",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/politica/governo-fecha-acordo-e-flexibiliza-trecho-do-ajuste-fiscal-sobre-lei-kandir/",
+      "hora": "2026-11-18T18:33:01-03:00"
+    },
+    {
+      "titulo": "Senado pede explicações a TCU sobre alíquota de 11,3% da CBS",
       "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/numero-de-desempregados-ha-dois-anos-ou-mais-e-o-menor-ja-registrado",
-      "hora": "2026-11-18T12:36:00-03:00"
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/senado-pede-explicacoes-tcu-sobre-aliquota-de-113-da-cbs",
+      "hora": "2026-11-18T17:07:00-03:00"
     },
     {
-      "titulo": "Petrobras tem novo corte de preço-alvo apesar de cenário favorável para o petróleo",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/petrobras-tem-novo-corte-de-preco-alvo-apesar-de-cenario-favoravel-para-o-petroleo/",
-      "hora": "2026-11-18T12:28:59-03:00"
-    },
-    {
-      "titulo": "Toyota do Brasil mostra a picape Corolla Deck; modelo tem motor híbrido flex",
+      "titulo": "Banco do Brasil alerta clientes sobre vazamento de dados pessoais; veja o que foi exposto",
       "fonte": "g1",
-      "url": "https://g1.globo.com/carros/noticia/2026/11/18/toyota-mostra-novo-produto.ghtml",
-      "hora": "2026-11-18T11:12:02-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/18/banco-do-brasil-dados.ghtml",
+      "hora": "2026-11-18T16:30:01-03:00"
     }
   ]
 }
