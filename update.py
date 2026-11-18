@@ -49,14 +49,17 @@ def yahoo_intradia(symbol):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1h"
     res = json.loads(get(url))["chart"]["result"][0]
     pares = [
-        (datetime.fromtimestamp(t, TZ).date(), c)
+        (datetime.fromtimestamp(t, TZ), c)
         for t, c in zip(res["timestamp"], res["indicators"]["quote"][0]["close"])
         if c is not None
     ]
     price = pares[-1][1]
-    hoje = pares[-1][0]
-    anteriores = [c for d, c in pares if d < hoje]
-    var = (price / anteriores[-1] - 1) * 100 if anteriores else None
+    hoje = pares[-1][0].date()
+    anteriores = [(dt, c) for dt, c in pares if dt.date() < hoje]
+    # Referência: preço perto do fechamento brasileiro (até ~18h) do dia anterior,
+    # para não misturar com o movimento do câmbio fora do horário.
+    referencia = [c for dt, c in anteriores if dt.hour <= 17] or [c for dt, c in anteriores]
+    var = (price / referencia[-1] - 1) * 100 if referencia else None
     return price, var
 
 
