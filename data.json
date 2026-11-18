@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T21:24-03:00",
+  "atualizadoEm": "2026-11-17T21:26-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -11,7 +11,7 @@
     },
     "dolar": {
       "valor": 5.7778,
-      "variacao": -0.11
+      "variacao": -0.16
     },
     "ibov": {
       "valor": 169817,
