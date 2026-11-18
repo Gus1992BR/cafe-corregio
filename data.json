@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T21:26-03:00",
+  "atualizadoEm": "2026-11-18T08:57-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.7778,
-      "variacao": -0.16
+      "valor": 5.7657,
+      "variacao": -0.11
     },
     "ibov": {
       "valor": 169817,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Dia de Sorte: confira o resultado do concurso 1350 sorteado nesta terça (17)",
+      "titulo": "CPI anual da zona do euro acelera a 4% em outubro; núcleo é revisado para 2,6%",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/dia-de-sorte-confira-o-resultado-do-concurso-1350-sorteado-nesta-terca-17/",
-      "hora": "2026-11-17T21:20:08-03:00"
+      "url": "https://www.infomoney.com.br/economia/cpi-anual-da-zona-do-euro-acelera-a-4-em-outubro-nucleo-e-revisado-para-26/",
+      "hora": "2026-11-18T08:55:02-03:00"
     },
     {
-      "titulo": "Quina hoje, concurso 7170: confira o resultado sorteado nesta terça (17)",
+      "titulo": "Inflação anual do Reino Unido acelera a 3,6% em outubro, mas fica abaixo do esperado",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/quina-hoje-concurso-7170-confira-o-resultado-sorteado-nesta-terca-17/",
-      "hora": "2026-11-17T21:10:29-03:00"
+      "url": "https://www.infomoney.com.br/economia/inflacao-anual-do-reino-unido-acelera-a-36-em-outubro-mas-fica-abaixo-do-esperado/",
+      "hora": "2026-11-18T08:49:45-03:00"
     },
     {
-      "titulo": "Lotofácil hoje, concurso 3832: confira o resultado sorteado nesta terça (17)",
+      "titulo": "Desnutrição infantil avança e violência de gangues no Haiti impede chegada de ajuda",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3832-confira-o-resultado-sorteado-nesta-terca-17/",
-      "hora": "2026-11-17T21:08:52-03:00"
+      "url": "https://www.infomoney.com.br/mundo/desnutricao-infantil-avanca-e-violencia-de-gangues-no-haiti-impede-chegada-de-ajuda/",
+      "hora": "2026-11-18T08:42:18-03:00"
     },
     {
-      "titulo": "Mega-Sena, concurso 3087: confira os números sorteados",
+      "titulo": "Nvidia interrompe envio de chips Hopper para a China em meio à crise por espionagem",
       "fonte": "g1",
-      "url": "https://g1.globo.com/loterias/mega-sena/noticia/2026/11/17/mega-sena-concurso-3087-confira-os-numeros-sorteados.ghtml",
-      "hora": "2026-11-17T21:05:09-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/18/nvidia-interrompe-envio-de-chips-hopper-para-a-china-em-meio-a-crise-por-espionagem.ghtml",
+      "hora": "2026-11-18T08:37:17-03:00"
     },
     {
-      "titulo": "Mega-Sena hoje, concurso 3087: confira o resultado sorteado nesta terça (17)",
+      "titulo": "Governo de SP leiloa cinco imóveis em dezembro; veja fotos e saiba como participar",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3087-confira-o-resultado-sorteado-nesta-terca-17/",
-      "hora": "2026-11-17T21:04:39-03:00"
+      "url": "https://www.infomoney.com.br/minhas-financas/governo-de-sp-leiloa-cinco-imoveis-em-dezembro-veja-fotos-e-saiba-como-participar/",
+      "hora": "2026-11-18T08:34:53-03:00"
     },
     {
-      "titulo": "Nvidia dobra lucro para US$ 65,3 bilhões em primeiro balanço após saída de Jensen Huang",
+      "titulo": "Maioria dos trabalhadores não está engajada; veja motivos e quais jornadas têm piores índices",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/17/balanco-nvidia.ghtml",
-      "hora": "2026-11-17T18:36:15-03:00"
+      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/18/maioria-dos-trabalhadores-nao-esta-engajada-veja-motivos-e-quais-jornadas-tem-piores-indices.ghtml",
+      "hora": "2026-11-18T08:00:01-03:00"
     }
   ]
 }
