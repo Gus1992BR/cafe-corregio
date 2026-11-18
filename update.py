@@ -40,6 +40,26 @@ def yahoo(symbol):
     return price, var
 
 
+def yahoo_intradia(symbol):
+    """Retorna (preço atual, variação % sobre o último preço do dia anterior).
+
+    Usa candles de 1 hora e as datas de São Paulo, para não depender do candle
+    diário, que no câmbio às vezes falta ou vem deslocado e gera variações
+    de vários dias (ex.: +2% quando o dia foi +0,1%)."""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1h"
+    res = json.loads(get(url))["chart"]["result"][0]
+    pares = [
+        (datetime.fromtimestamp(t, TZ).date(), c)
+        for t, c in zip(res["timestamp"], res["indicators"]["quote"][0]["close"])
+        if c is not None
+    ]
+    price = pares[-1][1]
+    hoje = pares[-1][0]
+    anteriores = [c for d, c in pares if d < hoje]
+    var = (price / anteriores[-1] - 1) * 100 if anteriores else None
+    return price, var
+
+
 def carregar_antigo():
     try:
         with open("data.json", encoding="utf-8") as f:
@@ -65,7 +85,11 @@ def coletar_indicadores(antigo):
         print("IPCA falhou:", e)
 
     try:
-        preco, var = yahoo("BRL=X")
+        try:
+            preco, var = yahoo_intradia("BRL=X")
+        except Exception as e:
+            print("Dólar intradiário falhou, usando candle diário:", e)
+            preco, var = yahoo("BRL=X")
         ind["dolar"] = {"valor": round(preco, 4), "variacao": None if var is None else round(var, 2)}
     except Exception as e:
         print("Dólar (Yahoo) falhou:", e)
