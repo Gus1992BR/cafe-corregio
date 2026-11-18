@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18T08:57-03:00",
+  "atualizadoEm": "2026-11-18T12:46-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.7657,
-      "variacao": -0.11
+      "valor": 5.8123,
+      "variacao": 0.7
     },
     "ibov": {
-      "valor": 169817,
-      "variacao": 0.31
+      "valor": 168325,
+      "variacao": -0.88
     }
   },
   "manchetes": [
     {
-      "titulo": "CPI anual da zona do euro acelera a 4% em outubro; núcleo é revisado para 2,6%",
+      "titulo": "Vendas pendentes de moradias nos EUA caem para mínima recorde em outubro",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/cpi-anual-da-zona-do-euro-acelera-a-4-em-outubro-nucleo-e-revisado-para-26/",
-      "hora": "2026-11-18T08:55:02-03:00"
+      "url": "https://www.infomoney.com.br/mercados/vendas-pendentes-de-moradias-nos-eua-caem-para-minima-recorde-em-outubro/",
+      "hora": "2026-11-18T12:39:45-03:00"
     },
     {
-      "titulo": "Inflação anual do Reino Unido acelera a 3,6% em outubro, mas fica abaixo do esperado",
+      "titulo": "Trump, Xi e Putin apertam as mãos durante encontro de líderes na China",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/inflacao-anual-do-reino-unido-acelera-a-36-em-outubro-mas-fica-abaixo-do-esperado/",
-      "hora": "2026-11-18T08:49:45-03:00"
+      "url": "https://www.infomoney.com.br/business/global/trump-xi-e-putin-apertam-as-maos-durante-encontro-de-lideres-na-china/",
+      "hora": "2026-11-18T12:38:14-03:00"
     },
     {
-      "titulo": "Desnutrição infantil avança e violência de gangues no Haiti impede chegada de ajuda",
+      "titulo": "Ucrânia pode abrir mão de território para entrar na OTAN? Entenda a negociação",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/desnutricao-infantil-avanca-e-violencia-de-gangues-no-haiti-impede-chegada-de-ajuda/",
-      "hora": "2026-11-18T08:42:18-03:00"
+      "url": "https://www.infomoney.com.br/mundo/ucrania-pode-abrir-mao-de-territorio-para-entrar-na-otan-entenda-a-negociacao/",
+      "hora": "2026-11-18T12:37:21-03:00"
     },
     {
-      "titulo": "Nvidia interrompe envio de chips Hopper para a China em meio à crise por espionagem",
+      "titulo": "Número de desempregados há dois anos ou mais é o menor já registrado",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/numero-de-desempregados-ha-dois-anos-ou-mais-e-o-menor-ja-registrado",
+      "hora": "2026-11-18T12:36:00-03:00"
+    },
+    {
+      "titulo": "Petrobras tem novo corte de preço-alvo apesar de cenário favorável para o petróleo",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/petrobras-tem-novo-corte-de-preco-alvo-apesar-de-cenario-favoravel-para-o-petroleo/",
+      "hora": "2026-11-18T12:28:59-03:00"
+    },
+    {
+      "titulo": "Toyota do Brasil mostra a picape Corolla Deck; modelo tem motor híbrido flex",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/18/nvidia-interrompe-envio-de-chips-hopper-para-a-china-em-meio-a-crise-por-espionagem.ghtml",
-      "hora": "2026-11-18T08:37:17-03:00"
-    },
-    {
-      "titulo": "Governo de SP leiloa cinco imóveis em dezembro; veja fotos e saiba como participar",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/minhas-financas/governo-de-sp-leiloa-cinco-imoveis-em-dezembro-veja-fotos-e-saiba-como-participar/",
-      "hora": "2026-11-18T08:34:53-03:00"
-    },
-    {
-      "titulo": "Maioria dos trabalhadores não está engajada; veja motivos e quais jornadas têm piores índices",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/18/maioria-dos-trabalhadores-nao-esta-engajada-veja-motivos-e-quais-jornadas-tem-piores-indices.ghtml",
-      "hora": "2026-11-18T08:00:01-03:00"
+      "url": "https://g1.globo.com/carros/noticia/2026/11/18/toyota-mostra-novo-produto.ghtml",
+      "hora": "2026-11-18T11:12:02-03:00"
     }
   ]
 }
