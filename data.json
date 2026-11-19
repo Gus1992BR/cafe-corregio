@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18T18:47-03:00",
+  "atualizadoEm": "2026-11-19T08:55-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.8488,
-      "variacao": 1.33
+      "valor": 5.8455,
+      "variacao": -0.06
     },
     "ibov": {
       "valor": 167538,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Anthropic fixa preço de IPO em US$83 por ação, diz fonte",
+      "titulo": "Estados Unidos entram em alerta após sucessivas panes tecnológicas",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/anthropic-fixa-preco-de-ipo-em-us83-por-acao-diz-fonte/",
-      "hora": "2026-11-18T18:46:15-03:00"
+      "url": "https://www.infomoney.com.br/mundo/estados-unidos-entram-em-alerta-apos-sucessivas-panes-tecnologicas/",
+      "hora": "2026-11-19T08:54:24-03:00"
     },
     {
-      "titulo": "Senado rejeita destaques e avança com pacote fiscal proposto pelo governo Lula",
+      "titulo": "Xi pede que EUA ‘façam a coisa certa’ sobre Taiwan; Trump nega independência da ilha",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/senado-rejeita-destaques-e-avanca-com-pacote-fiscal-proposto-pelo-governo-lula/",
-      "hora": "2026-11-18T18:40:23-03:00"
+      "url": "https://www.infomoney.com.br/mundo/xi-pede-que-eua-facam-a-coisa-certa-sobre-taiwan-trump-nega-independencia-da-ilha/",
+      "hora": "2026-11-19T08:51:09-03:00"
     },
     {
-      "titulo": "Wall St fecha sem direção única após divulgação dos resultados da Nvidia",
+      "titulo": "EUA e China possuem interesse em restabelecer fluxo de petróleo por Ormuz, diz Trump",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/wall-st-fecha-sem-direcao-unica-apos-divulgacao-dos-resultados-da-nvidia/",
-      "hora": "2026-11-18T18:34:05-03:00"
+      "url": "https://www.infomoney.com.br/economia/eua-e-china-possuem-interesse-em-restabelecer-fluxo-de-petroleo-por-ormuz-diz-trump/",
+      "hora": "2026-11-19T08:50:35-03:00"
     },
     {
-      "titulo": "Governo fecha acordo e flexibiliza trecho do ajuste fiscal sobre Lei Kandir",
+      "titulo": "Putin diz que dedicou ‘bastante tempo’ à Ucrânia em reunião bilateral com Trump",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/governo-fecha-acordo-e-flexibiliza-trecho-do-ajuste-fiscal-sobre-lei-kandir/",
-      "hora": "2026-11-18T18:33:01-03:00"
+      "url": "https://www.infomoney.com.br/mundo/putin-diz-que-dedicou-bastante-tempo-a-ucrania-em-reuniao-bilateral-com-trump/",
+      "hora": "2026-11-19T08:47:41-03:00"
     },
     {
-      "titulo": "Senado pede explicações a TCU sobre alíquota de 11,3% da CBS",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/senado-pede-explicacoes-tcu-sobre-aliquota-de-113-da-cbs",
-      "hora": "2026-11-18T17:07:00-03:00"
-    },
-    {
-      "titulo": "Banco do Brasil alerta clientes sobre vazamento de dados pessoais; veja o que foi exposto",
+      "titulo": "Como implementar sistemas agroflorestais",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/18/banco-do-brasil-dados.ghtml",
-      "hora": "2026-11-18T16:30:01-03:00"
+      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/11/19/como-implementar-sistemas-agroflorestais.ghtml",
+      "hora": "2026-11-19T08:39:05-03:00"
+    },
+    {
+      "titulo": "Perdas do Ueno Bank se aproximam de US$ 1 bilhão, segundo Banco Central do Paraguai",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/19/perdas-do-ueno-bank-se-aproximam-de-us-1-bilhao-segundo-banco-central.ghtml",
+      "hora": "2026-11-19T07:39:16-03:00"
     }
   ]
 }
