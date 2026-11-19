@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T08:55-03:00",
+  "atualizadoEm": "2026-11-19T12:46-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.8455,
-      "variacao": -0.06
+      "valor": 5.9005,
+      "variacao": 0.88
     },
     "ibov": {
-      "valor": 167538,
-      "variacao": -1.34
+      "valor": 167178,
+      "variacao": -0.22
     }
   },
   "manchetes": [
     {
-      "titulo": "Estados Unidos entram em alerta após sucessivas panes tecnológicas",
+      "titulo": "BNDES tem lucro líquido de R$ 4,27 bi no 3º tri",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/estados-unidos-entram-em-alerta-apos-sucessivas-panes-tecnologicas/",
-      "hora": "2026-11-19T08:54:24-03:00"
+      "url": "https://www.infomoney.com.br/mercados/bndes-tem-lucro-liquido-de-r-427-bi-no-3o-tri/",
+      "hora": "2026-11-19T12:41:44-03:00"
     },
     {
-      "titulo": "Xi pede que EUA ‘façam a coisa certa’ sobre Taiwan; Trump nega independência da ilha",
+      "titulo": "PGR denuncia Flávio Bolsonaro por calúnia contra Lula em postagem sobre Maduro",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/xi-pede-que-eua-facam-a-coisa-certa-sobre-taiwan-trump-nega-independencia-da-ilha/",
-      "hora": "2026-11-19T08:51:09-03:00"
+      "url": "https://www.infomoney.com.br/politica/pgr-denuncia-flavio-bolsonaro-por-calunia-contra-lula-em-postagem-sobre-maduro/",
+      "hora": "2026-11-19T12:40:10-03:00"
     },
     {
-      "titulo": "EUA e China possuem interesse em restabelecer fluxo de petróleo por Ormuz, diz Trump",
+      "titulo": "Marcopolo (POMO4) fecha acordo para PDV e suspensão temporária de contratos; ação cai",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/eua-e-china-possuem-interesse-em-restabelecer-fluxo-de-petroleo-por-ormuz-diz-trump/",
-      "hora": "2026-11-19T08:50:35-03:00"
+      "url": "https://www.infomoney.com.br/mercados/marcopolo-pomo4-fecha-acordo-para-pdv-e-suspensao-temporaria-de-contratos/",
+      "hora": "2026-11-19T12:37:38-03:00"
     },
     {
-      "titulo": "Putin diz que dedicou ‘bastante tempo’ à Ucrânia em reunião bilateral com Trump",
+      "titulo": "Dólar hoje chega a zerar após leilão do BC, mas volta a subir e encosta nos R$ 5,90",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/putin-diz-que-dedicou-bastante-tempo-a-ucrania-em-reuniao-bilateral-com-trump/",
-      "hora": "2026-11-19T08:47:41-03:00"
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-19112026/",
+      "hora": "2026-11-19T12:34:44-03:00"
     },
     {
-      "titulo": "Como implementar sistemas agroflorestais",
+      "titulo": "IPO da Anthropic pode criar 2.800 milionários entre funcionários e ex-funcionários",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/11/19/como-implementar-sistemas-agroflorestais.ghtml",
-      "hora": "2026-11-19T08:39:05-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/19/ipo-da-anthropic-pode-criar-2800-milionarios-entre-funcionarios-e-ex-funcionarios.ghtml",
+      "hora": "2026-11-19T12:20:09-03:00"
     },
     {
-      "titulo": "Perdas do Ueno Bank se aproximam de US$ 1 bilhão, segundo Banco Central do Paraguai",
+      "titulo": "É #FAKE que vídeo de descarte de tomates no Rio tenha a ver com alta de preços em 2026; cena ocorreu em dezembro do ano passado",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/19/perdas-do-ueno-bank-se-aproximam-de-us-1-bilhao-segundo-banco-central.ghtml",
-      "hora": "2026-11-19T07:39:16-03:00"
+      "url": "https://g1.globo.com/fato-ou-fake/noticia/2026/11/19/e-fake-que-video-de-descarte-de-tomates-no-rio-tenha-a-ver-com-alta-de-precos-em-2026-cena-ocorreu-em-dezembro-do-ano-passado.ghtml",
+      "hora": "2026-11-19T12:19:45-03:00"
     }
   ]
 }
