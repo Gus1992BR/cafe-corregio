@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T18:44-03:00",
+  "atualizadoEm": "2026-11-20T08:54-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9346,
-      "variacao": 1.47
+      "valor": 5.9389,
+      "variacao": -0.02
     },
     "ibov": {
       "valor": 166376,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Marcopolo (POMO4) fecha acordo para PDV e suspensão temporária de contratos; ação cai",
+      "titulo": "Seleção da Inglaterra é multada e suspensa por UEFA após coro anticatólico de torcida",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/marcopolo-pomo4-fecha-acordo-para-pdv-e-suspensao-temporaria-de-contratos/",
-      "hora": "2026-11-19T18:41:30-03:00"
+      "url": "https://www.infomoney.com.br/esportes/selecao-da-inglaterra-e-multada-e-suspensa-por-uefa-apos-coro-anticatolico-de-torcida/",
+      "hora": "2026-11-20T08:52:11-03:00"
     },
     {
-      "titulo": "ANTH34: BDR da Anthropic dispara quase 19% em estreia na B3 junto com ação na Nasdaq",
+      "titulo": "Trabalhadores negros ganham menos que pares brancos, mesmo com escolaridade similar",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/anth34-bdr-da-anthropic-estreia-na-b3-simultaneamente-a-estreia-na-nasdaq-por-cerca-de-r-60/",
-      "hora": "2026-11-19T18:39:23-03:00"
+      "url": "https://www.infomoney.com.br/carreira/trabalhadores-negros-ganham-menos-que-pares-brancos-mesmo-com-escolaridade-similar/",
+      "hora": "2026-11-20T08:50:04-03:00"
     },
     {
-      "titulo": "NY fecha em forte queda, com estreia da Anthropic não reavivando entusiasmo pela IA",
+      "titulo": "Vai trabalhar no Dia da Consciência Negra? Veja quais são seus direitos",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/nasdaq-sobe-estreia-das-acoes-da-anthropic-191126/",
-      "hora": "2026-11-19T18:36:20-03:00"
+      "url": "https://www.infomoney.com.br/minhas-financas/vai-trabalhar-no-dia-da-consciencia-negra-veja-quais-sao-seus-direitos/",
+      "hora": "2026-11-20T08:46:36-03:00"
     },
     {
-      "titulo": "Ibovespa fecha em queda com exterior e sem trégua com receio fiscal",
+      "titulo": "SP: capital tem calor e pancadas isoladas; no interior, alerta de chuvas mais fortes",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/pacote-fiscal-timido-impede-avanco-do-ibovespa/",
-      "hora": "2026-11-19T18:25:22-03:00"
+      "url": "https://www.infomoney.com.br/brasil/sp-capital-tem-calor-e-pancadas-isoladas-no-interior-alerta-de-chuvas-mais-fortes/",
+      "hora": "2026-11-20T08:44:32-03:00"
     },
     {
-      "titulo": "Veja como será o cálculo da hora extra com a escala de trabalho 5x2",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-como-sera-o-calculo-da-hora-extra-com-escala-de-trabalho-5x2",
-      "hora": "2026-11-19T16:39:00-03:00"
-    },
-    {
-      "titulo": "Mercado de câmbio trava após fala de Lula sobre escolha de ministros e BC intervém com leilão de dólar",
+      "titulo": "Master: relatório da PF sobre Mendonça cita tentativas de aproximação de Vorcaro ao ministro do STF",
       "fonte": "g1",
-      "url": "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/11/19/mercado-de-cambio-trava-apos-fala-de-lula-sobre-escolha-de-ministros-e-bc-intervem-com-leilao-de-dolar.ghtml",
-      "hora": "2026-11-19T16:28:15-03:00"
+      "url": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/20/master-relatorio-da-pf-sobre-mendonca-cita-tentativas-de-aproximacao-de-vorcaro-ao-ministro-do-stf.ghtml",
+      "hora": "2026-11-20T08:43:51-03:00"
+    },
+    {
+      "titulo": "Produção mundial de vinho deve ficar perto do menor nível em 65 anos, com seca e calor na Europa",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/producao-mundial-de-vinho-deve-ficar-perto-do-menor-nivel-em-65-anos-com-seca-e-calor-na-europa.ghtml",
+      "hora": "2026-11-20T04:00:01-03:00"
     }
   ]
 }
