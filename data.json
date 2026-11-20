@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T08:54-03:00",
+  "atualizadoEm": "2026-11-20T12:45-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9389,
-      "variacao": -0.02
+      "valor": 5.9488,
+      "variacao": 0.15
     },
     "ibov": {
       "valor": 166376,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Seleção da Inglaterra é multada e suspensa por UEFA após coro anticatólico de torcida",
+      "titulo": "CEO do Bradesco afirma que é hora de ‘prudência’ nos bancos brasileiros",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/esportes/selecao-da-inglaterra-e-multada-e-suspensa-por-uefa-apos-coro-anticatolico-de-torcida/",
-      "hora": "2026-11-20T08:52:11-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ceo-do-bradesco-afirma-que-e-hora-de-prudencia-nos-bancos-brasileiros/",
+      "hora": "2026-11-20T12:41:00-03:00"
     },
     {
-      "titulo": "Trabalhadores negros ganham menos que pares brancos, mesmo com escolaridade similar",
+      "titulo": "Moraes vota para deixar Flávio sem passaportes e proibido de contatar Willer Tomaz",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/carreira/trabalhadores-negros-ganham-menos-que-pares-brancos-mesmo-com-escolaridade-similar/",
-      "hora": "2026-11-20T08:50:04-03:00"
+      "url": "https://www.infomoney.com.br/politica/moraes-vota-para-deixar-flavio-bolsonaro-sem-passaportes-e-proibido-de-contatar-willer-tomaz/",
+      "hora": "2026-11-20T12:29:05-03:00"
     },
     {
-      "titulo": "Vai trabalhar no Dia da Consciência Negra? Veja quais são seus direitos",
+      "titulo": "Justiça autoriza Grupo Pão de Açúcar a pagar dívidas trabalhistas em 72 parcelas",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/minhas-financas/vai-trabalhar-no-dia-da-consciencia-negra-veja-quais-sao-seus-direitos/",
-      "hora": "2026-11-20T08:46:36-03:00"
+      "url": "https://www.infomoney.com.br/mercados/justica-autoriza-grupo-pao-de-acucar-a-pagar-dividas-trabalhistas-em-72-parcelas/",
+      "hora": "2026-11-20T12:23:13-03:00"
     },
     {
-      "titulo": "SP: capital tem calor e pancadas isoladas; no interior, alerta de chuvas mais fortes",
+      "titulo": "França pede reunião do CS da ONU após ataque russo atingir embaixadas em Kiev",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/sp-capital-tem-calor-e-pancadas-isoladas-no-interior-alerta-de-chuvas-mais-fortes/",
-      "hora": "2026-11-20T08:44:32-03:00"
+      "url": "https://www.infomoney.com.br/mundo/franca-pede-reuniao-do-cs-da-onu-apos-ataque-russo-atingir-embaixadas-em-kiev/",
+      "hora": "2026-11-20T12:20:29-03:00"
     },
     {
-      "titulo": "Master: relatório da PF sobre Mendonça cita tentativas de aproximação de Vorcaro ao ministro do STF",
+      "titulo": "'Robôs assassinos' já são usados em guerras, mas países não chegam a acordo sobre limites na ONU",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/20/master-relatorio-da-pf-sobre-mendonca-cita-tentativas-de-aproximacao-de-vorcaro-ao-ministro-do-stf.ghtml",
-      "hora": "2026-11-20T08:43:51-03:00"
+      "url": "https://g1.globo.com/inovacao/noticia/2026/11/20/robos-assassinos-ja-sao-usados-em-guerras-mas-paises-nao-chegam-a-acordo-sobre-limites-na-onu.ghtml",
+      "hora": "2026-11-20T11:00:27-03:00"
     },
     {
-      "titulo": "Produção mundial de vinho deve ficar perto do menor nível em 65 anos, com seca e calor na Europa",
+      "titulo": "Impasse sobre guerra e gastos militares ameaça paralisar governo dos EUA",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/producao-mundial-de-vinho-deve-ficar-perto-do-menor-nivel-em-65-anos-com-seca-e-calor-na-europa.ghtml",
-      "hora": "2026-11-20T04:00:01-03:00"
+      "url": "https://g1.globo.com/mundo/noticia/2026/11/20/impasse-sobre-guerra-e-gastos-militares-ameaca-paralisar-governo-dos-eua.ghtml",
+      "hora": "2026-11-20T10:34:36-03:00"
     }
   ]
 }
