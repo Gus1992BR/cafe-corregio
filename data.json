@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T08:52-03:00",
+  "atualizadoEm": "2026-11-23T12:53-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9074,
-      "variacao": -0.7
+      "valor": 5.9692,
+      "variacao": 0.34
     },
     "ibov": {
-      "valor": 166376,
-      "variacao": -0.69
+      "valor": 165310,
+      "variacao": -0.64
     }
   },
   "manchetes": [
     {
-      "titulo": "Além do pacote fiscal, veja pautas econômicas que governo tenta aprovar até dezembro",
+      "titulo": "Inflação a 3% e boom de IA levarão Fed a subir juros em dezembro, diz Bullard",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/alem-do-pacote-fiscal-veja-pautas-economicas-que-governo-tenta-aprovar-ate-dezembro/",
-      "hora": "2026-11-23T08:51:38-03:00"
+      "url": "https://www.infomoney.com.br/economia/juros-fed-dezembro-bullard-inflacao-boom-ia/",
+      "hora": "2026-11-23T12:45:10-03:00"
     },
     {
-      "titulo": "Escala 6×1: governo publica hoje regras da nova jornada. Veja o que falta definir",
+      "titulo": "Instituto alerta para risco de fuga de capital com regra para empresas estrangeiras",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/escala-6x1-governo-publica-hoje-regras-da-nova-jornada-veja-o-que-falta-definir/",
-      "hora": "2026-11-23T08:48:25-03:00"
+      "url": "https://www.infomoney.com.br/politica/instituto-alerta-para-risco-de-fuga-de-capital-com-regra-para-empresas-estrangeiras/",
+      "hora": "2026-11-23T12:40:42-03:00"
     },
     {
-      "titulo": "Michelle diz que resultado de exame de Bolsonaro foi ‘muito positivo’",
+      "titulo": "Trump afirma que conselho da Nvidia tomou decisão certa ao reintegrar Huang",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/michelle-diz-que-resultado-de-exame-de-bolsonaro-foi-muito-positivo/",
-      "hora": "2026-11-23T08:43:32-03:00"
+      "url": "https://www.infomoney.com.br/business/trump-afirma-que-conselho-da-nvidia-tomou-decisao-certa-ao-reintegrar-huang/",
+      "hora": "2026-11-23T12:37:47-03:00"
     },
     {
-      "titulo": "Receita amplia participação em piloto da CBS para todas as empresas",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/receita-amplia-participacao-em-piloto-da-cbs-para-todas-empresas",
-      "hora": "2026-11-23T08:40:00-03:00"
-    },
-    {
-      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda",
+      "titulo": "Galípolo: dentro do governo não há qualquer debate sobre meta de inflação, é zero",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/",
-      "hora": "2026-11-23T08:36:41-03:00"
+      "url": "https://www.infomoney.com.br/economia/galipolo-dentro-do-governo-nao-ha-qualquer-debate-sobre-meta-de-inflacao-e-zero/",
+      "hora": "2026-11-23T12:31:36-03:00"
     },
     {
-      "titulo": "Mercado financeiro eleva estimativa de inflação em 2026 e 2027 e projeta corte menor dos juros no ano que vem",
+      "titulo": "Que dia é a Black Friday 2026? Veja a data oficial e dicas para aproveitar promoções",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/23/mercado-financeiro-eleva-estimativa-de-inflacao-em-2026-e-2027-e-projeta-corte-menor-dos-juros-no-ano-que-vem.ghtml",
-      "hora": "2026-11-23T08:34:45-03:00"
+      "url": "https://g1.globo.com/guia/guia-de-compras/presentes/que-dia-e-a-black-friday-2026-veja-a-data-oficial-e-dicas-para-aproveitar-promocoes.ghtml",
+      "hora": "2026-11-23T12:08:15-03:00"
+    },
+    {
+      "titulo": "Fim da escala 6X1 deve impactar mais de 100 mil trabalhadores domésticos, estima instituto",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/23/fim-da-escala-6x1-deve-beneficiar-mais-de-100-mil-trabalhadores-domesticos-estima-instituto.ghtml",
+      "hora": "2026-11-23T11:44:35-03:00"
     }
   ]
 }
