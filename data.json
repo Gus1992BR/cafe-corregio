@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T12:53-03:00",
+  "atualizadoEm": "2026-11-23T18:47-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9692,
-      "variacao": 0.34
+      "valor": 5.9301,
+      "variacao": -0.31
     },
     "ibov": {
-      "valor": 165310,
-      "variacao": -0.64
+      "valor": 164796,
+      "variacao": -0.95
     }
   },
   "manchetes": [
     {
-      "titulo": "Inflação a 3% e boom de IA levarão Fed a subir juros em dezembro, diz Bullard",
+      "titulo": "Onde assistir a Santos x Grêmio pelo Brasileirão?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/juros-fed-dezembro-bullard-inflacao-boom-ia/",
-      "hora": "2026-11-23T12:45:10-03:00"
+      "url": "https://www.infomoney.com.br/esportes/onde-assistir-santos-gremio-brasileirao/",
+      "hora": "2026-11-23T18:45:00-03:00"
     },
     {
-      "titulo": "Instituto alerta para risco de fuga de capital com regra para empresas estrangeiras",
+      "titulo": "Braskem salta 12% com notícia sobre acordo com credores para reestruturar dívidas",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/instituto-alerta-para-risco-de-fuga-de-capital-com-regra-para-empresas-estrangeiras/",
-      "hora": "2026-11-23T12:40:42-03:00"
+      "url": "https://www.infomoney.com.br/mercados/braskem-sobe-forte-com-noticia-sobre-acordo-com-credores-para-reestruturar-dividas/",
+      "hora": "2026-11-23T18:43:45-03:00"
     },
     {
-      "titulo": "Trump afirma que conselho da Nvidia tomou decisão certa ao reintegrar Huang",
+      "titulo": "Petrobras (PETR3;PETR4): 3 fatores que fizeram as ações caírem mais de 3% nesta 2ª",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/trump-afirma-que-conselho-da-nvidia-tomou-decisao-certa-ao-reintegrar-huang/",
-      "hora": "2026-11-23T12:37:47-03:00"
+      "url": "https://www.infomoney.com.br/mercados/petrobras-petr3petr4-3-fatores-que-fizeram-as-acoes-cairem-mais-de-3-nesta-2a/",
+      "hora": "2026-11-23T18:39:04-03:00"
     },
     {
-      "titulo": "Galípolo: dentro do governo não há qualquer debate sobre meta de inflação, é zero",
+      "titulo": "Carteira de ações de Trump provavelmente se beneficia da alta da Nvidia",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/galipolo-dentro-do-governo-nao-ha-qualquer-debate-sobre-meta-de-inflacao-e-zero/",
-      "hora": "2026-11-23T12:31:36-03:00"
+      "url": "https://www.infomoney.com.br/business/global/carteira-de-acoes-de-trump-provavelmente-se-beneficia-da-alta-da-nvidia/",
+      "hora": "2026-11-23T18:36:36-03:00"
     },
     {
-      "titulo": "Que dia é a Black Friday 2026? Veja a data oficial e dicas para aproveitar promoções",
+      "titulo": "Nvidia recupera US$ 953 bilhões em um dia com volta de CEO, valor maior que o de toda a B3",
       "fonte": "g1",
-      "url": "https://g1.globo.com/guia/guia-de-compras/presentes/que-dia-e-a-black-friday-2026-veja-a-data-oficial-e-dicas-para-aproveitar-promocoes.ghtml",
-      "hora": "2026-11-23T12:08:15-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/23/nvidia-recupera-us-953-bilhoes-em-um-dia-com-volta-de-ceo-valor-maior-que-o-de-toda-a-b3.ghtml",
+      "hora": "2026-11-23T18:21:39-03:00"
     },
     {
-      "titulo": "Fim da escala 6X1 deve impactar mais de 100 mil trabalhadores domésticos, estima instituto",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/23/fim-da-escala-6x1-deve-beneficiar-mais-de-100-mil-trabalhadores-domesticos-estima-instituto.ghtml",
-      "hora": "2026-11-23T11:44:35-03:00"
+      "titulo": "CVM suspende registro do BRB e de mais quatro empresas",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cvm-suspende-registro-do-brb-e-de-outras-quatro-empresas",
+      "hora": "2026-11-23T18:14:00-03:00"
     }
   ]
 }
