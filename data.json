@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T18:42-03:00",
+  "atualizadoEm": "2026-11-23T08:52-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9488,
-      "variacao": 0.15
+      "valor": 5.9074,
+      "variacao": -0.7
     },
     "ibov": {
       "valor": 166376,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Índice de ADRs brasileiros cai 2,5% com sell-off de IA nos EUA; nenhum papel sobe",
+      "titulo": "Além do pacote fiscal, veja pautas econômicas que governo tenta aprovar até dezembro",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/indice-de-adrs-brasileiros-feriado-dia-consciencia-negra-20112026/",
-      "hora": "2026-11-20T18:36:58-03:00"
+      "url": "https://www.infomoney.com.br/politica/alem-do-pacote-fiscal-veja-pautas-economicas-que-governo-tenta-aprovar-ate-dezembro/",
+      "hora": "2026-11-23T08:51:38-03:00"
     },
     {
-      "titulo": "CME: Mercado vê chance de manutenção de juro pelo Fed em dezembro",
+      "titulo": "Escala 6×1: governo publica hoje regras da nova jornada. Veja o que falta definir",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/cme-mercado-ve-chance-de-manutencao-de-juro-pelo-fed-em-dezembro/",
-      "hora": "2026-11-20T18:29:00-03:00"
+      "url": "https://www.infomoney.com.br/politica/escala-6x1-governo-publica-hoje-regras-da-nova-jornada-veja-o-que-falta-definir/",
+      "hora": "2026-11-23T08:48:25-03:00"
     },
     {
-      "titulo": "Nasdaq desaba 5% com febre de IA virando medo; S&P e Dow Jones entram em correção",
+      "titulo": "Michelle diz que resultado de exame de Bolsonaro foi ‘muito positivo’",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/nasdaq-registra-queda-seguindo-baixa-de-acoes-da-anthropic/",
-      "hora": "2026-11-20T18:22:50-03:00"
+      "url": "https://www.infomoney.com.br/politica/michelle-diz-que-resultado-de-exame-de-bolsonaro-foi-muito-positivo/",
+      "hora": "2026-11-23T08:43:32-03:00"
     },
     {
-      "titulo": "Ação da Anthropic cai 8,5% após estreia e traz choque de realidade para setor de IA",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/queda-da-anthropic-apos-estreia-no-mercado-traz-choque-de-realidade-para-setor-de-ia/",
-      "hora": "2026-11-20T18:13:29-03:00"
+      "titulo": "Receita amplia participação em piloto da CBS para todas as empresas",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/receita-amplia-participacao-em-piloto-da-cbs-para-todas-empresas",
+      "hora": "2026-11-23T08:40:00-03:00"
     },
     {
-      "titulo": "'Cobiçadas' por Trump, Filipinas lideram compra de carne suína do Brasil, mas são 22º destino das exportações do agro",
+      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta segunda",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23112026/",
+      "hora": "2026-11-23T08:36:41-03:00"
+    },
+    {
+      "titulo": "Mercado financeiro eleva estimativa de inflação em 2026 e 2027 e projeta corte menor dos juros no ano que vem",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/20/cobicadas-por-trump-filipinas-lideram-compra-de-carne-suina-do-brasil-mas-sao-22o-destino-das-exportacoes-do-agro.ghtml",
-      "hora": "2026-11-20T18:05:49-03:00"
-    },
-    {
-      "titulo": "'Mosca-da-bicheira': parasita que devora animais vivos avança pelos EUA e alerta pecuaristas",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/20/mosca-da-bicheira-parasita-que-devora-animais-vivos-avanca-pelos-eua-e-alerta-pecuaristas.ghtml",
-      "hora": "2026-11-20T16:58:52-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/23/mercado-financeiro-eleva-estimativa-de-inflacao-em-2026-e-2027-e-projeta-corte-menor-dos-juros-no-ano-que-vem.ghtml",
+      "hora": "2026-11-23T08:34:45-03:00"
     }
   ]
 }
