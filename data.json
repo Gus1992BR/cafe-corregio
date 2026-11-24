@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T18:47-03:00",
+  "atualizadoEm": "2026-11-24T08:55-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9301,
-      "variacao": -0.31
+      "valor": 5.9312,
+      "variacao": -0.0
     },
     "ibov": {
       "valor": 164796,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Onde assistir a Santos x Grêmio pelo Brasileirão?",
+      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/esportes/onde-assistir-santos-gremio-brasileirao/",
-      "hora": "2026-11-23T18:45:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/",
+      "hora": "2026-11-24T08:49:48-03:00"
     },
     {
-      "titulo": "Braskem salta 12% com notícia sobre acordo com credores para reestruturar dívidas",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/braskem-sobe-forte-com-noticia-sobre-acordo-com-credores-para-reestruturar-dividas/",
-      "hora": "2026-11-23T18:43:45-03:00"
-    },
-    {
-      "titulo": "Petrobras (PETR3;PETR4): 3 fatores que fizeram as ações caírem mais de 3% nesta 2ª",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/petrobras-petr3petr4-3-fatores-que-fizeram-as-acoes-cairem-mais-de-3-nesta-2a/",
-      "hora": "2026-11-23T18:39:04-03:00"
-    },
-    {
-      "titulo": "Carteira de ações de Trump provavelmente se beneficia da alta da Nvidia",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/global/carteira-de-acoes-de-trump-provavelmente-se-beneficia-da-alta-da-nvidia/",
-      "hora": "2026-11-23T18:36:36-03:00"
-    },
-    {
-      "titulo": "Nvidia recupera US$ 953 bilhões em um dia com volta de CEO, valor maior que o de toda a B3",
+      "titulo": "EUA barram pedido do Brasil para discutir tarifas comerciais na OMC, diz agência",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/23/nvidia-recupera-us-953-bilhoes-em-um-dia-com-volta-de-ceo-valor-maior-que-o-de-toda-a-b3.ghtml",
-      "hora": "2026-11-23T18:21:39-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/24/eua-bloqueia-pedido-do-brasil-para-um-painel-de-disputas-tarifarias-diz-um-funcionario-comercial.ghtml",
+      "hora": "2026-11-24T08:42:37-03:00"
     },
     {
-      "titulo": "CVM suspende registro do BRB e de mais quatro empresas",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cvm-suspende-registro-do-brb-e-de-outras-quatro-empresas",
-      "hora": "2026-11-23T18:14:00-03:00"
+      "titulo": "EUA barram pedido do Brasil na OMC contra tarifaço de Trump; entenda próximos passos",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/politica/eua-barram-pedido-do-brasil-na-omc-contra-tarifaco-de-trump-entenda-proximos-passos/",
+      "hora": "2026-11-24T08:41:02-03:00"
+    },
+    {
+      "titulo": "Japão promete disciplina fiscal e independência do BC em diretrizes orçamentárias",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/economia/japao-promete-disciplina-fiscal-e-independencia-do-bc-em-diretrizes-orcamentarias/",
+      "hora": "2026-11-24T08:36:41-03:00"
+    },
+    {
+      "titulo": "Ajuste fiscal de Lula vai de supersalários a incentivos: entenda o plano aprovado",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/brasil/ajuste-fiscal-de-lula-vai-de-supersalarios-a-incentivos-entenda-o-plano-aprovado/",
+      "hora": "2026-11-24T08:36:04-03:00"
+    },
+    {
+      "titulo": "Volta de Huang à Nvidia reanima bolsas e ações de tecnologia",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/24/volta-de-huang-a-nvidia-reanima-bolsas-e-acoes-de-tecnologia.ghtml",
+      "hora": "2026-11-24T08:35:51-03:00"
     }
   ]
 }
