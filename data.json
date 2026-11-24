@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T12:55-03:00",
+  "atualizadoEm": "2026-11-24T18:51-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.8525,
-      "variacao": -1.33
+      "valor": 5.9061,
+      "variacao": -0.42
     },
     "ibov": {
-      "valor": 165613,
-      "variacao": 0.5
+      "valor": 164090,
+      "variacao": -0.43
     }
   },
   "manchetes": [
     {
-      "titulo": "Exército dos EUA fará detonação de material explosivo em Iowa após aval judicial",
+      "titulo": "Por que Ibovespa fechou em queda após saltar até 1,7% com notícia sobre PEC?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/exercito-dos-eua-fara-detonacao-de-material-explosivo-em-iowa-apos-aval-judicial/",
-      "hora": "2026-11-24T12:51:05-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-sobe-com-expectativa-de-novas-medidas-de-contencao-de-gastos/",
+      "hora": "2026-11-24T18:48:26-03:00"
     },
     {
-      "titulo": "EUA vão incluir empresa de chips Megaspeed ligada a escândalo da Nvidia em lista",
+      "titulo": "Astro da NBA Kevin Durant pede R$ 82 mi por mansão com piscina de 25 metros e cinema",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/eua-vao-incluir-empresa-de-chips-megaspeed-ligada-a-escandalo-da-nvidia-em-lista-diz-fonte/",
-      "hora": "2026-11-24T12:48:01-03:00"
+      "url": "https://www.infomoney.com.br/consumo/kevin-durant-mansao/",
+      "hora": "2026-11-24T18:45:00-03:00"
     },
     {
-      "titulo": "Anvisa determina apreensão de água mineral da marca Pura por problemas de higiene",
+      "titulo": "Senado deve aprovar fim das primárias na Argentina nesta semana, diz aliada de Milei",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/anvisa-determina-apreensao-de-agua-mineral-da-marca-pura-por-problemas-de-higiene/",
-      "hora": "2026-11-24T12:45:35-03:00"
+      "url": "https://www.infomoney.com.br/mundo/senado-deve-aprovar-fim-das-primarias-na-argentina-nesta-semana-diz-aliada-de-milei/",
+      "hora": "2026-11-24T18:44:12-03:00"
     },
     {
-      "titulo": "Black Friday sob influência dos algoritmos: descontos podem encolher?",
+      "titulo": "Braskem (BRKM5) cai 14% após forte alta com acordo que pode diluir atuais acionistas",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/black-friday-sob-influencia-dos-algoritmos-descontos-podem-encolher/",
-      "hora": "2026-11-24T12:43:34-03:00"
+      "url": "https://www.infomoney.com.br/mercados/braskem-brkm5-cai-apos-forte-alta-com-acordo-que-pode-diluir-atuais-acionistas/",
+      "hora": "2026-11-24T18:35:06-03:00"
     },
     {
-      "titulo": "EUA preparam aumento de tarifas contra China, União Europeia e outras economias",
+      "titulo": "Entenda o pacote fiscal que prevê ajuste de até R$ 56 bilhões",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/entenda-o-pacote-fiscal-que-preve-ajuste-de-ate-r-56-bilhoes",
+      "hora": "2026-11-24T17:54:00-03:00"
+    },
+    {
+      "titulo": "Chinesa Huawei é condenada nos EUA por negócios no Irã e roubo de segredos comerciais; entenda",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/24/eua-tarifas.ghtml",
-      "hora": "2026-11-24T12:03:32-03:00"
-    },
-    {
-      "titulo": "Volkswagen negocia com trabalhadores sob ameaça de greve na Alemanha",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/carros/noticia/2026/11/24/volkswagen-negocia-com-trabalhadores-sob-ameaca-de-greve-na-alemanha.ghtml",
-      "hora": "2026-11-24T11:24:27-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/24/chinesa-huawei-e-condenada-nos-eua.ghtml",
+      "hora": "2026-11-24T17:51:12-03:00"
     }
   ]
 }
