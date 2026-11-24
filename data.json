@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T08:55-03:00",
+  "atualizadoEm": "2026-11-24T12:55-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9312,
-      "variacao": -0.0
+      "valor": 5.8525,
+      "variacao": -1.33
     },
     "ibov": {
-      "valor": 164796,
-      "variacao": -0.95
+      "valor": 165613,
+      "variacao": 0.5
     }
   },
   "manchetes": [
     {
-      "titulo": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta terça",
+      "titulo": "Exército dos EUA fará detonação de material explosivo em Iowa após aval judicial",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-24112026/",
-      "hora": "2026-11-24T08:49:48-03:00"
+      "url": "https://www.infomoney.com.br/mundo/exercito-dos-eua-fara-detonacao-de-material-explosivo-em-iowa-apos-aval-judicial/",
+      "hora": "2026-11-24T12:51:05-03:00"
     },
     {
-      "titulo": "EUA barram pedido do Brasil para discutir tarifas comerciais na OMC, diz agência",
+      "titulo": "EUA vão incluir empresa de chips Megaspeed ligada a escândalo da Nvidia em lista",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mundo/eua-vao-incluir-empresa-de-chips-megaspeed-ligada-a-escandalo-da-nvidia-em-lista-diz-fonte/",
+      "hora": "2026-11-24T12:48:01-03:00"
+    },
+    {
+      "titulo": "Anvisa determina apreensão de água mineral da marca Pura por problemas de higiene",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/brasil/anvisa-determina-apreensao-de-agua-mineral-da-marca-pura-por-problemas-de-higiene/",
+      "hora": "2026-11-24T12:45:35-03:00"
+    },
+    {
+      "titulo": "Black Friday sob influência dos algoritmos: descontos podem encolher?",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/mercados/black-friday-sob-influencia-dos-algoritmos-descontos-podem-encolher/",
+      "hora": "2026-11-24T12:43:34-03:00"
+    },
+    {
+      "titulo": "EUA preparam aumento de tarifas contra China, União Europeia e outras economias",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/24/eua-bloqueia-pedido-do-brasil-para-um-painel-de-disputas-tarifarias-diz-um-funcionario-comercial.ghtml",
-      "hora": "2026-11-24T08:42:37-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/24/eua-tarifas.ghtml",
+      "hora": "2026-11-24T12:03:32-03:00"
     },
     {
-      "titulo": "EUA barram pedido do Brasil na OMC contra tarifaço de Trump; entenda próximos passos",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/eua-barram-pedido-do-brasil-na-omc-contra-tarifaco-de-trump-entenda-proximos-passos/",
-      "hora": "2026-11-24T08:41:02-03:00"
-    },
-    {
-      "titulo": "Japão promete disciplina fiscal e independência do BC em diretrizes orçamentárias",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/japao-promete-disciplina-fiscal-e-independencia-do-bc-em-diretrizes-orcamentarias/",
-      "hora": "2026-11-24T08:36:41-03:00"
-    },
-    {
-      "titulo": "Ajuste fiscal de Lula vai de supersalários a incentivos: entenda o plano aprovado",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/ajuste-fiscal-de-lula-vai-de-supersalarios-a-incentivos-entenda-o-plano-aprovado/",
-      "hora": "2026-11-24T08:36:04-03:00"
-    },
-    {
-      "titulo": "Volta de Huang à Nvidia reanima bolsas e ações de tecnologia",
+      "titulo": "Volkswagen negocia com trabalhadores sob ameaça de greve na Alemanha",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/24/volta-de-huang-a-nvidia-reanima-bolsas-e-acoes-de-tecnologia.ghtml",
-      "hora": "2026-11-24T08:35:51-03:00"
+      "url": "https://g1.globo.com/carros/noticia/2026/11/24/volkswagen-negocia-com-trabalhadores-sob-ameaca-de-greve-na-alemanha.ghtml",
+      "hora": "2026-11-24T11:24:27-03:00"
     }
   ]
 }
