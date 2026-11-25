@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T18:51-03:00",
+  "atualizadoEm": "2026-11-25T08:58-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,8 +10,8 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.9061,
-      "variacao": -0.42
+      "valor": 5.8933,
+      "variacao": -0.17
     },
     "ibov": {
       "valor": 164090,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Por que Ibovespa fechou em queda após saltar até 1,7% com notícia sobre PEC?",
+      "titulo": "Em nova Carta ao Povo Brasileiro, PT reconhece que não venceu eleições sozinho",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-sobe-com-expectativa-de-novas-medidas-de-contencao-de-gastos/",
-      "hora": "2026-11-24T18:48:26-03:00"
+      "url": "https://www.infomoney.com.br/politica/em-nova-carta-ao-povo-brasileiro-pt-reconhece-que-nao-venceu-eleicoes-sozinho/",
+      "hora": "2026-11-25T08:56:12-03:00"
     },
     {
-      "titulo": "Astro da NBA Kevin Durant pede R$ 82 mi por mansão com piscina de 25 metros e cinema",
+      "titulo": "Ex-CEO da Hotel Urbano é preso no Rio de Janeiro após quase um ano foragido",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/kevin-durant-mansao/",
-      "hora": "2026-11-24T18:45:00-03:00"
+      "url": "https://www.infomoney.com.br/brasil/ex-ceo-da-hotel-urbano-e-preso-no-rio-de-janeiro-apos-quase-um-ano-foragido/",
+      "hora": "2026-11-25T08:53:46-03:00"
     },
     {
-      "titulo": "Senado deve aprovar fim das primárias na Argentina nesta semana, diz aliada de Milei",
+      "titulo": "Nos EUA, Flávio aposta nos irmãos para romper isolamento e quer Carlos como porta-voz",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mundo/senado-deve-aprovar-fim-das-primarias-na-argentina-nesta-semana-diz-aliada-de-milei/",
-      "hora": "2026-11-24T18:44:12-03:00"
+      "url": "https://www.infomoney.com.br/politica/nos-eua-flavio-aposta-nos-irmaos-para-romper-isolamento-e-quer-carlos-como-porta-voz/",
+      "hora": "2026-11-25T08:51:37-03:00"
     },
     {
-      "titulo": "Braskem (BRKM5) cai 14% após forte alta com acordo que pode diluir atuais acionistas",
+      "titulo": "Governo federal reduz contenção de despesas no Orçamento deste ano para R$ 12,6 bi",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/braskem-brkm5-cai-apos-forte-alta-com-acordo-que-pode-diluir-atuais-acionistas/",
-      "hora": "2026-11-24T18:35:06-03:00"
+      "url": "https://www.infomoney.com.br/politica/governo-federal-reduz-contencao-de-despesas-no-orcamento-deste-ano-para-r-126-bi/",
+      "hora": "2026-11-25T08:49:07-03:00"
     },
     {
-      "titulo": "Entenda o pacote fiscal que prevê ajuste de até R$ 56 bilhões",
-      "fonte": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/entenda-o-pacote-fiscal-que-preve-ajuste-de-ate-r-56-bilhoes",
-      "hora": "2026-11-24T17:54:00-03:00"
-    },
-    {
-      "titulo": "Chinesa Huawei é condenada nos EUA por negócios no Irã e roubo de segredos comerciais; entenda",
+      "titulo": "'Manipulação política': China critica plano de Trump de impor novo tarifaço",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/24/chinesa-huawei-e-condenada-nos-eua.ghtml",
-      "hora": "2026-11-24T17:51:12-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/25/china-trump-novo-tarifaco.ghtml",
+      "hora": "2026-11-25T08:32:44-03:00"
+    },
+    {
+      "titulo": "Os riscos que Trump corre com a volta de Jensen Huang ao comando da Nvidia",
+      "fonte": "g1",
+      "url": "https://g1.globo.com/mundo/noticia/2026/11/25/os-riscos-que-trump-corre-com-a-volta-de-jensen-huang-ao-comando-da-nvidia.ghtml",
+      "hora": "2026-11-25T08:11:51-03:00"
     }
   ]
 }
