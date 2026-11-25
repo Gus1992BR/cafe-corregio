@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T08:58-03:00",
+  "atualizadoEm": "2026-11-25T12:52-03:00",
   "humor": "calmo",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.8933,
-      "variacao": -0.17
+      "valor": 5.8562,
+      "variacao": -0.8
     },
     "ibov": {
-      "valor": 164090,
-      "variacao": -0.43
+      "valor": 165305,
+      "variacao": 0.74
     }
   },
   "manchetes": [
     {
-      "titulo": "Em nova Carta ao Povo Brasileiro, PT reconhece que não venceu eleições sozinho",
+      "titulo": "PL busca candidato no Centrão para enfrentar Motta, que foca deputados recém-eleitos",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/em-nova-carta-ao-povo-brasileiro-pt-reconhece-que-nao-venceu-eleicoes-sozinho/",
-      "hora": "2026-11-25T08:56:12-03:00"
+      "url": "https://www.infomoney.com.br/politica/pl-busca-candidato-no-centrao-para-enfrentar-motta-que-foca-deputados-recem-eleitos/",
+      "hora": "2026-11-25T12:49:52-03:00"
     },
     {
-      "titulo": "Ex-CEO da Hotel Urbano é preso no Rio de Janeiro após quase um ano foragido",
+      "titulo": "Moretti diz que governo não tem PEC sobre despesas e mantém debate fiscal contínuo",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/ex-ceo-da-hotel-urbano-e-preso-no-rio-de-janeiro-apos-quase-um-ano-foragido/",
-      "hora": "2026-11-25T08:53:46-03:00"
+      "url": "https://www.infomoney.com.br/politica/moretti-diz-que-governo-nao-tem-pec-sobre-despesas-e-mantem-debate-fiscal-continuo/",
+      "hora": "2026-11-25T12:41:25-03:00"
     },
     {
-      "titulo": "Nos EUA, Flávio aposta nos irmãos para romper isolamento e quer Carlos como porta-voz",
+      "titulo": "Eleições na Espanha: o que dizem as últimas pesquisas e o que está em jogo",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/nos-eua-flavio-aposta-nos-irmaos-para-romper-isolamento-e-quer-carlos-como-porta-voz/",
-      "hora": "2026-11-25T08:51:37-03:00"
+      "url": "https://www.infomoney.com.br/mundo/eleicoes-na-espanha-o-que-dizem-as-ultimas-pesquisas-e-o-que-esta-em-jogo/",
+      "hora": "2026-11-25T12:40:48-03:00"
     },
     {
-      "titulo": "Governo federal reduz contenção de despesas no Orçamento deste ano para R$ 12,6 bi",
+      "titulo": "CCJ do Senado aprova projeto que cria novos crimes de fraude no mercado de capitais",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/governo-federal-reduz-contencao-de-despesas-no-orcamento-deste-ano-para-r-126-bi/",
-      "hora": "2026-11-25T08:49:07-03:00"
+      "url": "https://www.infomoney.com.br/politica/ccj-do-senado-aprova-projeto-que-cria-novos-crimes-de-fraude-no-mercado-de-capitais/",
+      "hora": "2026-11-25T12:39:34-03:00"
     },
     {
-      "titulo": "'Manipulação política': China critica plano de Trump de impor novo tarifaço",
+      "titulo": "Trump amplia ofensiva comercial e propõe novas tarifas contra Brasil, China e outros parceiros",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/25/china-trump-novo-tarifaco.ghtml",
-      "hora": "2026-11-25T08:32:44-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/25/trump-amplia-ofensiva-comercial.ghtml",
+      "hora": "2026-11-25T12:19:52-03:00"
     },
     {
-      "titulo": "Os riscos que Trump corre com a volta de Jensen Huang ao comando da Nvidia",
+      "titulo": "Ações da Embraer caem mais de 7% após EUA proporem tarifa sobre aviões brasileiros",
       "fonte": "g1",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/25/os-riscos-que-trump-corre-com-a-volta-de-jensen-huang-ao-comando-da-nvidia.ghtml",
-      "hora": "2026-11-25T08:11:51-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/25/acoes-embraer-eua.ghtml",
+      "hora": "2026-11-25T11:26:53-03:00"
     }
   ]
 }
