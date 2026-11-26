@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T12:50-03:00",
+  "atualizadoEm": "2026-11-26T18:48-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.733,
-      "variacao": -1.4
+      "valor": 5.6513,
+      "variacao": -2.81
     },
     "ibov": {
-      "valor": 173163,
-      "variacao": 3.89
+      "valor": 176800,
+      "variacao": 6.07
     }
   },
   "manchetes": [
     {
-      "titulo": "Por que o mercado se anima tanto com a possibilidade de Trabuco na Fazenda?",
+      "titulo": "11 papéis sobem mais de 10% em dia de euforia na Bolsa",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/por-que-o-mercado-se-anima-tanto-com-a-possibilidade-de-trabuco-na-fazenda/",
-      "hora": "2026-11-26T12:45:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/12-papeis-sobem-mais-de-6-em-dia-de-euforia-na-bolsa-bbas3-mrve3/",
+      "hora": "2026-11-26T18:44:12-03:00"
     },
     {
-      "titulo": "Governo dá 10 dias para que Google amplie informações sobre anúncios e fixa multa diária de R$ 200 mil em caso de descumprimento",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/26/governo-da-10-dias-para-que-google-amplie-informacoes-sobre-anuncios-e-fixa-multa-diaria-de-r-200-mil-em-caso-de-descumprimento.ghtml",
-      "hora": "2026-11-26T12:38:39-03:00"
-    },
-    {
-      "titulo": "Anvisa manda recolher todos os lotes de fibra capilar da marca Fortem",
+      "titulo": "Trabuco aceita convite de Lula para assumir Ministério da Fazenda, dizem agências",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/anvisa-manda-recolher-todos-os-lotes-de-fibra-capilar-da-marca-fortem/",
-      "hora": "2026-11-26T12:36:17-03:00"
+      "url": "https://www.infomoney.com.br/politica/trabuco-aceita-convite-de-lula-para-assumir-ministerio-da-fazenda-dizem-agencias/",
+      "hora": "2026-11-26T18:44:10-03:00"
     },
     {
-      "titulo": "Frente fria provoca chuva intensa e coloca parte do Sudeste em alerta",
+      "titulo": "Aos 21 anos, Joaquim Huck aposta em IA para empreender no mercado de seguros",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/frente-fria-provoca-chuva-intensa-e-coloca-parte-do-sudeste-em-alerta/",
-      "hora": "2026-11-26T12:29:27-03:00"
+      "url": "https://www.infomoney.com.br/business/filho-de-luciano-huck-joaquim/",
+      "hora": "2026-11-26T18:39:01-03:00"
     },
     {
-      "titulo": "Kassab: Percepção de que Lula quer Trabuco na Fazenda já melhora confiança no governo",
+      "titulo": "Pix terá novas regras de segurança e melhorias em 2027",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027",
+      "hora": "2026-11-26T18:36:00-03:00"
+    },
+    {
+      "titulo": "Ibovespa tem a maior alta desde o 1º turno das eleições; dólar recua a R$ 5,74",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/politica/kassab-percepcao-de-que-lula-quer-trabuco-na-fazenda-ja-melhora-confianca-no-governo/",
-      "hora": "2026-11-26T12:26:49-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26112026/",
+      "hora": "2026-11-26T18:32:46-03:00"
     },
     {
-      "titulo": "'Carne dopada': exportadores brasileiros rebatem fala de Macron: 'grave e inaceitável um chefe de Estado recorrer a inverdades'",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/26/exportadores-de-carne-rebatem-fala-de-macron.ghtml",
-      "hora": "2026-11-26T12:24:20-03:00"
+      "titulo": "Receita apreende 58 toneladas de roupas e tênis não declarados",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/receita-apreende-58-toneladas-de-roupas-e-tenis-nao-declarados",
+      "hora": "2026-11-26T18:28:00-03:00"
     }
   ]
 }
