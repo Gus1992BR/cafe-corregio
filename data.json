@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T18:52-03:00",
+  "atualizadoEm": "2026-11-26T08:57-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -11,7 +11,7 @@
     },
     "dolar": {
       "valor": 5.8232,
-      "variacao": -1.36
+      "variacao": 0.15
     },
     "ibov": {
       "valor": 166685,
@@ -20,40 +20,40 @@
   },
   "manchetes": [
     {
-      "titulo": "Citigroup avalia retorno à Venezuela após cinco anos e negocia sanções com os EUA",
+      "titulo": "Colômbia descarta adesão ao Brics e ao Novo Banco de Desenvolvimento",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/citigroup-avalia-retorno-a-venezuela-apos-cinco-anos-e-negocia-sancoes-com-os-eua/",
-      "hora": "2026-11-25T18:51:32-03:00"
+      "url": "https://www.infomoney.com.br/mundo/colombia-descarta-adesao-ao-brics-e-ao-novo-banco-de-desenvolvimento/",
+      "hora": "2026-11-26T08:56:58-03:00"
     },
     {
-      "titulo": "Especulações para Fazenda e fiscal: o que fez Ibovespa subir 1,6% após 4 quedas",
+      "titulo": "Defesa de Vorcaro pede saída de Nunes Marques de ação no STF e quer Gilmar Mendes",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ibovespa-tem-alta-modesta-com-fiscal-no-foco/",
-      "hora": "2026-11-25T18:49:44-03:00"
+      "url": "https://www.infomoney.com.br/politica/defesa-de-vorcaro-pede-saida-de-nunes-marques-de-acao-no-stf-e-quer-gilmar-mendes/",
+      "hora": "2026-11-26T08:48:28-03:00"
     },
     {
-      "titulo": "Brasileira no Brasil e americana nos EUA: como a JBS cresce sendo local no mundo",
+      "titulo": "Índice de confiança da Indústria sobe 0,4 ponto em novembro, a 91,4 pontos, diz FGV",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/business/brasileira-no-brasil-e-americana-nos-eua-como-a-jbs-cresce-sendo-local-no-mundo/",
-      "hora": "2026-11-25T18:48:21-03:00"
+      "url": "https://www.infomoney.com.br/economia/indice-de-confianca-da-industria-sobe-04-ponto-em-novembro-a-914-pontos-diz-fgv/",
+      "hora": "2026-11-26T08:44:52-03:00"
     },
     {
-      "titulo": "Black Friday: como identificar sites falsos e evitar golpes durante as compras online",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/black-friday-como-identificar-sites-falsos-e-evitar-golpes-durante-as-compras-online/",
-      "hora": "2026-11-25T18:44:41-03:00"
-    },
-    {
-      "titulo": "Secretária de Agricultura de Trump defende novas tarifas e acusa Brasil de 'práticas desleais' contra agricultores dos EUA",
+      "titulo": "Musk dobra a aposta e promete doar duas ações da SpaceX para cada criança dos EUA",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/agronegocios/noticia/2026/11/25/secretaria-de-agricultura-de-trump-defende-novas-tarifas-e-acusa-brasil-de-praticas-desleais-contra-agricultores-dos-eua.ghtml",
-      "hora": "2026-11-25T18:35:55-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/26/musk-dobra-a-aposta-e-promete-doar-duas-acoes-da-spacex-para-cada-crianca-dos-eua.ghtml",
+      "hora": "2026-11-26T08:43:30-03:00"
     },
     {
-      "titulo": "FCC autoriza SpaceX a lançar 1 milhão de satélites para criar data centers no espaço",
+      "titulo": "Interdição de idosos pode levar filhos a perder herança? Veja o que prevê projeto",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/politica/interdicao-de-idosos-pode-levar-filhos-a-perder-heranca-veja-o-que-preve-projeto/",
+      "hora": "2026-11-26T08:38:44-03:00"
+    },
+    {
+      "titulo": "Em busca de um 'novo Meirelles', Lula tenta atrair Trabuco",
       "fonte": "g1",
-      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/25/fcc-autoriza-spacex-a-lancar-1-milhao-de-satelites-para-criar-data-centers-no-espaco.ghtml",
-      "hora": "2026-11-25T18:17:17-03:00"
+      "url": "https://g1.globo.com/economia/blog/ana-flor/post/2026/11/26/em-busca-de-um-novo-meirelles-lula-tenta-atrair-trabuco.ghtml",
+      "hora": "2026-11-26T08:37:17-03:00"
     }
   ]
 }
