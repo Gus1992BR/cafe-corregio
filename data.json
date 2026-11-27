@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T12:48-03:00",
+  "atualizadoEm": "2026-11-27T18:50-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.5551,
-      "variacao": -1.61
+      "valor": 5.5582,
+      "variacao": -1.55
     },
     "ibov": {
-      "valor": 177949,
-      "variacao": 0.65
+      "valor": 176573,
+      "variacao": -0.13
     }
   },
   "manchetes": [
     {
-      "titulo": "Rio desbanca São Paulo e tem o pior índice de mobilidade urbana do país",
+      "titulo": "Petrobras, Vale e Suzano: veja quais ações tiraram euforia do Ibovespa",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/brasil/rio-desbanca-sao-paulo-e-tem-o-pior-indice-de-mobilidade-urbana-do-pais/",
-      "hora": "2026-11-27T12:41:06-03:00"
+      "url": "https://www.infomoney.com.br/mercados/acoes-ibovespa-quedas-trabuco-27112026/",
+      "hora": "2026-11-27T18:42:26-03:00"
     },
     {
-      "titulo": "Por que Ibovespa amenizou ganhos após saltar quase 7 mil pontos com “efeito Trabuco”?",
+      "titulo": "Por que Ibovespa fechou em leve queda após saltar 7 mil pontos com “efeito Trabuco”?",
       "fonte": "InfoMoney",
       "url": "https://www.infomoney.com.br/mercados/ibovespa-salta-supera-183-mil-pontos-com-confirmacao-de-trabuco-na-fazenda/",
-      "hora": "2026-11-27T12:34:25-03:00"
+      "hora": "2026-11-27T18:36:39-03:00"
     },
     {
-      "titulo": "Black Friday Samsung reúne ofertas em smartphones e tablets para jogos",
+      "titulo": "Petróleo registra primeiro ganho semanal em novembro por temores sobre oferta",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/black-friday-samsung-ofertas/",
-      "hora": "2026-11-27T12:30:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-27112026/",
+      "hora": "2026-11-27T18:30:49-03:00"
     },
     {
-      "titulo": "Black Friday da Gol tem passagens nacionais a partir de R$ 135; veja ofertas",
+      "titulo": "Ibovespa anda de lado, mas tem melhor semana desde o primeiro turno; dólar recua 4%",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/consumo/black-friday-gol-ofertas/",
-      "hora": "2026-11-27T12:20:00-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27112026/",
+      "hora": "2026-11-27T18:28:18-03:00"
     },
     {
-      "titulo": "Black Friday: uso do PIX cresce 29% nas primeiras horas do dia em relação a 2025, aponta levantamento",
-      "fonte": "g1",
-      "url": "https://g1.globo.com/guia/guia-de-compras/black-friday-uso-do-pix-cresce-29percent-nas-primeiras-horas-do-dia-em-relacao-a-2025-aponta-levantamento.ghtml",
-      "hora": "2026-11-27T11:57:26-03:00"
+      "titulo": "Vendas do Tesouro Direto registram melhor outubro da história",
+      "fonte": "Agência Brasil",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/vendas-do-tesouro-direto-registram-melhor-outubro-da-historia",
+      "hora": "2026-11-27T18:01:00-03:00"
     },
     {
-      "titulo": "Trabuco na Fazenda: veja outros banqueiros que estiveram à frente do Ministério da Fazenda",
+      "titulo": "OpenAI processa Apple e acusa empresa de roubar segredos comerciais e bloquear fornecedores",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/27/trabuco-na-fazenda-veja-outros-banqueiros-que-estiveram-a-frente-do-ministerio-da-fazenda.ghtml",
-      "hora": "2026-11-27T11:48:59-03:00"
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/11/27/open-ai-apple-ia-segredo-processo.ghtml",
+      "hora": "2026-11-27T16:47:43-03:00"
     }
   ]
 }
