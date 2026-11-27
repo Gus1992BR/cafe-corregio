@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T08:55-03:00",
+  "atualizadoEm": "2026-11-27T12:48-03:00",
   "humor": "agitado",
   "indicadores": {
     "selic": {
@@ -10,50 +10,50 @@
       "mes": "out/2026"
     },
     "dolar": {
-      "valor": 5.6525,
-      "variacao": 0.12
+      "valor": 5.5551,
+      "variacao": -1.61
     },
     "ibov": {
-      "valor": 176800,
-      "variacao": 6.07
+      "valor": 177949,
+      "variacao": 0.65
     }
   },
   "manchetes": [
     {
-      "titulo": "China: ações têm maior alta em 2 anos com promessa de apoio mais forte ao mercado",
+      "titulo": "Rio desbanca São Paulo e tem o pior índice de mobilidade urbana do país",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/china-acoes-tem-maior-alta-em-2-anos-com-promessa-de-apoio-mais-forte-ao-mercado/",
-      "hora": "2026-11-27T08:44:53-03:00"
+      "url": "https://www.infomoney.com.br/brasil/rio-desbanca-sao-paulo-e-tem-o-pior-indice-de-mobilidade-urbana-do-pais/",
+      "hora": "2026-11-27T12:41:06-03:00"
     },
     {
-      "titulo": "Estoque de crédito no Brasil sobe 0,4% em outubro, diz BC",
+      "titulo": "Por que Ibovespa amenizou ganhos após saltar quase 7 mil pontos com “efeito Trabuco”?",
       "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/economia/estoque-de-credito-no-brasil-sobe-04-em-outubro-diz-bc/",
-      "hora": "2026-11-27T08:43:12-03:00"
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-salta-supera-183-mil-pontos-com-confirmacao-de-trabuco-na-fazenda/",
+      "hora": "2026-11-27T12:34:25-03:00"
     },
     {
-      "titulo": "Os caminhoneiros que se arriscam e ganham pouco para entregar suas compras na Black Friday: 'Querem que a gente trabalhe sem parar'",
+      "titulo": "Black Friday Samsung reúne ofertas em smartphones e tablets para jogos",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/consumo/black-friday-samsung-ofertas/",
+      "hora": "2026-11-27T12:30:00-03:00"
+    },
+    {
+      "titulo": "Black Friday da Gol tem passagens nacionais a partir de R$ 135; veja ofertas",
+      "fonte": "InfoMoney",
+      "url": "https://www.infomoney.com.br/consumo/black-friday-gol-ofertas/",
+      "hora": "2026-11-27T12:20:00-03:00"
+    },
+    {
+      "titulo": "Black Friday: uso do PIX cresce 29% nas primeiras horas do dia em relação a 2025, aponta levantamento",
       "fonte": "g1",
-      "url": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/11/27/os-caminhoneiros-que-se-arriscam-e-ganham-pouco-para-entregar-suas-compras-na-black-friday-querem-que-a-gente-trabalhe-sem-parar.ghtml",
-      "hora": "2026-11-27T08:41:16-03:00"
+      "url": "https://g1.globo.com/guia/guia-de-compras/black-friday-uso-do-pix-cresce-29percent-nas-primeiras-horas-do-dia-em-relacao-a-2025-aponta-levantamento.ghtml",
+      "hora": "2026-11-27T11:57:26-03:00"
     },
     {
-      "titulo": "Setores financeiro e produtivo elogiam experiência de Trabuco e veem 'sinal positivo' na escolha para a Fazenda; veja repercussão",
+      "titulo": "Trabuco na Fazenda: veja outros banqueiros que estiveram à frente do Ministério da Fazenda",
       "fonte": "g1",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/27/setores-repercutem-trabuco.ghtml",
-      "hora": "2026-11-27T08:33:20-03:00"
-    },
-    {
-      "titulo": "Sabesp, CSN, Tecnisa, Brava, Axia, Taesa e mais ações para acompanhar hoje",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/sabesp-csn-tecnisa-brava-axia-taesa-e-mais-acoes-para-acompanhar-hoje/",
-      "hora": "2026-11-27T08:32:31-03:00"
-    },
-    {
-      "titulo": "CEO da Cemig (CMIG4) assume presidência do conselho da Taesa (TAEE11)",
-      "fonte": "InfoMoney",
-      "url": "https://www.infomoney.com.br/mercados/ceo-da-cemig-cmig4-assume-presidencia-do-conselho-da-taesa-taee11/",
-      "hora": "2026-11-27T08:31:26-03:00"
+      "url": "https://g1.globo.com/economia/noticia/2026/11/27/trabuco-na-fazenda-veja-outros-banqueiros-que-estiveram-a-frente-do-ministerio-da-fazenda.ghtml",
+      "hora": "2026-11-27T11:48:59-03:00"
     }
   ]
 }
